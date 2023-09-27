@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "ATTACK"
+  m_EditorClassIdentifier: 
+  characterName: 34
+  animationName: 0
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: 39fb0250a1274182a3069d7b2d8259f1, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 5c54523a26a14297b840130692c415e9, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: bdae389e39874ccc8984c7f1aa894452, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  fxFrameData:
+  - sprite: {fileID: 21300000, guid: 7143de5df8e14f1e942aa3e0dd29b61a, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+    baseFrameIndex: 2
+  - sprite: {fileID: 21300000, guid: 5b627df529a44c2d8988608d87bcc4a0, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+    baseFrameIndex: -1
+  holdLastFX: 0

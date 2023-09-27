@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "ATTACK"
+  m_EditorClassIdentifier: 
+  characterName: 18
+  animationName: 0
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: 90a203d22c454a819f2585336d819f12, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: dfb191b3f9b94f22b23f1c7847a9eaa0, type: 3}
+    duration: 0.1
+    timeFromStart: 0.1
+  - sprite: {fileID: 21300000, guid: a6c861f2ab0241dba8bf66d5bfe260fd, type: 3}
+    duration: 0.075
+    timeFromStart: 0.2
+  - sprite: {fileID: 21300000, guid: a6c861f2ab0241dba8bf66d5bfe260fd, type: 3}
+    duration: 0.075
+    timeFromStart: 0.3
+  - sprite: {fileID: 21300000, guid: a6c861f2ab0241dba8bf66d5bfe260fd, type: 3}
+    duration: 0.075
+    timeFromStart: 0.4
+  - sprite: {fileID: 21300000, guid: a6c861f2ab0241dba8bf66d5bfe260fd, type: 3}
+    duration: 0.075
+    timeFromStart: 0.5
+  - sprite: {fileID: 21300000, guid: a6c861f2ab0241dba8bf66d5bfe260fd, type: 3}
+    duration: 0.075
+    timeFromStart: 0.6
+  - sprite: {fileID: 21300000, guid: 4ba51551a99249978ff3007a54d35037, type: 3}
+    duration: 0.09999996
+    timeFromStart: 0.7
+  fxFrameData:
+  - sprite: {fileID: 21300000, guid: e980ca5ac2e647f8be42c7aac561df35, type: 3}
+    duration: 0.1
+    timeFromStart: 0.1
+    baseFrameIndex: 1
+  - sprite: {fileID: 21300000, guid: 8e604db868ef47d69dabd55b05132586, type: 3}
+    duration: 0.075
+    timeFromStart: 0.2
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 9080e5c91e0a433ebb92325ed2a23331, type: 3}
+    duration: 0.075
+    timeFromStart: 0.3
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 9d97e5031e3c4ae9b6aa2090b264de13, type: 3}
+    duration: 0.075
+    timeFromStart: 0.4
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 576b4a43b63b4acea6281f87b47577bf, type: 3}
+    duration: 0.075
+    timeFromStart: 0.5
+    baseFrameIndex: -1
+  holdLastFX: 0

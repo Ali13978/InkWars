@@ -1,0 +1,311 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be56f25281e6140f1415628a237d2378, type: 3}
+  m_Name: "SwitcherCollection"
+  m_EditorClassIdentifier: 
+  list:
+  - type: 1
+    level: 1
+    image: "Switcher Default"
+    id: 0
+    price: 30
+    battleEnhancerOffer: 0
+    offerCount: 3
+    currency: 1
+  - type: 1
+    level: 1
+    image: "Switcher Type 1 - Blue Grunge"
+    id: 1
+    price: 30
+    battleEnhancerOffer: 1
+    offerCount: 3
+    currency: 1
+  - type: 1
+    level: 1
+    image: "Switcher Type 1 - Green Paint"
+    id: 2
+    price: 30
+    battleEnhancerOffer: 2
+    offerCount: 3
+    currency: 1
+  - type: 1
+    level: 1
+    image: "Switcher Type 1 - Neon Lights"
+    id: 3
+    price: 30
+    battleEnhancerOffer: 3
+    offerCount: 3
+    currency: 1
+  - type: 1
+    level: 1
+    image: "Switcher Type 1 - Orange Peel"
+    id: 4
+    price: 30
+    battleEnhancerOffer: 4
+    offerCount: 3
+    currency: 1
+  - type: 1
+    level: 1
+    image: "Switcher Type 1 - Red"
+    id: 5
+    price: 30
+    battleEnhancerOffer: 5
+    offerCount: 3
+    currency: 1
+  - type: 1
+    level: 1
+    image: "Switcher Type 1 - Smurple"
+    id: 6
+    price: 30
+    battleEnhancerOffer: 6
+    offerCount: 3
+    currency: 1
+  - type: 2
+    level: 2
+    image: "Switcher Type 2 - Blue Zeus"
+    id: 7
+    price: 60
+    battleEnhancerOffer: 1
+    offerCount: 3
+    currency: 1
+  - type: 2
+    level: 2
+    image: "Switcher Type 2 - Gold Laurel"
+    id: 8
+    price: 60
+    battleEnhancerOffer: 2
+    offerCount: 3
+    currency: 1
+  - type: 2
+    level: 2
+    image: "Switcher Type 2 - Green Jade"
+    id: 9
+    price: 60
+    battleEnhancerOffer: 3
+    offerCount: 3
+    currency: 1
+  - type: 2
+    level: 2
+    image: "Switcher Type 2 - Metal Cog"
+    id: 10
+    price: 60
+    battleEnhancerOffer: 4
+    offerCount: 3
+    currency: 1
+  - type: 2
+    level: 2
+    image: "Switcher Type 2 - Valentine"
+    id: 11
+    price: 60
+    battleEnhancerOffer: 5
+    offerCount: 3
+    currency: 1
+  - type: 2
+    level: 2
+    image: "Switcher Type 2 - Wooden Carving"
+    id: 12
+    price: 60
+    battleEnhancerOffer: 6
+    offerCount: 3
+    currency: 1
+  - type: 3
+    level: 3
+    image: "Switcher Type 3 - Chains"
+    id: 13
+    price: 120
+    battleEnhancerOffer: 1
+    offerCount: 3
+    currency: 1
+  - type: 3
+    level: 3
+    image: "Switcher Type 3 - Metal Chains"
+    id: 14
+    price: 120
+    battleEnhancerOffer: 2
+    offerCount: 3
+    currency: 1
+  - type: 3
+    level: 3
+    image: "Switcher Type 3 - Pearls"
+    id: 15
+    price: 120
+    battleEnhancerOffer: 3
+    offerCount: 3
+    currency: 1
+  - type: 3
+    level: 3
+    image: "Switcher Type 3 - Ridgeback"
+    id: 16
+    price: 120
+    battleEnhancerOffer: 4
+    offerCount: 3
+    currency: 1
+  - type: 3
+    level: 3
+    image: "Switcher Type 3 - Snake Eyes"
+    id: 17
+    price: 120
+    battleEnhancerOffer: 5
+    offerCount: 3
+    currency: 1
+  - type: 3
+    level: 3
+    image: "Switcher Type 3 - Viking"
+    id: 18
+    price: 120
+    battleEnhancerOffer: 6
+    offerCount: 3
+    currency: 1
+  - type: 4
+    level: 4
+    image: "Switcher Type 4 - Biker Chains"
+    id: 19
+    price: 240
+    battleEnhancerOffer: 1
+    offerCount: 3
+    currency: 1
+  - type: 4
+    level: 4
+    image: "Switcher Type 4 - Candy Cane"
+    id: 20
+    price: 240
+    battleEnhancerOffer: 2
+    offerCount: 3
+    currency: 1
+  - type: 4
+    level: 4
+    image: "Switcher Type 4 - Crocodile Thorns"
+    id: 21
+    price: 240
+    battleEnhancerOffer: 3
+    offerCount: 3
+    currency: 1
+  - type: 4
+    level: 4
+    image: "Switcher Type 4 - Metal Gear"
+    id: 22
+    price: 240
+    battleEnhancerOffer: 4
+    offerCount: 3
+    currency: 1
+  - type: 4
+    level: 4
+    image: "Switcher Type 4 - Norse"
+    id: 23
+    price: 240
+    battleEnhancerOffer: 5
+    offerCount: 3
+    currency: 1
+  - type: 4
+    level: 4
+    image: "Switcher Type 4 - Poison Ivy"
+    id: 24
+    price: 240
+    battleEnhancerOffer: 6
+    offerCount: 3
+    currency: 1
+  - type: 5
+    level: 5
+    image: "Switcher Type 5 - Amphibian"
+    id: 25
+    price: 480
+    battleEnhancerOffer: 1
+    offerCount: 3
+    currency: 1
+  - type: 5
+    level: 5
+    image: "Switcher Type 5 - Gems N Jewels"
+    id: 26
+    price: 480
+    battleEnhancerOffer: 2
+    offerCount: 3
+    currency: 1
+  - type: 5
+    level: 5
+    image: "Switcher Type 5 - Lightning"
+    id: 27
+    price: 480
+    battleEnhancerOffer: 3
+    offerCount: 3
+    currency: 1
+  - type: 5
+    level: 5
+    image: "Switcher Type 5 - Octopus"
+    id: 28
+    price: 480
+    battleEnhancerOffer: 4
+    offerCount: 3
+    currency: 1
+  - type: 5
+    level: 5
+    image: "Switcher Type 5 - Rusted Barb"
+    id: 29
+    price: 480
+    battleEnhancerOffer: 5
+    offerCount: 3
+    currency: 1
+  - type: 5
+    level: 5
+    image: "Switcher Type 5 - Snake Whip"
+    id: 30
+    price: 480
+    battleEnhancerOffer: 6
+    offerCount: 3
+    currency: 1
+  - type: 6
+    level: 6
+    image: "Switcher Type 6 - Frost Dragon"
+    id: 31
+    price: 960
+    battleEnhancerOffer: 1
+    offerCount: 3
+    currency: 1
+  - type: 6
+    level: 6
+    image: "Switcher Type 6 - Gold Aztec"
+    id: 32
+    price: 960
+    battleEnhancerOffer: 2
+    offerCount: 3
+    currency: 1
+  - type: 6
+    level: 6
+    image: "Switcher Type 6 - Jade Dragon"
+    id: 33
+    price: 960
+    battleEnhancerOffer: 3
+    offerCount: 3
+    currency: 1
+  - type: 6
+    level: 6
+    image: "Switcher Type 6 - Lava Dragon"
+    id: 34
+    price: 960
+    battleEnhancerOffer: 4
+    offerCount: 3
+    currency: 1
+  - type: 6
+    level: 6
+    image: "Switcher Type 6 - Medusa"
+    id: 35
+    price: 960
+    battleEnhancerOffer: 5
+    offerCount: 3
+    currency: 1
+  - type: 6
+    level: 6
+    image: "Switcher Type 6 - Red Lycan"
+    id: 36
+    price: 960
+    battleEnhancerOffer: 6
+    offerCount: 3
+    currency: 1

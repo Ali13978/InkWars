@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "POST_ATTACK"
+  m_EditorClassIdentifier: 
+  characterName: 21
+  animationName: 11
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: d15a03c14c644ae3ac41c4c7b5533894, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 5f58b7859fcc43b6ac4c322ee1f589f9, type: 3}
+    duration: 0.1
+    timeFromStart: 0.1
+  - sprite: {fileID: 21300000, guid: 00d1b551603147bd86895f6bd041587d, type: 3}
+    duration: 0.1
+    timeFromStart: 0.2
+  - sprite: {fileID: 21300000, guid: d890ea828bfc4e98910fd156b84892ea, type: 3}
+    duration: 0.09999999
+    timeFromStart: 0.3
+  - sprite: {fileID: 21300000, guid: 23ecf4e269df4c23b2be28ec90182643, type: 3}
+    duration: 0.09999999
+    timeFromStart: 0.4
+  - sprite: {fileID: 21300000, guid: d890ea828bfc4e98910fd156b84892ea, type: 3}
+    duration: 0.1
+    timeFromStart: 0.5
+  - sprite: {fileID: 21300000, guid: 00d1b551603147bd86895f6bd041587d, type: 3}
+    duration: 0.09999996
+    timeFromStart: 0.6
+  - sprite: {fileID: 21300000, guid: d890ea828bfc4e98910fd156b84892ea, type: 3}
+    duration: 0.1
+    timeFromStart: 0.7
+  - sprite: {fileID: 21300000, guid: 23ecf4e269df4c23b2be28ec90182643, type: 3}
+    duration: 0.09999996
+    timeFromStart: 0.8
+  - sprite: {fileID: 21300000, guid: d890ea828bfc4e98910fd156b84892ea, type: 3}
+    duration: 0.1
+    timeFromStart: 0.9
+  - sprite: {fileID: 21300000, guid: 00d1b551603147bd86895f6bd041587d, type: 3}
+    duration: 0.1
+    timeFromStart: 1
+  - sprite: {fileID: 21300000, guid: 228588cd93d2479b80496ff2e78e9c26, type: 3}
+    duration: 0.1
+    timeFromStart: 1.1
+  fxFrameData: []
+  holdLastFX: 0

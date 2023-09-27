@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc98509c7d1942144474dc7012480f9b, type: 3}
+  m_Name: "bubble_saint"
+  m_EditorClassIdentifier: 
+  name: "bubble_saint"
+  IsMultiplayerBot: 1
+  MinimumWinsForPlay: 7
+  Country: 125
+  PlayerPoints: 1589
+  BattlePoints: 1800
+  Wins: 49
+  Losses: 22
+  Draws: 5
+  highScore: 15247
+  FavoriteCharacter: 32
+  IsAdventureModeBot: 0
+  AdventureModeLevel: 1
+  IsXtremeModeBot: 0
+  XtremeModeCharacter: 0
+  SkillSettings:
+    ReactionSpeed: 10
+    Intelligence_Factor: 8
+    Pop_Ability: 10
+    Bridge_Combo_Ability: 1
+    Rebound_Ability: 2
+    Rebound_Bias: 8
+    Rebound_Counter_Ability: 10
+    RevengeSuperOffensiveOrientation: 0
+    RevengeSuperDefensiveOrientation: 2

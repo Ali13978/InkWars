@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "DEFENCE_CHARGE"
+  m_EditorClassIdentifier: 
+  characterName: 42
+  animationName: 5
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: 958740e86d6b41829d346d7ece006fc5, type: 3}
+    duration: 0.075
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: b674f9e638b44bf0b5b653458f006bca, type: 3}
+    duration: 0.075
+    timeFromStart: 0.075
+  - sprite: {fileID: 21300000, guid: f20294fc43a24420b59383c9f27a66b7, type: 3}
+    duration: 0.075
+    timeFromStart: 0.15
+  - sprite: {fileID: 21300000, guid: 23feb97f2b2f4d8aa5bb91d02bd65cd9, type: 3}
+    duration: 0.075
+    timeFromStart: 0.225
+  - sprite: {fileID: 21300000, guid: b694ed3baf304a9d8111e0e0be5ed46c, type: 3}
+    duration: 0.075
+    timeFromStart: 0.3
+  - sprite: {fileID: 21300000, guid: 58549784857b44078720261db2a1e2a7, type: 3}
+    duration: 0.075
+    timeFromStart: 0.375
+  - sprite: {fileID: 21300000, guid: f5894ed4e40d41a3956a4edbc2d141c5, type: 3}
+    duration: 0.075
+    timeFromStart: 0.45
+  fxFrameData: []
+  holdLastFX: 0

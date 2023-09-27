@@ -1,0 +1,916 @@
+fileFormatVersion: 2
+guid: 3d6c980dab7a4100a4bfc5d695033d1d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: TitleLine
+  - first:
+      213: 21300002
+    second: GGP Store button
+  - first:
+      213: 21300004
+    second: PromoCodeBG
+  - first:
+      213: 21300006
+    second: AmplifierCountPanelBG
+  - first:
+      213: 21300008
+    second: ButtonBlueRoundArrow
+  - first:
+      213: 21300010
+    second: OptionTitleBG
+  - first:
+      213: 21300012
+    second: ArrowRight
+  - first:
+      213: 21300014
+    second: BattleEnahncerLevelPanelBG
+  - first:
+      213: 21300016
+    second: BlueRightTagLarge
+  - first:
+      213: 21300018
+    second: BlueRightTagSmall
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AmplifierCountPanelBG
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1777
+        width: 526
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -263, y: -70}
+        - {x: -263, y: 76}
+        - {x: -223, y: -120}
+      - - {x: -229, y: 120}
+        - {x: -223, y: -120}
+        - {x: -263, y: 76}
+      - - {x: 173, y: 120}
+        - {x: -223, y: -120}
+        - {x: -229, y: 120}
+      - - {x: 226, y: -120}
+        - {x: -223, y: -120}
+        - {x: 173, y: 120}
+      - - {x: 263, y: 103}
+        - {x: 226, y: -120}
+        - {x: 173, y: 120}
+      - - {x: 263, y: -83}
+        - {x: 226, y: -120}
+        - {x: 263, y: 103}
+      physicsShape:
+      - - {x: -61, y: -85.99999}
+        - {x: 223, y: -85.99999}
+        - {x: 229, y: -85}
+        - {x: 244, y: -81}
+        - {x: 259, y: -61}
+        - {x: 259, y: 71}
+        - {x: 244, y: 91.99999}
+        - {x: 233, y: 95}
+        - {x: 225, y: 97}
+        - {x: -74, y: 97}
+        - {x: -75, y: 100}
+        - {x: -97.99999, y: 113}
+        - {x: -126, y: 119}
+        - {x: -156, y: 119}
+        - {x: -176, y: 116}
+        - {x: -209, y: 98.99999}
+        - {x: -219, y: 90}
+        - {x: -235, y: 74}
+        - {x: -249, y: 54}
+        - {x: -259, y: 19}
+        - {x: -259, y: -16}
+        - {x: -253, y: -41}
+        - {x: -242, y: -61}
+        - {x: -232, y: -76}
+        - {x: -210, y: -96}
+        - {x: -189, y: -108}
+        - {x: -167, y: -115}
+        - {x: -159, y: -116}
+        - {x: -124, y: -116}
+        - {x: -107, y: -113}
+        - {x: -97.99999, y: -110}
+        - {x: -71, y: -96}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArrowRight
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1463
+        width: 127
+        height: 212
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: -105}
+        - {x: -9.5, y: -104}
+        - {x: 1.5, y: -101}
+      - - {x: -63.5, y: -78}
+        - {x: -63.5, y: 73}
+        - {x: -44.5, y: -106}
+      - - {x: -35.5, y: 106}
+        - {x: -44.5, y: -106}
+        - {x: -63.5, y: 73}
+      - - {x: -14.5, y: -106}
+        - {x: -44.5, y: -106}
+        - {x: -35.5, y: 106}
+      - - {x: 4.5, y: 106}
+        - {x: -14.5, y: -106}
+        - {x: -35.5, y: 106}
+      - - {x: -12.5, y: -103}
+        - {x: -14.5, y: -106}
+        - {x: 4.5, y: 106}
+      - - {x: -9.5, y: -104}
+        - {x: -12.5, y: -103}
+        - {x: 4.5, y: 106}
+      - - {x: 1.5, y: -101}
+        - {x: -9.5, y: -104}
+        - {x: 4.5, y: 106}
+      - - {x: 63.5, y: -30}
+        - {x: 1.5, y: -101}
+        - {x: 4.5, y: 106}
+      - - {x: 63.5, y: 15}
+        - {x: 63.5, y: -30}
+        - {x: 4.5, y: 106}
+      - - {x: -14.5, y: -106}
+        - {x: -12.5, y: -103}
+        - {x: -12.5, y: -106}
+      - - {x: -9.5, y: -105}
+        - {x: -12.5, y: -106}
+        - {x: -12.5, y: -103}
+      - - {x: -9.5, y: -104}
+        - {x: -9.5, y: -105}
+        - {x: -12.5, y: -103}
+      - - {x: -9.5, y: -106}
+        - {x: -12.5, y: -106}
+        - {x: -9.5, y: -105}
+      physicsShape:
+      - - {x: 54.5, y: 2}
+        - {x: 54.5, y: 7}
+        - {x: 26.5, y: 42}
+        - {x: 19.5, y: 51}
+        - {x: 3.5, y: 70}
+        - {x: -20.5, y: 100}
+        - {x: -23.5, y: 103}
+        - {x: -26.5, y: 102}
+        - {x: -31.5, y: 64}
+        - {x: -47.5, y: 70}
+        - {x: -50.5, y: 70}
+        - {x: -52.5, y: 68}
+        - {x: -52.5, y: -63}
+        - {x: -51.5, y: -66}
+        - {x: -44.5, y: -65}
+        - {x: -33.5, y: -60}
+        - {x: -26.5, y: -58}
+        - {x: -26.5, y: -93}
+        - {x: -24.5, y: -95}
+        - {x: -22.5, y: -95}
+        - {x: -14.5, y: -87}
+        - {x: -11.5, y: -81}
+        - {x: 35.5, y: -22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleLine
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1393
+        width: 1031
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -515.5, y: -17.5}
+        - {x: -515.5, y: 7.5}
+        - {x: 515.5, y: -17.5}
+      - - {x: -509.5, y: 16.5}
+        - {x: 515.5, y: -17.5}
+        - {x: -515.5, y: 7.5}
+      - - {x: -466.5, y: 17.5}
+        - {x: 515.5, y: -17.5}
+        - {x: -509.5, y: 16.5}
+      - - {x: 497.5, y: 17.5}
+        - {x: 515.5, y: -17.5}
+        - {x: -466.5, y: 17.5}
+      - - {x: 515.5, y: 11.5}
+        - {x: 515.5, y: -17.5}
+        - {x: 497.5, y: 17.5}
+      physicsShape:
+      - - {x: 509.5, y: 0.5}
+        - {x: 509.5, y: 5.5}
+        - {x: 498.5, y: 8.5}
+        - {x: 272.5, y: 12.5}
+        - {x: -122.5, y: 12.5}
+        - {x: -271.5, y: 11.5}
+        - {x: -408.5, y: 9.5}
+        - {x: -507.5, y: 6.5}
+        - {x: -508.5, y: 5.5}
+        - {x: -508.5, y: -0.5}
+        - {x: -496.5, y: -2.5}
+        - {x: -381.5, y: -6.5}
+        - {x: -209.5, y: -7.5}
+        - {x: 211.5, y: -7.5}
+        - {x: 315.5, y: -6.5}
+        - {x: 429.5, y: -4.5}
+        - {x: 508.5, y: -1.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleEnahncerLevelPanelBG
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 159
+        width: 330
+        height: 1580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -165, y: -784}
+        - {x: -165, y: 790}
+        - {x: -157, y: -790}
+      - - {x: 165, y: 790}
+        - {x: -157, y: -790}
+        - {x: -165, y: 790}
+      - - {x: 165, y: -790}
+        - {x: -157, y: -790}
+        - {x: 165, y: 790}
+      physicsShape:
+      - - {x: 159, y: 789.9999}
+        - {x: -165, y: 789.9999}
+        - {x: -165, y: -789.9999}
+        - {x: 161, y: -789.9999}
+        - {x: 164, y: -781}
+        - {x: 165, y: -779}
+        - {x: 165, y: 780}
+        - {x: -140, y: -773}
+        - {x: -146, y: -764.9999}
+        - {x: -147, y: -762}
+        - {x: -148, y: -760.9999}
+        - {x: -148, y: -644}
+        - {x: 148, y: -644}
+        - {x: 148, y: -762}
+        - {x: 147, y: -762.9999}
+        - {x: 142, y: -771}
+        - {x: 132, y: -773}
+        - {x: 116, y: -775}
+        - {x: 115, y: -773}
+        - {x: 103, y: -773}
+        - {x: 79, y: -774}
+        - {x: -127, y: -774}
+        - {x: -147, y: -384}
+        - {x: 148, y: -385}
+        - {x: 148, y: -513}
+        - {x: -148, y: -513}
+        - {x: -148, y: -253}
+        - {x: -148, y: -125}
+        - {x: 148, y: -125}
+        - {x: 148, y: -253}
+        - {x: -148, y: 135}
+        - {x: 148, y: 135}
+        - {x: 148, y: 6}
+        - {x: -148, y: 6}
+        - {x: -144, y: 394}
+        - {x: 146, y: 394}
+        - {x: 148, y: 266}
+        - {x: -148, y: 266}
+        - {x: -148, y: 526}
+        - {x: -148, y: 654}
+        - {x: 148, y: 654}
+        - {x: 145, y: 526}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueRightTagSmall
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1110
+        width: 292
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -146, y: -122}
+        - {x: -146, y: 122}
+        - {x: 139, y: -122}
+      - - {x: 126, y: 122}
+        - {x: 139, y: -122}
+        - {x: -146, y: 122}
+      - - {x: 146, y: 109}
+        - {x: 139, y: -122}
+        - {x: 126, y: 122}
+      - - {x: 146, y: -110}
+        - {x: 139, y: -122}
+        - {x: 146, y: 109}
+      physicsShape:
+      - - {x: 142, y: -105}
+        - {x: 145, y: -97.99999}
+        - {x: 146, y: -95}
+        - {x: 146, y: 95}
+        - {x: 145, y: 97.99999}
+        - {x: 142, y: 105}
+        - {x: 131, y: 116}
+        - {x: 122, y: 121}
+        - {x: 119, y: 122}
+        - {x: -146, y: 122}
+        - {x: -146, y: 101}
+        - {x: -144, y: 101}
+        - {x: -138, y: 108}
+        - {x: -135, y: 110}
+        - {x: -132, y: 110}
+        - {x: -123, y: 111}
+        - {x: 111, y: 111}
+        - {x: 112, y: 110}
+        - {x: 117, y: 109}
+        - {x: 124, y: 106}
+        - {x: 132, y: 97.99999}
+        - {x: 135, y: 94}
+        - {x: 136, y: 88}
+        - {x: 138, y: 85.99999}
+        - {x: 138, y: -85.99999}
+        - {x: 136, y: -88}
+        - {x: 136, y: -91}
+        - {x: 132, y: -97.99999}
+        - {x: 124, y: -106}
+        - {x: 117, y: -109}
+        - {x: 116, y: -110}
+        - {x: 102, y: -112}
+        - {x: 101, y: -111}
+        - {x: 98.99999, y: -112}
+        - {x: -124, y: -112}
+        - {x: -125, y: -111}
+        - {x: -138, y: -109}
+        - {x: -143, y: -102}
+        - {x: -146, y: -101}
+        - {x: -146, y: -122}
+        - {x: 119, y: -122}
+        - {x: 122, y: -121}
+        - {x: 129, y: -118}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGP Store button
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 811
+        width: 476
+        height: 262
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -238, y: -130}
+        - {x: -238, y: 96}
+        - {x: -233, y: -131}
+      - - {x: -233, y: 102}
+        - {x: -233, y: -131}
+        - {x: -238, y: 96}
+      - - {x: 238, y: -131}
+        - {x: -233, y: -131}
+        - {x: -233, y: 102}
+      - - {x: -184, y: 131}
+        - {x: 238, y: -131}
+        - {x: -233, y: 102}
+      - - {x: 111, y: 131}
+        - {x: 238, y: -131}
+        - {x: -184, y: 131}
+      - - {x: 238, y: 119}
+        - {x: 238, y: -131}
+        - {x: 111, y: 131}
+      physicsShape:
+      - - {x: 188, y: -107}
+        - {x: 201, y: -105}
+        - {x: 213, y: -100}
+        - {x: 230, y: -77}
+        - {x: 231, y: -65}
+        - {x: 232, y: -57}
+        - {x: 232, y: 51}
+        - {x: 230, y: 64}
+        - {x: 224, y: 75}
+        - {x: 209, y: 89}
+        - {x: 194, y: 94}
+        - {x: 187, y: 95}
+        - {x: -24, y: 95}
+        - {x: -33, y: 105}
+        - {x: -57, y: 120}
+        - {x: -76, y: 127}
+        - {x: -93, y: 130}
+        - {x: -128, y: 130}
+        - {x: -147, y: 127}
+        - {x: -160, y: 122}
+        - {x: -184, y: 108}
+        - {x: -194, y: 100}
+        - {x: -206, y: 87}
+        - {x: -216, y: 75}
+        - {x: -226, y: 59}
+        - {x: -236, y: 32}
+        - {x: -236, y: -15}
+        - {x: -232, y: -33}
+        - {x: -221, y: -58}
+        - {x: -208, y: -74}
+        - {x: -191, y: -91.99999}
+        - {x: -172, y: -106}
+        - {x: -136, y: -120}
+        - {x: -98.99999, y: -120}
+        - {x: -79, y: -117}
+        - {x: -54, y: -108}
+        - {x: -53, y: -107}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueRightTagLarge
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1056
+        width: 361
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -180.5, y: -149}
+        - {x: -180.5, y: 149}
+        - {x: 151.5, y: -149}
+      - - {x: 180.5, y: 149}
+        - {x: 151.5, y: -149}
+        - {x: -180.5, y: 149}
+      - - {x: 180.5, y: -145}
+        - {x: 151.5, y: -149}
+        - {x: 180.5, y: 149}
+      physicsShape:
+      - - {x: -180.5, y: 149}
+        - {x: -180.5, y: -149}
+        - {x: 153.5, y: -149}
+        - {x: 180.5, y: -134}
+        - {x: 180.5, y: 129}
+        - {x: 164.5, y: 149}
+        - {x: -166.5, y: -121}
+        - {x: -168.5, y: -114}
+        - {x: -168.5, y: 105}
+        - {x: -167.5, y: 118}
+        - {x: -165.5, y: 123}
+        - {x: -156.5, y: 126}
+        - {x: -144.5, y: 127}
+        - {x: -133.5, y: 125}
+        - {x: -123.5, y: 126}
+        - {x: -123.5, y: 124}
+        - {x: -117.5, y: 124}
+        - {x: -111.5, y: 122}
+        - {x: -105.5, y: 122}
+        - {x: -100.5, y: 121}
+        - {x: -95.5, y: 121}
+        - {x: -90.5, y: 122}
+        - {x: -82.5, y: 120}
+        - {x: -76.5, y: 119}
+        - {x: -70.5, y: 117}
+        - {x: -67.5, y: 121}
+        - {x: -61.5, y: 117}
+        - {x: -56.5, y: 118}
+        - {x: -50.5, y: 116}
+        - {x: -45.5, y: 117}
+        - {x: -37.5, y: 117}
+        - {x: -35.5, y: 118}
+        - {x: -24.5, y: 109}
+        - {x: -27.5, y: 108}
+        - {x: -27.5, y: 101}
+        - {x: -25.5, y: 96}
+        - {x: -27.5, y: 90}
+        - {x: -27.5, y: 89}
+        - {x: -24.5, y: 85.99999}
+        - {x: -24.5, y: 87}
+        - {x: -25.5, y: 85.99999}
+        - {x: -26.5, y: 79}
+        - {x: -23.5, y: 76}
+        - {x: -23.5, y: 77}
+        - {x: -26.5, y: 74}
+        - {x: -26.5, y: 64}
+        - {x: -25.5, y: 62}
+        - {x: -28.5, y: 56}
+        - {x: -26.5, y: 53}
+        - {x: -25.5, y: 47}
+        - {x: -26.5, y: 40}
+        - {x: -26.5, y: 24}
+        - {x: -25.5, y: 16}
+        - {x: -26.5, y: 8}
+        - {x: -25.5, y: 0}
+        - {x: -26.5, y: -8}
+        - {x: -26.5, y: -48}
+        - {x: -25.5, y: -51}
+        - {x: -27.5, y: -55}
+        - {x: -27.5, y: -60}
+        - {x: -25.5, y: -65}
+        - {x: -28.5, y: -74}
+        - {x: -27.5, y: -81}
+        - {x: -26.5, y: -96}
+        - {x: -26.5, y: -104}
+        - {x: -25.5, y: -112}
+        - {x: -27.5, y: -113}
+        - {x: -34.5, y: -116}
+        - {x: -42.5, y: -117}
+        - {x: -49.5, y: -117}
+        - {x: -67.5, y: -119}
+        - {x: -84.5, y: -121}
+        - {x: -94.5, y: -122}
+        - {x: -99.5, y: -123}
+        - {x: -125.5, y: -125}
+        - {x: -141.5, y: -126}
+        - {x: -158.5, y: -127}
+        - {x: -159.5, y: -126}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionTitleBG
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1460
+        width: 976
+        height: 218
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -486, y: -109}
+        - {x: -483, y: 75}
+        - {x: 488, y: -109}
+      - - {x: -488, y: 90}
+        - {x: -488, y: 109}
+        - {x: -483, y: 75}
+      - - {x: 488, y: 109}
+        - {x: -483, y: 75}
+        - {x: -488, y: 109}
+      - - {x: 488, y: -109}
+        - {x: -483, y: 75}
+        - {x: 488, y: 109}
+      physicsShape:
+      - - {x: 458, y: -60}
+        - {x: 453, y: -38}
+        - {x: 449, y: -13}
+        - {x: 449, y: 3}
+        - {x: 452, y: 36}
+        - {x: 460, y: 69}
+        - {x: 467, y: 82}
+        - {x: 477, y: 93}
+        - {x: 483, y: 104}
+        - {x: 483, y: 106}
+        - {x: 481, y: 107}
+        - {x: -482, y: 107}
+        - {x: -484, y: 106}
+        - {x: -484, y: 104}
+        - {x: -479, y: 95}
+        - {x: -467, y: 81}
+        - {x: -461, y: 68}
+        - {x: -457, y: 55}
+        - {x: -452, y: 29}
+        - {x: -450, y: 13}
+        - {x: -450, y: -16}
+        - {x: -452, y: -27}
+        - {x: -460, y: -69}
+        - {x: -466, y: -79}
+        - {x: -477, y: -97.99999}
+        - {x: -474, y: -100}
+        - {x: -465, y: -101}
+        - {x: 474, y: -101}
+        - {x: 476, y: -95}
+        - {x: 462, y: -72.99999}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PromoCodeBG
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1705
+        width: 1392
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -696, y: -120}
+        - {x: -696, y: 122}
+        - {x: -678, y: -167}
+      - - {x: -682, y: 167}
+        - {x: -678, y: -167}
+        - {x: -696, y: 122}
+      - - {x: 696, y: 167}
+        - {x: -678, y: -167}
+        - {x: -682, y: 167}
+      - - {x: 696, y: -167}
+        - {x: -678, y: -167}
+        - {x: 696, y: 167}
+      physicsShape:
+      - - {x: 695, y: -115}
+        - {x: 696, y: -110}
+        - {x: 696, y: 107}
+        - {x: 691, y: 119}
+        - {x: 685, y: 131}
+        - {x: 679, y: 138}
+        - {x: 667, y: 150}
+        - {x: 655, y: 159}
+        - {x: 643, y: 165}
+        - {x: 633, y: 167}
+        - {x: -641, y: 167}
+        - {x: -670, y: 153}
+        - {x: -689.9999, y: 127}
+        - {x: -696, y: 106}
+        - {x: -696, y: -105}
+        - {x: -692, y: -120}
+        - {x: -687.9999, y: -132}
+        - {x: -656, y: -161}
+        - {x: -643, y: -165}
+        - {x: -633, y: -167}
+        - {x: 639, y: -167}
+        - {x: 660.9999, y: -158}
+        - {x: 680, y: -139}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonBlueRoundArrow
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1460
+        width: 222
+        height: 223
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -111, y: -72.5}
+        - {x: -111, y: 94.5}
+        - {x: -71, y: -111.5}
+      - - {x: -61, y: 111.5}
+        - {x: -71, y: -111.5}
+        - {x: -111, y: 94.5}
+      - - {x: 111, y: -111.5}
+        - {x: -71, y: -111.5}
+        - {x: -61, y: 111.5}
+      - - {x: 111, y: 111.5}
+        - {x: 111, y: -111.5}
+        - {x: -61, y: 111.5}
+      physicsShape:
+      - - {x: 85.99999, y: -60.5}
+        - {x: 93, y: -49.5}
+        - {x: 102, y: -31.5}
+        - {x: 106, y: -11.5}
+        - {x: 106, y: 21.5}
+        - {x: 100, y: 40.5}
+        - {x: 91.99999, y: 57.5}
+        - {x: 83, y: 70.5}
+        - {x: 75, y: 79.49999}
+        - {x: 66.99999, y: 86.5}
+        - {x: 54, y: 95.5}
+        - {x: 39, y: 103.5}
+        - {x: 23, y: 108.5}
+        - {x: 13, y: 109.5}
+        - {x: -9, y: 109.5}
+        - {x: -27, y: 107.5}
+        - {x: -39, y: 103.5}
+        - {x: -61, y: 91.5}
+        - {x: -78, y: 76.5}
+        - {x: -94, y: 54.5}
+        - {x: -102, y: 35.5}
+        - {x: -105, y: 17.5}
+        - {x: -105, y: -17.5}
+        - {x: -102, y: -29.5}
+        - {x: -88, y: -56.5}
+        - {x: -81, y: -64.5}
+        - {x: -66.99999, y: -79.49999}
+        - {x: -54, y: -88.5}
+        - {x: -47, y: -92.49999}
+        - {x: -27, y: -101.5}
+        - {x: -9.999999, y: -103.5}
+        - {x: 14, y: -103.5}
+        - {x: 37, y: -98.49999}
+        - {x: 50, y: -91.5}
+        - {x: 69, y: -78.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AmplifierCountPanelBG: 21300006
+      ArrowRight: 21300012
+      BattleEnahncerLevelPanelBG: 21300014
+      BlueRightTagLarge: 21300016
+      BlueRightTagSmall: 21300018
+      ButtonBlueRoundArrow: 21300008
+      GGP Store button: 21300002
+      OptionTitleBG: 21300010
+      PromoCodeBG: 21300004
+      TitleLine: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

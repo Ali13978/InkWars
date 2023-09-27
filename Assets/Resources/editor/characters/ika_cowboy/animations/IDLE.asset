@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "IDLE"
+  m_EditorClassIdentifier: 
+  characterName: 4
+  animationName: 8
+  speed: 1
+  frameEndType: 1
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: 2f45eae9f1a849979c3277d1a30a3e77, type: 3}
+    duration: 0.25
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 9edd45fb736a4a89b13f786491eed7c6, type: 3}
+    duration: 0.25
+    timeFromStart: 0.25
+  - sprite: {fileID: 21300000, guid: cd3bf09330e147099d3a7d9ea36e14d8, type: 3}
+    duration: 0.25
+    timeFromStart: 0.5
+  - sprite: {fileID: 21300000, guid: 9edd45fb736a4a89b13f786491eed7c6, type: 3}
+    duration: 0.25
+    timeFromStart: 0.75
+  fxFrameData: []
+  holdLastFX: 0

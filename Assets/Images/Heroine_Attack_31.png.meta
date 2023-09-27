@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 757c1bc9f4be4719b6ebc6c7780cdcdb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Heroine_Attack_31
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline:
+    - - {x: -74.50001, y: -61.72468}
+      - {x: -74.50001, y: 37.27532}
+      - {x: -62.50001, y: -111.7247}
+    - - {x: -66.50001, y: 66.27532}
+      - {x: -62.50001, y: -111.7247}
+      - {x: -74.50001, y: 37.27532}
+    - - {x: 31.49999, y: 111.2753}
+      - {x: -62.50001, y: -111.7247}
+      - {x: -66.50001, y: 66.27532}
+    - - {x: 45.49999, y: -111.7247}
+      - {x: -62.50001, y: -111.7247}
+      - {x: 31.49999, y: 111.2753}
+    - - {x: 74.49999, y: 111.2753}
+      - {x: 45.49999, y: -111.7247}
+      - {x: 31.49999, y: 111.2753}
+    - - {x: 50.49999, y: -110.7247}
+      - {x: 45.49999, y: -111.7247}
+      - {x: 74.49999, y: 111.2753}
+    - - {x: 63.49999, y: -65.72468}
+      - {x: 50.49999, y: -110.7247}
+      - {x: 74.49999, y: 111.2753}
+    - - {x: 74.49999, y: -0.724678}
+      - {x: 63.49999, y: -65.72468}
+      - {x: 74.49999, y: 111.2753}
+    physicsShape:
+    - - {x: -17.50001, y: -93.72468}
+      - {x: -12.50001, y: -103.7247}
+      - {x: -4.500008, y: -108.7247}
+      - {x: 1.499992, y: -108.7247}
+      - {x: 4.499992, y: -97.72468}
+      - {x: 18.49999, y: -108.7247}
+      - {x: 26.49999, y: -108.7247}
+      - {x: 27.49999, y: -99.72468}
+      - {x: 44.49999, y: -101.7247}
+      - {x: 46.49999, y: -94.72468}
+      - {x: 54.49999, y: -82.72468}
+      - {x: 62.5, y: -67.72468}
+      - {x: 54.49999, y: -45.72468}
+      - {x: 61.49999, y: -30.72468}
+      - {x: 62.5, y: -22.72468}
+      - {x: 45.49999, y: 13.27532}
+      - {x: 52.5, y: 25.27532}
+      - {x: 53.49999, y: 44.27532}
+      - {x: 67.5, y: 46.27532}
+      - {x: 72.5, y: 50.27532}
+      - {x: 72.5, y: 103.2753}
+      - {x: 69.49999, y: 108.2753}
+      - {x: 54.49999, y: 108.2753}
+      - {x: 3.499992, y: 99.27532}
+      - {x: -1.500008, y: 73.27532}
+      - {x: -21.50001, y: 62.27532}
+      - {x: -39.50001, y: 67.27532}
+      - {x: -55.50001, y: 61.27532}
+      - {x: -58.50001, y: 49.27532}
+      - {x: -60.50001, y: 28.27532}
+      - {x: -60.50001, y: 18.27532}
+      - {x: -72.50001, y: -5.724678}
+      - {x: -72.50001, y: -22.72468}
+      - {x: -70.50001, y: -32.72468}
+      - {x: -64.50001, y: -60.72468}
+      - {x: -58.50001, y: -63.72468}
+      - {x: -58.50001, y: -101.7247}
+      - {x: -49.50001, y: -108.7247}
+      - {x: -36.50001, y: -92.72468}
+      - {x: -25.50001, y: -108.7247}
+      - {x: -19.50001, y: -108.7247}
+      - {x: -17.50001, y: -107.7247}
+      - {x: -17.50001, y: -91.72469}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: characters/ika_princess
+  assetBundleVariant: 

@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: e56ea0ca7eae44f887617e1d3942415a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Lorii_Draw_33
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline:
+    - - {x: -55.006, y: -35.28771}
+      - {x: -55.006, y: 19.71229}
+      - {x: -39.006, y: -116.2877}
+    - - {x: -50.006, y: 72.71229}
+      - {x: -39.006, y: -116.2877}
+      - {x: -55.006, y: 19.71229}
+    - - {x: -37.006, y: 94.71229}
+      - {x: -39.006, y: -116.2877}
+      - {x: -50.006, y: 72.71229}
+    - - {x: 37.994, y: -116.2877}
+      - {x: -39.006, y: -116.2877}
+      - {x: -37.006, y: 94.71229}
+    - - {x: -11.006, y: 115.7123}
+      - {x: 37.994, y: -116.2877}
+      - {x: -37.006, y: 94.71229}
+    - - {x: 54.994, y: 115.7123}
+      - {x: 37.994, y: -116.2877}
+      - {x: -11.006, y: 115.7123}
+    - - {x: 54.994, y: -100.2877}
+      - {x: 37.994, y: -116.2877}
+      - {x: 54.994, y: 115.7123}
+    physicsShape:
+    - - {x: 11.994, y: -109.2877}
+      - {x: 16.994, y: -111.2877}
+      - {x: 26.994, y: -113.2877}
+      - {x: 29.994, y: -110.2877}
+      - {x: 44.994, y: -105.2877}
+      - {x: 47.994, y: -102.2877}
+      - {x: 47.994, y: -100.2877}
+      - {x: 46.994, y: -97.28771}
+      - {x: 41.994, y: -93.28771}
+      - {x: 22.994, y: -67.28771}
+      - {x: 22.994, y: -55.28771}
+      - {x: 12.994, y: -32.28772}
+      - {x: 20.99401, y: -27.28772}
+      - {x: 25.99401, y: -17.28771}
+      - {x: 35.994, y: -16.28771}
+      - {x: 28.994, y: 2.712288}
+      - {x: 26.994, y: 20.71229}
+      - {x: 31.994, y: 56.71229}
+      - {x: 36.994, y: 80.71229}
+      - {x: 47.994, y: 81.71229}
+      - {x: 52.99401, y: 85.71229}
+      - {x: 52.99401, y: 98.7123}
+      - {x: 43.994, y: 114.7123}
+      - {x: 7.994003, y: 114.7123}
+      - {x: -0.005994797, y: 102.7123}
+      - {x: -21.006, y: 100.7123}
+      - {x: -35.006, y: 91.71229}
+      - {x: -42.006, y: 82.71229}
+      - {x: -45.006, y: 73.71229}
+      - {x: -49.006, y: 43.71229}
+      - {x: -46.006, y: 29.71229}
+      - {x: -53.006, y: 0.7122879}
+      - {x: -53.006, y: -8.287712}
+      - {x: -46.006, y: -11.28771}
+      - {x: -44.006, y: -28.28771}
+      - {x: -32.006, y: -34.28771}
+      - {x: -36.006, y: -62.28771}
+      - {x: -25.006, y: -71.28771}
+      - {x: -27.006, y: -90.28771}
+      - {x: -39.006, y: -111.2877}
+      - {x: -37.006, y: -114.2877}
+      - {x: -29.006, y: -114.2877}
+      - {x: -15.006, y: -110.2877}
+      - {x: -8.005997, y: -104.2877}
+      - {x: 0.9940033, y: -114.2877}
+      - {x: 9.994003, y: -114.2877}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: characters/ika_lorii
+  assetBundleVariant: 

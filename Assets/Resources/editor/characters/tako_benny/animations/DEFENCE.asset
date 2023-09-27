@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "DEFENCE"
+  m_EditorClassIdentifier: 
+  characterName: 41
+  animationName: 3
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: 385ae87a2969468695c0d0a9412c070e, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: faf982e7684d41c9acd1d16da554d920, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 1594b289d0fc4c54b2c37f424af053bc, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 312ec2cee967432f8da9e4ef76dfbb6a, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: b6fdc596640c476e832824b14ef78550, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: faf982e7684d41c9acd1d16da554d920, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 1594b289d0fc4c54b2c37f424af053bc, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 312ec2cee967432f8da9e4ef76dfbb6a, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: b6fdc596640c476e832824b14ef78550, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 602703ee5345425cbdc7c85a830bc7e6, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 74707e3ba7a84cf4ac0f17b7bce4e2ac, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: e95a039842fb4840b5a5197e2278a255, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 26c2293159674809ad9fe47140d520fd, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 49a8242e42e2426c9b2905da619e466a, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  fxFrameData: []
+  holdLastFX: 0

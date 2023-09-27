@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "LOSE_LEAD"
+  m_EditorClassIdentifier: 
+  characterName: 6
+  animationName: 9
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: 3bc7d13d78b0473bb3123fb669ab82fd, type: 3}
+    duration: 0.08333334
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: cb90754ab780449aa3cb2ab363f66b4a, type: 3}
+    duration: 0.08333334
+    timeFromStart: 0.08333334
+  - sprite: {fileID: 21300000, guid: f6903505cc7d4b8f9e20b6cb459c4e5b, type: 3}
+    duration: 0.08333334
+    timeFromStart: 0.1666667
+  fxFrameData: []
+  holdLastFX: 0

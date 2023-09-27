@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b6c8dbe4dca5f3f8b1f6025582431e, type: 3}
+  m_Name: "Tako_Biker_Pose_Collection"
+  m_EditorClassIdentifier: 
+  winPose: {fileID: 21300000, guid: c30ded8a313a4a8c87cb044d5cb9c1b4, type: 3}
+  losePose: {fileID: 21300000, guid: ecb5e182f95946cab695921b13110af8, type: 3}
+  drawPose: {fileID: 21300000, guid: 164608e6eb8c4af281d74ba3b435ffb6, type: 3}

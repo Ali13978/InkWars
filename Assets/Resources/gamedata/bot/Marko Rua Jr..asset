@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc98509c7d1942144474dc7012480f9b, type: 3}
+  m_Name: "Marko Rua Jr."
+  m_EditorClassIdentifier: 
+  name: "Marko Rua Jr."
+  IsMultiplayerBot: 1
+  MinimumWinsForPlay: 0
+  Country: 24
+  PlayerPoints: 98
+  BattlePoints: 285
+  Wins: 9
+  Losses: 2
+  Draws: 0
+  highScore: 16587
+  FavoriteCharacter: 38
+  IsAdventureModeBot: 0
+  AdventureModeLevel: 1
+  IsXtremeModeBot: 0
+  XtremeModeCharacter: 0
+  SkillSettings:
+    ReactionSpeed: 2
+    Intelligence_Factor: 5
+    Pop_Ability: 6
+    Bridge_Combo_Ability: 2
+    Rebound_Ability: 3
+    Rebound_Bias: 1
+    Rebound_Counter_Ability: 1
+    RevengeSuperOffensiveOrientation: 0
+    RevengeSuperDefensiveOrientation: 10

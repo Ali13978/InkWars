@@ -1,0 +1,269 @@
+fileFormatVersion: 2
+guid: 3510325a22ef4082a5350a9fb5bee9d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: RevengeSuper_0
+  - first:
+      213: 21300002
+    second: RevengeSuper_1
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RevengeSuper_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 998
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -499, y: -82.5}
+        - {x: -499, y: 82.5}
+        - {x: 475, y: -82.5}
+      - - {x: 499, y: 82.5}
+        - {x: 475, y: -82.5}
+        - {x: -499, y: 82.5}
+      - - {x: 499, y: -24.5}
+        - {x: 475, y: -82.5}
+        - {x: 499, y: 82.5}
+      physicsShape:
+      - - {x: 410, y: 14.5}
+        - {x: 467, y: 81.5}
+        - {x: 467, y: 82.5}
+        - {x: -499, y: 82.5}
+        - {x: -499, y: -70.5}
+        - {x: -493, y: -71.5}
+        - {x: 409, y: -71.5}
+        - {x: 487, y: 7.5}
+        - {x: 487, y: 19.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevengeSuper_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 448.9239
+        height: 88
+      alignment: 9
+      pivot: {x: 1.111547, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -224.4619, y: -19}
+        - {x: -224.4619, y: 44}
+        - {x: 34.53806, y: -44}
+      - - {x: 192.5381, y: 44}
+        - {x: 34.53806, y: -44}
+        - {x: -224.4619, y: 44}
+      - - {x: 190.5381, y: -44}
+        - {x: 34.53806, y: -44}
+        - {x: 192.5381, y: 44}
+      - - {x: 224.5381, y: 7}
+        - {x: 190.5381, y: -44}
+        - {x: 192.5381, y: 44}
+      - - {x: 224.5381, y: 17}
+        - {x: 224.5381, y: 7}
+        - {x: 192.5381, y: 44}
+      physicsShape:
+      - - {x: 215.5381, y: -1}
+        - {x: 222.5381, y: 8}
+        - {x: 222.5381, y: 9}
+        - {x: 221.5381, y: 12}
+        - {x: 200.5381, y: 11}
+        - {x: 170.5381, y: 8}
+        - {x: 138.5381, y: 5}
+        - {x: 151.5381, y: 20}
+        - {x: 145.5381, y: 27}
+        - {x: 102.5381, y: 25}
+        - {x: 28.53806, y: 18}
+        - {x: 40.53807, y: 29}
+        - {x: 40.53807, y: 37}
+        - {x: 35.53807, y: 40}
+        - {x: 26.53806, y: 40}
+        - {x: -57.46194, y: 30}
+        - {x: -199.4619, y: 13}
+        - {x: -221.4619, y: 9.999999}
+        - {x: -224.4619, y: 8}
+        - {x: -224.4619, y: -1}
+        - {x: -222.4619, y: -4}
+        - {x: -191.4619, y: -3}
+        - {x: -139.4619, y: 0}
+        - {x: -94.46191, y: 1}
+        - {x: -71.46194, y: 2}
+        - {x: -58.46194, y: 0}
+        - {x: -61.46194, y: -9}
+        - {x: -56.46194, y: -12}
+        - {x: -18.46191, y: -13}
+        - {x: 13.53806, y: -12}
+        - {x: 52.53806, y: -11}
+        - {x: 64.53807, y: -13}
+        - {x: 60.53807, y: -22}
+        - {x: 62.53807, y: -28}
+        - {x: 64.53807, y: -33}
+        - {x: 99.53806, y: -33}
+        - {x: 136.5381, y: -31}
+        - {x: 186.5381, y: -29}
+        - {x: 190.5381, y: -27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RevengeSuper_0: 21300000
+      RevengeSuper_1: 21300002
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

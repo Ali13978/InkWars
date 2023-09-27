@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87683710307fdd07fb9b5aed86c56e01, type: 3}
+  m_Name: "TitleBGCollection"
+  m_EditorClassIdentifier: 
+  list:
+  - type: 0
+    image: {fileID: 0}
+    coverColor: {r: 0, g: 0, b: 0, a: 0}
+  - type: 1
+    image: {fileID: 21300000, guid: 6511072405e5499f9943f3cb224b55a8, type: 3}
+    coverColor: {r: 1, g: 0.8482759, b: 0, a: 0}
+  - type: 2
+    image: {fileID: 21300008, guid: 6511072405e5499f9943f3cb224b55a8, type: 3}
+    coverColor: {r: 0.8308824, g: 0.8308824, b: 0.8308824, a: 0}
+  - type: 3
+    image: {fileID: 21300004, guid: 6511072405e5499f9943f3cb224b55a8, type: 3}
+    coverColor: {r: 1, g: 0, b: 0, a: 0}
+  - type: 4
+    image: {fileID: 21300002, guid: 6511072405e5499f9943f3cb224b55a8, type: 3}
+    coverColor: {r: 0, g: 0, b: 1, a: 0}
+  - type: 5
+    image: {fileID: 21300006, guid: 6511072405e5499f9943f3cb224b55a8, type: 3}
+    coverColor: {r: 0, g: 1, b: 1, a: 0}
+  - type: 6
+    image: {fileID: 21300000, guid: 40704d671d134f34ae2ca33a47c9cf9c, type: 3}
+    coverColor: {r: 0.3686275, g: 0.4117647, b: 0.5529412, a: 0}
+  - type: 7
+    image: {fileID: 21300002, guid: 40704d671d134f34ae2ca33a47c9cf9c, type: 3}
+    coverColor: {r: 1, g: 0.9176471, b: 0.02352941, a: 0}
+  - type: 10
+    image: {fileID: 21300010, guid: 40704d671d134f34ae2ca33a47c9cf9c, type: 3}
+    coverColor: {r: 0.454902, g: 0.6784314, b: 0.003921569, a: 0}
+  - type: 8
+    image: {fileID: 21300012, guid: 40704d671d134f34ae2ca33a47c9cf9c, type: 3}
+    coverColor: {r: 0.6196079, g: 0.8000001, b: 0.9882354, a: 0}
+  - type: 11
+    image: {fileID: 21300004, guid: 40704d671d134f34ae2ca33a47c9cf9c, type: 3}
+    coverColor: {r: 0.7764707, g: 0.854902, b: 0.6980392, a: 0}
+  - type: 9
+    image: {fileID: 21300006, guid: 40704d671d134f34ae2ca33a47c9cf9c, type: 3}
+    coverColor: {r: 1, g: 0.627451, b: 0.5411765, a: 0}
+  - type: 12
+    image: {fileID: 21300014, guid: 40704d671d134f34ae2ca33a47c9cf9c, type: 3}
+    coverColor: {r: 0.5215687, g: 0.4039216, b: 0.3411765, a: 0}
+  - type: 13
+    image: {fileID: 21300008, guid: 40704d671d134f34ae2ca33a47c9cf9c, type: 3}
+    coverColor: {r: 0.3088235, g: 0.4279921, b: 1, a: 0}
+  - type: 14
+    image: {fileID: 21300000, guid: bba3ea30eca44cf58f2b58c0ff7e291c, type: 3}
+    coverColor: {r: 0.3088235, g: 0.4279921, b: 1, a: 0}

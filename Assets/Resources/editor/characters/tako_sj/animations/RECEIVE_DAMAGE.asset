@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "RECEIVE_DAMAGE"
+  m_EditorClassIdentifier: 
+  characterName: 38
+  animationName: 13
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: 44f7885104f9419ead60e1c1fccc0bcc, type: 3}
+    duration: 0.125
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 541c24cb12584377bec6c4ccd3b3ddd5, type: 3}
+    duration: 0.125
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: ef9ec7b99b114e34b974e195bf3c0666, type: 3}
+    duration: 0.125
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 81c1be32674e4cc79b96cc4fd81f34ca, type: 3}
+    duration: 0.125
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 5fcc5061078d4dfe8e0695a8f94139e1, type: 3}
+    duration: 0.125
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: b5e876abbc2d48fd95cb31b200ddcb43, type: 3}
+    duration: 0.125
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 5fcc5061078d4dfe8e0695a8f94139e1, type: 3}
+    duration: 0.125
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: b5e876abbc2d48fd95cb31b200ddcb43, type: 3}
+    duration: 0.125
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 5fcc5061078d4dfe8e0695a8f94139e1, type: 3}
+    duration: 0.125
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: b5e876abbc2d48fd95cb31b200ddcb43, type: 3}
+    duration: 0.125
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 5fcc5061078d4dfe8e0695a8f94139e1, type: 3}
+    duration: 0.125
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: b5e876abbc2d48fd95cb31b200ddcb43, type: 3}
+    duration: 0.125
+    timeFromStart: 0
+  fxFrameData: []
+  holdLastFX: 0

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca29afc2503494b174fc63f33ebf71b7, type: 3}
+  m_Name: "IKA_BUTCHER"
+  m_EditorClassIdentifier: 
+  characterId: 2
+  version: "1.1.5.86"
+  type: 11
+  status:
+    attack: 4
+    defence: 3
+    speed: 1
+  unlockType: 2
+  iapId: 0
+  realPersonCharacter: 0
+  nameStyle: 1
+  animationOffset: {x: 15, y: 0}
+  scale: 1
+  relatedStage: 221791007
+  revengeSuperAvatarLocation: {x: 89, y: -193, z: 5}
+  revengeSuperAvatarScale: {x: 1, y: 1}
+  AnimDurations: 
+  - 0.23
+  - 0.2
+  - 0.3636364
+  - 0.65
+  - 0
+  - 1.5
+  - 0.3
+  - 0.2
+  - 0.4
+  - 0
+  - 0.8000001
+  - 1.5
+  - 0.2
+  - 0.2
+  - 0
+  - 0
+  - 1.4
+  inStorePriority: 0
+  virtualPrice:
+    currentCryptoKey: 444444
+    hiddenValue: 444444
+    fakeValue: 0
+    inited: 1
+  virtualCurrency: 1
+  superMeterGainRateFactor: 1.15
+  middleSuper: 9
+  BestSuited_ReboundStopper: 5
+  BestSuited_RapidRainbow: 3
+  BestSuited_StunEnhancer: 5
+  BestSuited_DisposalMeterGainer: 1
+  BestSuited_SuperMeterSealer: 4
+  BestSuited_StunBreakDisabler: 3
+  WorstAgainst_ReboundStopper: 1
+  WorstAgainst_RapidRainbow: 2
+  WorstAgainst_StunEnhancer: 5
+  WorstAgainst_DisposalMeterGainer: 3
+  WorstAgainst_SuperMeterSealer: 3
+  WorstAgainst_StunBreakDisabler: 3

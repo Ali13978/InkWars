@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "DEFENCE_CHARGE"
+  m_EditorClassIdentifier: 
+  characterName: 25
+  animationName: 5
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: 8f1ccde96b01463fa84b2031a663a37e, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 5bc98aa55cc7450790f12039ac876d33, type: 3}
+    duration: 0.1
+    timeFromStart: 0.1
+  - sprite: {fileID: 21300000, guid: 0bb9558a6f4e4b56a9e0a9bb88ef1dd4, type: 3}
+    duration: 0.1
+    timeFromStart: 0.2
+  - sprite: {fileID: 21300000, guid: 865870b041434ed1a4060d9654320610, type: 3}
+    duration: 0.09999999
+    timeFromStart: 0.3
+  - sprite: {fileID: 21300000, guid: a8f34fdfc00c4970b4b38d4df6ef9a2f, type: 3}
+    duration: 0.09999999
+    timeFromStart: 0.4
+  - sprite: {fileID: 21300000, guid: 5bc98aa55cc7450790f12039ac876d33, type: 3}
+    duration: 0.1
+    timeFromStart: 0.5
+  - sprite: {fileID: 21300000, guid: 0bb9558a6f4e4b56a9e0a9bb88ef1dd4, type: 3}
+    duration: 0.09999996
+    timeFromStart: 0.6
+  - sprite: {fileID: 21300000, guid: 865870b041434ed1a4060d9654320610, type: 3}
+    duration: 0.1
+    timeFromStart: 0.7
+  - sprite: {fileID: 21300000, guid: a8f34fdfc00c4970b4b38d4df6ef9a2f, type: 3}
+    duration: 0.09999996
+    timeFromStart: 0.8
+  - sprite: {fileID: 21300000, guid: 5bc98aa55cc7450790f12039ac876d33, type: 3}
+    duration: 0.1
+    timeFromStart: 0.9
+  - sprite: {fileID: 21300000, guid: 0bb9558a6f4e4b56a9e0a9bb88ef1dd4, type: 3}
+    duration: 0.1
+    timeFromStart: 1
+  - sprite: {fileID: 21300000, guid: 865870b041434ed1a4060d9654320610, type: 3}
+    duration: 0.1
+    timeFromStart: 1.1
+  - sprite: {fileID: 21300000, guid: a8f34fdfc00c4970b4b38d4df6ef9a2f, type: 3}
+    duration: 0.0999999
+    timeFromStart: 1.2
+  - sprite: {fileID: 21300000, guid: 5bc98aa55cc7450790f12039ac876d33, type: 3}
+    duration: 0.1
+    timeFromStart: 1.3
+  - sprite: {fileID: 21300000, guid: 0bb9558a6f4e4b56a9e0a9bb88ef1dd4, type: 3}
+    duration: 0.1
+    timeFromStart: 1.4
+  fxFrameData: []
+  holdLastFX: 0

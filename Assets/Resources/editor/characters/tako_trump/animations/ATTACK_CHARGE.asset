@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "ATTACK_CHARGE"
+  m_EditorClassIdentifier: 
+  characterName: 40
+  animationName: 2
+  speed: 1
+  frameEndType: 1
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: bf8e2cbd80d941058a54fb208bffabf5, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 84813b183f6e482caaa112ad6cf15c78, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 104da122ea4146368fdf8762a212dd4a, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 4ceafb91675a4536a8f7a37c3daab1d1, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 6aaa40ca803240b488baf0385565c213, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 9b68fe9f01d045f48a55ae8fb7cd1141, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  fxFrameData: []
+  holdLastFX: 0

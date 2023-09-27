@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc98509c7d1942144474dc7012480f9b, type: 3}
+  m_Name: "Milktea"
+  m_EditorClassIdentifier: 
+  name: "Milktea"
+  IsMultiplayerBot: 1
+  MinimumWinsForPlay: 1
+  Country: 170
+  PlayerPoints: 355
+  BattlePoints: 523
+  Wins: 26
+  Losses: 11
+  Draws: 0
+  highScore: 10958
+  FavoriteCharacter: 34
+  IsAdventureModeBot: 0
+  AdventureModeLevel: 1
+  IsXtremeModeBot: 0
+  XtremeModeCharacter: 0
+  SkillSettings:
+    ReactionSpeed: 4
+    Intelligence_Factor: 5
+    Pop_Ability: 8
+    Bridge_Combo_Ability: 3
+    Rebound_Ability: 4
+    Rebound_Bias: 1
+    Rebound_Counter_Ability: 3
+    RevengeSuperOffensiveOrientation: 0
+    RevengeSuperDefensiveOrientation: 1

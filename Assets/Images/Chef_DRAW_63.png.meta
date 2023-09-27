@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 58c85b4d79764aa39e9c468e82180fc5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Chef_DRAW_63
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline:
+    - - {x: -115.5, y: -69.82468}
+      - {x: -115.5, y: -31.82468}
+      - {x: -70.49999, y: -97.82468}
+    - - {x: -69.49999, y: 66.17532}
+      - {x: -70.49999, y: -97.82468}
+      - {x: -115.5, y: -31.82468}
+    - - {x: 63.50001, y: -97.82468}
+      - {x: -70.49999, y: -97.82468}
+      - {x: -69.49999, y: 66.17532}
+    - - {x: -31.49999, y: 97.17532}
+      - {x: 63.50001, y: -97.82468}
+      - {x: -69.49999, y: 66.17532}
+    - - {x: 35.50001, y: 97.17532}
+      - {x: 63.50001, y: -97.82468}
+      - {x: -31.49999, y: 97.17532}
+    - - {x: 67.50001, y: 69.17532}
+      - {x: 63.50001, y: -97.82468}
+      - {x: 35.50001, y: 97.17532}
+    - - {x: 115.5, y: -68.82468}
+      - {x: 63.50001, y: -97.82468}
+      - {x: 67.50001, y: 69.17532}
+    - - {x: 115.5, y: -32.82468}
+      - {x: 115.5, y: -68.82468}
+      - {x: 67.50001, y: 69.17532}
+    physicsShape:
+    - - {x: 104.5, y: -68.82468}
+      - {x: 109.5, y: -61.82468}
+      - {x: 113.5, y: -48.82468}
+      - {x: 113.5, y: -37.82468}
+      - {x: 106.5, y: -33.82469}
+      - {x: 101.5, y: -23.82469}
+      - {x: 93.50001, y: -20.82468}
+      - {x: 91.50001, y: -10.82468}
+      - {x: 78.50001, y: 7.175316}
+      - {x: 65.50001, y: 14.17532}
+      - {x: 45.50001, y: 16.17532}
+      - {x: 45.50001, y: 28.17532}
+      - {x: 57.50001, y: 40.17532}
+      - {x: 54.50001, y: 60.17532}
+      - {x: 43.50001, y: 71.17532}
+      - {x: 33.50001, y: 74.17532}
+      - {x: 28.50001, y: 86.17532}
+      - {x: 17.50001, y: 95.17532}
+      - {x: 5.500008, y: 95.17532}
+      - {x: -5.499992, y: 89.17532}
+      - {x: -32.49999, y: 82.17532}
+      - {x: -35.49999, y: 81.17532}
+      - {x: -42.49999, y: 78.17532}
+      - {x: -50.49999, y: 72.17532}
+      - {x: -51.49999, y: 61.17532}
+      - {x: -45.49999, y: 55.17532}
+      - {x: -51.49999, y: 41.17532}
+      - {x: -51.49999, y: 28.17532}
+      - {x: -43.49999, y: 18.17532}
+      - {x: -67.49999, y: 16.17532}
+      - {x: -86.49999, y: -4.824684}
+      - {x: -93.49999, y: -16.82468}
+      - {x: -101.5, y: -29.82468}
+      - {x: -112.5, y: -37.82468}
+      - {x: -113.5, y: -39.82468}
+      - {x: -113.5, y: -62.82468}
+      - {x: -90.49999, y: -83.82468}
+      - {x: -65.49999, y: -95.82469}
+      - {x: -51.49999, y: -92.82468}
+      - {x: -29.49999, y: -95.82469}
+      - {x: 1.500008, y: -95.82469}
+      - {x: 32.50001, y: -92.82468}
+      - {x: 63.50001, y: -91.82468}
+      - {x: 89.50001, y: -81.82468}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: characters/tako_chef
+  assetBundleVariant: 

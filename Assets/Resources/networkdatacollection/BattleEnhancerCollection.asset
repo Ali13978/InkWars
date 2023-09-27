@@ -1,0 +1,2410 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89fbffd52b177595dc5c316c5dcbdeb2, type: 3}
+  m_Name: "BattleEnhancerCollection"
+  m_EditorClassIdentifier: 
+  items:
+  - name: "Rainbow Sealer"
+    type: 2
+    desc: "Stops opponent from getting Rainbow Bubble"
+    icon: {fileID: 21300014, guid: 4f96d9a141ab437bb4aa392cc4a28a0a, type: 3}
+    opponentIcon: {fileID: 21300014, guid: 4f96d9a141ab437bb4aa392cc4a28a0a, type: 3}
+    isDebuffType: 0
+  - name: "Rebound Stopper"
+    type: 1
+    desc: "Stops opponent from using Rebounds "
+    icon: {fileID: 21300012, guid: 4f96d9a141ab437bb4aa392cc4a28a0a, type: 3}
+    opponentIcon: {fileID: 21300012, guid: 4f96d9a141ab437bb4aa392cc4a28a0a, type: 3}
+    isDebuffType: 1
+  - name: "Stun Enhancer"
+    type: 3
+    desc: "Stuns opponents with a minimum of 2-bubbles combo instead of 3 "
+    icon: {fileID: 21300022, guid: 4f96d9a141ab437bb4aa392cc4a28a0a, type: 3}
+    opponentIcon: {fileID: 21300022, guid: 4f96d9a141ab437bb4aa392cc4a28a0a, type: 3}
+    isDebuffType: 0
+  - name: "Disposal Metre Gainer"
+    type: 4
+    desc: "Gain 10% of Super Metre with each trashed bubble"
+    icon: {fileID: 21300018, guid: 4f96d9a141ab437bb4aa392cc4a28a0a, type: 3}
+    opponentIcon: {fileID: 21300018, guid: 4f96d9a141ab437bb4aa392cc4a28a0a, type: 3}
+    isDebuffType: 0
+  - name: "Super Meter Disabler"
+    type: 5
+    desc: "Stops opponent from gaining Super Metre "
+    icon: {fileID: 21300040, guid: 4f96d9a141ab437bb4aa392cc4a28a0a, type: 3}
+    opponentIcon: {fileID: 21300024, guid: 4f96d9a141ab437bb4aa392cc4a28a0a, type: 3}
+    isDebuffType: 1
+  - name: "Stun Break Disabler"
+    type: 6
+    desc: "Disabling opponent from performing Stun Break"
+    icon: {fileID: 21300026, guid: 4f96d9a141ab437bb4aa392cc4a28a0a, type: 3}
+    opponentIcon: {fileID: 21300026, guid: 4f96d9a141ab437bb4aa392cc4a28a0a, type: 3}
+    isDebuffType: 1
+  blockIcon: {fileID: 21300036, guid: 4f96d9a141ab437bb4aa392cc4a28a0a, type: 3}
+  buttonBGList:
+  - state: 0
+    buttonBG: {fileID: 21300000, guid: 3d0f955a470f47598e9e4ea6957392b8, type: 3}
+  - state: 1
+    buttonBG: {fileID: 21300002, guid: 3d0f955a470f47598e9e4ea6957392b8, type: 3}
+  - state: 2
+    buttonBG: {fileID: 21300004, guid: 3d0f955a470f47598e9e4ea6957392b8, type: 3}
+  bubbleBGList:
+  - typeList: 0400000002000000
+    bubbleBG: {fileID: 21300008, guid: 3d0f955a470f47598e9e4ea6957392b8, type: 3}
+  - typeList: 01000000030000000500000006000000
+    bubbleBG: {fileID: 21300006, guid: 3d0f955a470f47598e9e4ea6957392b8, type: 3}
+  sfxList:
+  - state: 1
+    sfx: {fileID: 8300000, guid: dffe3eca7e05448e93b0ad02aebe3e1e, type: 3}
+  - state: 2
+    sfx: {fileID: 8300000, guid: b035e61c197c416496c9cd72757e3a91, type: 3}
+  priceList:
+  - enhancerType: 1
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 1
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444530
+      fakeValue: 110
+      inited: 1
+  - enhancerType: 1
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 1
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444608
+      fakeValue: 220
+      inited: 1
+  - enhancerType: 1
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 1
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444758
+      fakeValue: 330
+      inited: 1
+  - enhancerType: 1
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444836
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444986
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 1
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 445064
+      fakeValue: 660
+      inited: 1
+  - enhancerType: 1
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 445428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446412
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443300
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444348
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 450412
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446228
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443916
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449796
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 447548
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 453428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 451116
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443548
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446748
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454044
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 457244
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 456348
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 426780
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449244
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454044
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454748
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 426780
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 431580
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 1
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 440476
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444530
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444608
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444758
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444836
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444986
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 445064
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 445428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446412
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443300
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444348
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 450412
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446228
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443916
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449796
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 447548
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 453428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 451116
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443548
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446748
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454044
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 457244
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 456348
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 426780
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449244
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454044
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454748
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 426780
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 431580
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 2
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 440476
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444530
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444608
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444758
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444836
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444986
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 445064
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 445428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446412
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443300
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444348
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 450412
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446228
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443916
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449796
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 447548
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 453428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 451116
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443548
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446748
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454044
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 457244
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 456348
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 426780
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449244
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454044
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454748
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 426780
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 431580
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 3
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 440476
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444530
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444608
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444758
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444836
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444986
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 445064
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 445428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446412
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443300
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444348
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 450412
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446228
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443916
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449796
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 447548
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 453428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 451116
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443548
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446748
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454044
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 457244
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 456348
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 426780
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449244
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454044
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454748
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 426780
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 431580
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 4
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 440476
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444530
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444608
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444758
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444836
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444986
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 445064
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 445428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446412
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443300
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444348
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 450412
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446228
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443916
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449796
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 447548
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 453428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 451116
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443548
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446748
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454044
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 457244
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 456348
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 426780
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449244
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454044
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454748
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 426780
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 431580
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 5
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 440476
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444530
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444608
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444758
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444836
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444986
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444445
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 445064
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 445428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446412
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443300
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 444348
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444438
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 450412
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446228
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443916
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449796
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 447548
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 453428
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444424
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 451116
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 443548
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 446748
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454044
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 457244
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 456348
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444468
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 426780
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 1
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 449244
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 2
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454044
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 3
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 454748
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 4
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 426780
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 5
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 431580
+      fakeValue: 0
+      inited: 1
+  - enhancerType: 6
+    level: 6
+    count:
+      currentCryptoKey: 444444
+      hiddenValue: 444492
+      fakeValue: 0
+      inited: 1
+    currency: 0
+    price:
+      currentCryptoKey: 444444
+      hiddenValue: 440476
+      fakeValue: 0
+      inited: 1

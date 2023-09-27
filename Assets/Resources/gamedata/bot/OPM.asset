@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc98509c7d1942144474dc7012480f9b, type: 3}
+  m_Name: "OPM"
+  m_EditorClassIdentifier: 
+  name: "OPM"
+  IsMultiplayerBot: 1
+  MinimumWinsForPlay: 2
+  Country: 186
+  PlayerPoints: 292
+  BattlePoints: 700
+  Wins: 13
+  Losses: 13
+  Draws: 0
+  highScore: 16759
+  FavoriteCharacter: 39
+  IsAdventureModeBot: 0
+  AdventureModeLevel: 1
+  IsXtremeModeBot: 0
+  XtremeModeCharacter: 0
+  SkillSettings:
+    ReactionSpeed: 5
+    Intelligence_Factor: 4
+    Pop_Ability: 7
+    Bridge_Combo_Ability: 4
+    Rebound_Ability: 5
+    Rebound_Bias: 10
+    Rebound_Counter_Ability: 10
+    RevengeSuperOffensiveOrientation: 0
+    RevengeSuperDefensiveOrientation: 10

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "POST_ATTACK"
+  m_EditorClassIdentifier: 
+  characterName: 0
+  animationName: 11
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: 4b237e51652942199b6ff9dec2821413, type: 3}
+    duration: 0.2
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 9117f22596864cb08164878a1b826032, type: 3}
+    duration: 0.2
+    timeFromStart: 0.2
+  - sprite: {fileID: 21300000, guid: 06cb5b14dc9f4b5bbd1f7f0916496d22, type: 3}
+    duration: 0.4
+    timeFromStart: 0.4
+  - sprite: {fileID: 21300000, guid: 497b78502ab04627ac5d389898292032, type: 3}
+    duration: 0.2
+    timeFromStart: 0.8
+  - sprite: {fileID: 21300000, guid: 2e938a288e8646d2913922675151115e, type: 3}
+    duration: 0.4
+    timeFromStart: 1
+  - sprite: {fileID: 21300000, guid: 32e2e868b26c40319af60ca6069d820d, type: 3}
+    duration: 0.1
+    timeFromStart: 1.4
+  - sprite: {fileID: 21300000, guid: 32e2e868b26c40319af60ca6069d820d, type: 3}
+    duration: 0.1
+    timeFromStart: 1.5
+  fxFrameData: []
+  holdLastFX: 0

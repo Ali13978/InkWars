@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "RECEIVE_DAMAGE_LOSE"
+  m_EditorClassIdentifier: 
+  characterName: 40
+  animationName: 14
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: 083a152e1e9f4375945bc3558400927d, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 13c15895b8ad4bafa5798777deb452af, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 4dbda320e07b408299dd1f7e80d17a73, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  fxFrameData: []
+  holdLastFX: 0

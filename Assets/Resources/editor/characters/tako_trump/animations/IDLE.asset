@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "IDLE"
+  m_EditorClassIdentifier: 
+  characterName: 40
+  animationName: 8
+  speed: 1
+  frameEndType: 1
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: 00cf5a9c23a143d9b788b52e210abe8f, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 19794c8377bf42778fe852e9ae37f7a0, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 56eaf3d829614f9e8a7411148499b9ae, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 19794c8377bf42778fe852e9ae37f7a0, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 00cf5a9c23a143d9b788b52e210abe8f, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 19794c8377bf42778fe852e9ae37f7a0, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 56eaf3d829614f9e8a7411148499b9ae, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 19794c8377bf42778fe852e9ae37f7a0, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 00cf5a9c23a143d9b788b52e210abe8f, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 19794c8377bf42778fe852e9ae37f7a0, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 56eaf3d829614f9e8a7411148499b9ae, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 19794c8377bf42778fe852e9ae37f7a0, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 00cf5a9c23a143d9b788b52e210abe8f, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 19794c8377bf42778fe852e9ae37f7a0, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 56eaf3d829614f9e8a7411148499b9ae, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 76ecf724d9e345a69c0b314a12ce94c0, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 0915c03db6de4588bab65f223e9ea64f, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 6d383f3df2924bc490db68b57c38c8da, type: 3}
+    duration: 0.125
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 97e1cdf80dbe4ad0b3f4a656ebe55a94, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 9a518f7f4b2b4fe29e8ff9670137e854, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  fxFrameData: []
+  holdLastFX: 0

@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 90f3c970af9f423aaec6de5d3947b0d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Ika_Leah_Defence_81_640x452
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline:
+    - - {x: -67.99181, y: -76.69999}
+      - {x: -67.99181, y: 42.30001}
+      - {x: -59.99181, y: -99.69999}
+    - - {x: -45.99181, y: 99.30001}
+      - {x: -59.99181, y: -99.69999}
+      - {x: -67.99181, y: 42.30001}
+    - - {x: 41.00819, y: -99.69999}
+      - {x: -59.99181, y: -99.69999}
+      - {x: -45.99181, y: 99.30001}
+    - - {x: 24.00819, y: 99.30001}
+      - {x: 41.00819, y: -99.69999}
+      - {x: -45.99181, y: 99.30001}
+    - - {x: 68.00819, y: 9.300011}
+      - {x: 41.00819, y: -99.69999}
+      - {x: 24.00819, y: 99.30001}
+    - - {x: 68.00819, y: -63.69999}
+      - {x: 41.00819, y: -99.69999}
+      - {x: 68.00819, y: 9.300011}
+    physicsShape:
+    - - {x: -6.991806, y: -92.69999}
+      - {x: -6.991806, y: -89.69999}
+      - {x: -6.991806, y: -91.69999}
+      - {x: -2.991806, y: -95.7}
+      - {x: 0.00819397, y: -97.69999}
+      - {x: 12.00819, y: -97.69999}
+      - {x: 17.00819, y: -95.7}
+      - {x: 26.00819, y: -89.69999}
+      - {x: 25.00819, y: -82.69999}
+      - {x: -0.991806, y: -45.69999}
+      - {x: 34.00819, y: -39.69999}
+      - {x: 58.0082, y: -48.69999}
+      - {x: 64.00819, y: -42.69999}
+      - {x: 67.00819, y: -28.69999}
+      - {x: 67.00819, y: -13.69999}
+      - {x: 59.00819, y: -3.699989}
+      - {x: 59.00819, y: 12.30001}
+      - {x: 47.00819, y: 32.30001}
+      - {x: 36.00819, y: 47.30001}
+      - {x: 29.00819, y: 67.30001}
+      - {x: 5.008194, y: 91.30001}
+      - {x: 0.00819397, y: 97.30002}
+      - {x: -12.99181, y: 97.30002}
+      - {x: -22.99181, y: 94.30001}
+      - {x: -41.99181, y: 62.30001}
+      - {x: -42.99181, y: 53.30001}
+      - {x: -32.99181, y: 43.30001}
+      - {x: -36.99181, y: 26.30001}
+      - {x: -45.99181, y: 12.30001}
+      - {x: -52.99181, y: -11.69999}
+      - {x: -58.99181, y: -11.69999}
+      - {x: -64.99181, y: -16.69999}
+      - {x: -65.99181, y: -17.69999}
+      - {x: -65.99181, y: -24.69999}
+      - {x: -63.99181, y: -29.69999}
+      - {x: -53.99181, y: -39.69999}
+      - {x: -46.99181, y: -61.69999}
+      - {x: -37.99181, y: -69.69999}
+      - {x: -55.99181, y: -84.69999}
+      - {x: -50.99181, y: -95.7}
+      - {x: -36.99181, y: -95.7}
+      - {x: -32.99181, y: -97.69999}
+      - {x: -23.99181, y: -97.69999}
+      - {x: -19.99181, y: -94.69999}
+      - {x: -10.99181, y: -97.69999}
+      - {x: -7.991806, y: -97.69999}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: characters/ika_leah
+  assetBundleVariant: 

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc98509c7d1942144474dc7012480f9b, type: 3}
+  m_Name: "CurryCrab"
+  m_EditorClassIdentifier: 
+  name: "CurryCrab"
+  IsMultiplayerBot: 1
+  MinimumWinsForPlay: 2
+  Country: 79
+  PlayerPoints: 486
+  BattlePoints: 689
+  Wins: 38
+  Losses: 3
+  Draws: 0
+  highScore: 15411
+  FavoriteCharacter: 35
+  IsAdventureModeBot: 0
+  AdventureModeLevel: 1
+  IsXtremeModeBot: 0
+  XtremeModeCharacter: 0
+  SkillSettings:
+    ReactionSpeed: 5
+    Intelligence_Factor: 8
+    Pop_Ability: 8
+    Bridge_Combo_Ability: 3
+    Rebound_Ability: 6
+    Rebound_Bias: 6
+    Rebound_Counter_Ability: 6
+    RevengeSuperOffensiveOrientation: 0
+    RevengeSuperDefensiveOrientation: 6

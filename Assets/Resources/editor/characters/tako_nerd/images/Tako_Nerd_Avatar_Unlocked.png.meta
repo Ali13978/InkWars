@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 2a9d475553f743509f5a6774b121ef5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Unlocked_Tako_Nerd
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 22.45614
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Unlocked_Tako_Nerd
+      rect:
+        serializedVersion: 2
+        x: 56.02675
+        y: 12.02675
+        width: 134.8971
+        height: 151.9303
+      alignment: 9
+      pivot: {x: 0.5335418, y: 0.5357113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67.47531, y: -35.07438}
+        - {x: -67.47531, y: 40.92562}
+        - {x: -39.47531, y: -76.07437}
+      - - {x: -57.4753, y: 75.92562}
+        - {x: -39.47531, y: -76.07437}
+        - {x: -67.47531, y: 40.92562}
+      - - {x: 54.52468, y: 75.92562}
+        - {x: -39.47531, y: -76.07437}
+        - {x: -57.4753, y: 75.92562}
+      - - {x: 46.52468, y: -76.07437}
+        - {x: -39.47531, y: -76.07437}
+        - {x: 54.52468, y: 75.92562}
+      - - {x: 67.52469, y: -27.07438}
+        - {x: 46.52468, y: -76.07437}
+        - {x: 54.52468, y: 75.92562}
+      - - {x: 67.52469, y: 59.92562}
+        - {x: 67.52469, y: -27.07438}
+        - {x: 54.52468, y: 75.92562}
+      physicsShape:
+      - - {x: 66.52469, y: -7.074371}
+        - {x: 66.52469, y: 25.92563}
+        - {x: 57.52468, y: 43.92563}
+        - {x: 54.52469, y: 51.92563}
+        - {x: 32.52469, y: 67.92563}
+        - {x: 5.524689, y: 74.92563}
+        - {x: -8.475311, y: 74.92563}
+        - {x: -35.47531, y: 64.92563}
+        - {x: -41.47531, y: 59.92563}
+        - {x: -52.47531, y: 41.92563}
+        - {x: -57.47531, y: 29.92563}
+        - {x: -61.47531, y: 15.92563}
+        - {x: -60.47531, y: -5.074371}
+        - {x: -66.47531, y: -12.07437}
+        - {x: -66.47531, y: -32.07437}
+        - {x: -55.47531, y: -40.07437}
+        - {x: -46.47531, y: -46.07437}
+        - {x: -40.47531, y: -52.07437}
+        - {x: -31.47531, y: -70.07437}
+        - {x: -27.47531, y: -75.07437}
+        - {x: 31.52469, y: -75.07437}
+        - {x: 34.52469, y: -73.07437}
+        - {x: 37.52469, y: -70.07437}
+        - {x: 51.52469, y: -50.07437}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Unlocked_Tako_Nerd: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: characters/tako_nerd
+  assetBundleVariant: 

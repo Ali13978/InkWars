@@ -1,0 +1,911 @@
+fileFormatVersion: 2
+guid: 8ad6772fe52c442f9da0c21e867e4ac1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Prize Match Mode - Sprite Sheet 03_0
+  - first:
+      213: 21300002
+    second: Prize Match Mode - Add Or Sell GGP
+  - first:
+      213: 21300004
+    second: Suponic - Token Counter
+  - first:
+      213: 21300006
+    second: Top bar ggp
+  - first:
+      213: 21300008
+    second: Top bar normal
+  - first:
+      213: 21300010
+    second: Normal public button
+  - first:
+      213: 21300012
+    second: Normal private button
+  - first:
+      213: 21300014
+    second: ggp private button
+  - first:
+      213: 21300016
+    second: ggp public button
+  - first:
+      213: 21300018
+    second: ggp single coin
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ggp public button
+      rect:
+        serializedVersion: 2
+        x: 48.07612
+        y: 216
+        width: 571.9239
+        height: 486
+      alignment: 9
+      pivot: {x: 0.4999335, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -286.0381, y: -210}
+        - {x: -286.0381, y: 243}
+        - {x: -251.0381, y: -243}
+      - - {x: 285.9619, y: 243}
+        - {x: -251.0381, y: -243}
+        - {x: -286.0381, y: 243}
+      - - {x: 285.9619, y: -243}
+        - {x: -251.0381, y: -243}
+        - {x: 285.9619, y: 243}
+      physicsShape:
+      - - {x: 285.9619, y: -178}
+        - {x: 285.9619, y: 173}
+        - {x: 283.9619, y: 186}
+        - {x: 269.9619, y: 212}
+        - {x: 246.9619, y: 233}
+        - {x: 222.9619, y: 243}
+        - {x: -224.0381, y: 243}
+        - {x: -245.0381, y: 234}
+        - {x: -273.0381, y: 207}
+        - {x: -284.0381, y: 183}
+        - {x: -286.0381, y: 173}
+        - {x: -286.0381, y: -172}
+        - {x: -284.0381, y: -187}
+        - {x: -276.0381, y: -208}
+        - {x: -269.0381, y: -214}
+        - {x: -249.0381, y: -233}
+        - {x: -232.0381, y: -241}
+        - {x: -217.038, y: -243}
+        - {x: 227.9619, y: -243}
+        - {x: 258.9619, y: -230}
+        - {x: 280.9619, y: -200}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suponic - Token Counter
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 41
+        width: 706
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -353, y: -76}
+        - {x: -353, y: 76}
+        - {x: 340, y: -76}
+      - - {x: 321, y: 76}
+        - {x: 340, y: -76}
+        - {x: -353, y: 76}
+      - - {x: 353, y: 56}
+        - {x: 340, y: -76}
+        - {x: 321, y: 76}
+      - - {x: 353, y: -55}
+        - {x: 340, y: -76}
+        - {x: 353, y: 56}
+      physicsShape:
+      - - {x: 353, y: -6}
+        - {x: 353, y: 26}
+        - {x: 345, y: 46}
+        - {x: 325, y: 66.99999}
+        - {x: 303, y: 76}
+        - {x: 264, y: 76}
+        - {x: 257, y: 70}
+        - {x: -317, y: 70}
+        - {x: -323, y: 72}
+        - {x: -345, y: 56}
+        - {x: -349, y: 40}
+        - {x: -349, y: -43}
+        - {x: -337, y: -62}
+        - {x: -322, y: -68}
+        - {x: -316, y: -70}
+        - {x: 269, y: -70}
+        - {x: 269, y: -71}
+        - {x: 293, y: -71}
+        - {x: 324, y: -54}
+        - {x: 340, y: -38}
+        - {x: 350, y: -20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top bar ggp
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 797
+        width: 198
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -99, y: -290}
+        - {x: -99, y: 211}
+        - {x: 99, y: -290}
+      - - {x: -69, y: 249}
+        - {x: 99, y: -290}
+        - {x: -99, y: 211}
+      - - {x: 43, y: 290}
+        - {x: 99, y: -290}
+        - {x: -69, y: 249}
+      - - {x: 99, y: 290}
+        - {x: 99, y: -290}
+        - {x: 43, y: 290}
+      physicsShape:
+      - - {x: 98.99999, y: 286}
+        - {x: 90, y: 290}
+        - {x: 55, y: 290}
+        - {x: 29, y: 281}
+        - {x: -68, y: 240}
+        - {x: -91, y: 217}
+        - {x: -98.99999, y: 195}
+        - {x: -98.99999, y: -289}
+        - {x: -97.99999, y: -290}
+        - {x: 98.99999, y: -290}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Normal private button
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 729.0761
+        width: 571
+        height: 485.9239
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4999217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -285.5, y: -217.0381}
+        - {x: -285.5, y: 242.9619}
+        - {x: -236.5, y: -243.0381}
+      - - {x: 285.5, y: 242.9619}
+        - {x: -236.5, y: -243.0381}
+        - {x: -285.5, y: 242.9619}
+      - - {x: 285.5, y: -243.0381}
+        - {x: -236.5, y: -243.0381}
+        - {x: 285.5, y: 242.9619}
+      physicsShape:
+      - - {x: 285.5, y: -187.0381}
+        - {x: 285.5, y: 175.9619}
+        - {x: 284.5, y: 184.9619}
+        - {x: 276.5, y: 204.9619}
+        - {x: 258.5, y: 222.9619}
+        - {x: 237.5, y: 237.9619}
+        - {x: 221.5, y: 242.9619}
+        - {x: -226.5, y: 242.9619}
+        - {x: -242.5, y: 235.9619}
+        - {x: -248.5, y: 230.9619}
+        - {x: -272.5, y: 206.9619}
+        - {x: -280.5, y: 189.9619}
+        - {x: -284.5, y: 176.9619}
+        - {x: -285.5, y: 169.9619}
+        - {x: -285.5, y: -184.038}
+        - {x: -273.5, y: -211.038}
+        - {x: -253.5, y: -231.0381}
+        - {x: -225.5, y: -243.038}
+        - {x: 215.5, y: -243.038}
+        - {x: 230.5, y: -241.038}
+        - {x: 248.5, y: -233.0381}
+        - {x: 272.5, y: -216.038}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top bar normal
+      rect:
+        serializedVersion: 2
+        x: 1228.076
+        y: 202
+        width: 199.8477
+        height: 577.9239
+      alignment: 9
+      pivot: {x: 0.4974979, y: 0.500931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: -273.9619}
+        - {x: -100, y: 289.0381}
+        - {x: 5.999954, y: -288.9619}
+      - - {x: 97.99995, y: 289.0381}
+        - {x: 5.999954, y: -288.9619}
+        - {x: -100, y: 289.0381}
+      - - {x: 99.99995, y: -288.9619}
+        - {x: 5.999954, y: -288.9619}
+        - {x: 97.99995, y: 289.0381}
+      - - {x: 99.99995, y: 287.0381}
+        - {x: 99.99995, y: -288.9619}
+        - {x: 97.99995, y: 289.0381}
+      physicsShape:
+      - - {x: 98.99995, y: 272.0381}
+        - {x: 99.99995, y: 273.0381}
+        - {x: 99.99995, y: 286.0381}
+        - {x: 97.99995, y: 288.0381}
+        - {x: -82.00005, y: 289.0381}
+        - {x: -97.00005, y: 289.0381}
+        - {x: -99.00004, y: 287.0381}
+        - {x: -99.00004, y: -184.9619}
+        - {x: -98.00005, y: -190.9619}
+        - {x: -95.00005, y: -202.9619}
+        - {x: -85.00005, y: -220.9619}
+        - {x: -68.00005, y: -237.9619}
+        - {x: -48.00005, y: -245.9619}
+        - {x: 51.99995, y: -287.9619}
+        - {x: 96.99995, y: -287.9619}
+        - {x: 99.99995, y: -279.9619}
+        - {x: 99.99995, y: -272.9619}
+        - {x: 98.99995, y: -272.9619}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggp private button
+      rect:
+        serializedVersion: 2
+        x: 637.0761
+        y: 216.0761
+        width: 571.9239
+        height: 485.9239
+      alignment: 9
+      pivot: {x: 0.4999335, y: 0.4999216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -286.0381, y: -243.0381}
+        - {x: -286.0381, y: 236.9619}
+        - {x: 285.9619, y: -243.0381}
+      - - {x: -277.0381, y: 242.9619}
+        - {x: 285.9619, y: -243.0381}
+        - {x: -286.0381, y: 236.9619}
+      - - {x: 285.9619, y: 242.9619}
+        - {x: 285.9619, y: -243.0381}
+        - {x: -277.0381, y: 242.9619}
+      physicsShape:
+      - - {x: 278.9619, y: -205.0381}
+        - {x: 285.9619, y: -184.0381}
+        - {x: 285.9619, y: 177.9619}
+        - {x: 282.9619, y: 190.9619}
+        - {x: 270.9619, y: 210.9619}
+        - {x: 245.9619, y: 232.9619}
+        - {x: 228.9619, y: 241.9619}
+        - {x: 224.9619, y: 242.9619}
+        - {x: -224.0381, y: 242.9619}
+        - {x: -232.0381, y: 240.9619}
+        - {x: -244.0381, y: 234.9619}
+        - {x: -270.0381, y: 209.9619}
+        - {x: -277.0381, y: 197.9619}
+        - {x: -283.0381, y: 180.9619}
+        - {x: -285.0381, y: 175.9619}
+        - {x: -285.0381, y: -181.0381}
+        - {x: -279.0381, y: -202.0381}
+        - {x: -252.0381, y: -233.0381}
+        - {x: -230.0381, y: -241.0381}
+        - {x: -213.038, y: -243.0381}
+        - {x: 214.9619, y: -243.0381}
+        - {x: 221.9619, y: -242.0381}
+        - {x: 239.9619, y: -238.0381}
+        - {x: 251.9619, y: -232.0381}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ggp single coin
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1437
+        width: 224
+        height: 227.9871
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112, y: -96.99355}
+        - {x: -112, y: 69.00645}
+        - {x: -109, y: -109.9935}
+      - - {x: -53, y: 114.0065}
+        - {x: -109, y: -109.9935}
+        - {x: -112, y: 69.00645}
+      - - {x: -92, y: -113.9935}
+        - {x: -109, y: -109.9935}
+        - {x: -53, y: 114.0065}
+      - - {x: 75, y: -113.9935}
+        - {x: -92, y: -113.9935}
+        - {x: -53, y: 114.0065}
+      - - {x: 102, y: 114.0065}
+        - {x: 75, y: -113.9935}
+        - {x: -53, y: 114.0065}
+      - - {x: 112, y: -87.99355}
+        - {x: 75, y: -113.9935}
+        - {x: 102, y: 114.0065}
+      - - {x: 112, y: 76.00645}
+        - {x: 112, y: -87.99355}
+        - {x: 102, y: 114.0065}
+      physicsShape:
+      - - {x: 72.99999, y: -65.99355}
+        - {x: 88, y: -49.99355}
+        - {x: 96, y: -34.99355}
+        - {x: 101, y: -19.99354}
+        - {x: 105, y: -4.993545}
+        - {x: 105, y: 23.00645}
+        - {x: 98.99999, y: 46.00645}
+        - {x: 95, y: 56.00645}
+        - {x: 85.99999, y: 71.00645}
+        - {x: 70, y: 87.00645}
+        - {x: 61, y: 95.00645}
+        - {x: 50, y: 101.0065}
+        - {x: 45, y: 105.0064}
+        - {x: 26, y: 111.0065}
+        - {x: 20, y: 112.0065}
+        - {x: -16, y: 112.0065}
+        - {x: -34, y: 106.0064}
+        - {x: -45, y: 101.0065}
+        - {x: -57, y: 94.00645}
+        - {x: -69, y: 84.00645}
+        - {x: -79, y: 74.00645}
+        - {x: -84, y: 66.00645}
+        - {x: -97, y: 39.00645}
+        - {x: -100, y: 23.00645}
+        - {x: -100, y: -6.993546}
+        - {x: -94, y: -26.99354}
+        - {x: -87, y: -41.99355}
+        - {x: -84, y: -46.99355}
+        - {x: -72.99999, y: -60.99355}
+        - {x: -66, y: -67.99355}
+        - {x: -54, y: -76.99355}
+        - {x: -43, y: -82.99355}
+        - {x: -27, y: -88.99355}
+        - {x: -9, y: -92.99355}
+        - {x: 18, y: -92.99355}
+        - {x: 32, y: -88.99355}
+        - {x: 48, y: -82.99355}
+        - {x: 62, y: -74.99355}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Normal public button
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 729.0761
+        width: 571.9239
+        height: 486.8478
+      alignment: 9
+      pivot: {x: 0.5000665, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -285.9619, y: -243.5}
+        - {x: -285.9619, y: 232.5}
+        - {x: 286.0381, y: -243.5}
+      - - {x: -279.9619, y: 243.5}
+        - {x: 286.0381, y: -243.5}
+        - {x: -285.9619, y: 232.5}
+      - - {x: 280.0381, y: 243.5}
+        - {x: 286.0381, y: -243.5}
+        - {x: -279.9619, y: 243.5}
+      - - {x: 286.0381, y: 207.5}
+        - {x: 286.0381, y: -243.5}
+        - {x: 280.0381, y: 243.5}
+      physicsShape:
+      - - {x: 283.0381, y: -186.5}
+        - {x: 285.0381, y: -177.5}
+        - {x: 285.0381, y: 179.5}
+        - {x: 276.0381, y: 201.5}
+        - {x: 260.0381, y: 219.5}
+        - {x: 246.0381, y: 231.5}
+        - {x: 224.0381, y: 242.5}
+        - {x: 219.0381, y: 243.5}
+        - {x: -215.9619, y: 243.5}
+        - {x: -221.9619, y: 242.5}
+        - {x: -236.9619, y: 241.5}
+        - {x: -269.9619, y: 213.5}
+        - {x: -282.9619, y: 191.5}
+        - {x: -285.9619, y: 176.5}
+        - {x: -285.9619, y: -182.5}
+        - {x: -282.9619, y: -195.5}
+        - {x: -261.9619, y: -227.5}
+        - {x: -230.9619, y: -242.5}
+        - {x: -213.9619, y: -243.5}
+        - {x: 213.038, y: -243.5}
+        - {x: 230.0381, y: -241.5}
+        - {x: 255.0381, y: -230.5}
+        - {x: 276.0381, y: -205.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prize Match Mode - Add Or Sell GGP
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1437
+        width: 366
+        height: 287
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -83.5}
+        - {x: -24, y: -82.5}
+        - {x: -23, y: -85.5}
+      - - {x: -10, y: -99.5}
+        - {x: -15, y: -94.5}
+        - {x: -10, y: -97.5}
+      - - {x: -28, y: -86.5}
+        - {x: -27, y: -87.5}
+        - {x: -149, y: -143.5}
+      - - {x: -23, y: -90.5}
+        - {x: -149, y: -143.5}
+        - {x: -27, y: -87.5}
+      - - {x: -10, y: -99.5}
+        - {x: -149, y: -143.5}
+        - {x: -23, y: -90.5}
+      - - {x: 126, y: -143.5}
+        - {x: -149, y: -143.5}
+        - {x: -10, y: -99.5}
+      - - {x: -20, y: -92.5}
+        - {x: -10, y: -99.5}
+        - {x: -23, y: -90.5}
+      - - {x: -15, y: -94.5}
+        - {x: -10, y: -99.5}
+        - {x: -20, y: -92.5}
+      - - {x: -10, y: -97.5}
+        - {x: 126, y: -143.5}
+        - {x: -10, y: -99.5}
+      - - {x: -183, y: -65.5}
+        - {x: -183, y: 143.5}
+        - {x: -149, y: -143.5}
+      - - {x: 169, y: 143.5}
+        - {x: -149, y: -143.5}
+        - {x: -183, y: 143.5}
+      - - {x: -25, y: -82.5}
+        - {x: -149, y: -143.5}
+        - {x: 169, y: 143.5}
+      - - {x: -28, y: -86.5}
+        - {x: -149, y: -143.5}
+        - {x: -25, y: -82.5}
+      - - {x: -24, y: -82.5}
+        - {x: -25, y: -82.5}
+        - {x: 169, y: 143.5}
+      - - {x: -23, y: -85.5}
+        - {x: -24, y: -82.5}
+        - {x: 169, y: 143.5}
+      - - {x: -21, y: -89.5}
+        - {x: -23, y: -85.5}
+        - {x: 169, y: 143.5}
+      - - {x: -18, y: -92.5}
+        - {x: -21, y: -89.5}
+        - {x: 169, y: 143.5}
+      - - {x: -15, y: -94.5}
+        - {x: -18, y: -92.5}
+        - {x: 169, y: 143.5}
+      - - {x: -10, y: -97.5}
+        - {x: -15, y: -94.5}
+        - {x: 169, y: 143.5}
+      - - {x: 126, y: -143.5}
+        - {x: -10, y: -97.5}
+        - {x: 169, y: 143.5}
+      - - {x: 183, y: -102.5}
+        - {x: 126, y: -143.5}
+        - {x: 169, y: 143.5}
+      - - {x: 183, y: 140.5}
+        - {x: 183, y: -102.5}
+        - {x: 169, y: 143.5}
+      - - {x: -25, y: -83.5}
+        - {x: -25, y: -82.5}
+        - {x: -24, y: -82.5}
+      - - {x: -28, y: -86.5}
+        - {x: -25, y: -82.5}
+        - {x: -25, y: -83.5}
+      physicsShape:
+      - - {x: 113, y: -128.5}
+        - {x: 130, y: -120.5}
+        - {x: 143, y: -112.5}
+        - {x: 162, y: -93.5}
+        - {x: 172, y: -78.5}
+        - {x: 180, y: -60.5}
+        - {x: 183, y: -45.5}
+        - {x: 183, y: 8.5}
+        - {x: 182, y: 17.5}
+        - {x: 172, y: 39.5}
+        - {x: 161, y: 55.5}
+        - {x: 141, y: 75.5}
+        - {x: 112, y: 91.5}
+        - {x: 84, y: 96.5}
+        - {x: 71, y: 95.5}
+        - {x: 69, y: 120.5}
+        - {x: 54, y: 120.5}
+        - {x: 47, y: 118.5}
+        - {x: 36, y: 120.5}
+        - {x: 16, y: 120.5}
+        - {x: 4, y: 117.5}
+        - {x: -8, y: 103.5}
+        - {x: 14, y: 98.49999}
+        - {x: 28, y: 92.49999}
+        - {x: 25, y: 80.5}
+        - {x: 9, y: 72.5}
+        - {x: 1, y: 66.5}
+        - {x: -22, y: 41.5}
+        - {x: -28, y: 31.5}
+        - {x: -41, y: 1.5}
+        - {x: -41, y: -41.5}
+        - {x: -36, y: -57.5}
+        - {x: -26, y: -78.5}
+        - {x: -19, y: -89.5}
+        - {x: -19, y: -102.5}
+        - {x: -40, y: -88.5}
+        - {x: -31, y: -75.5}
+        - {x: -30, y: -71.5}
+        - {x: -34, y: -62.5}
+        - {x: -37, y: -62.5}
+        - {x: -91.99999, y: -61.5}
+        - {x: -94, y: -62.5}
+        - {x: -95, y: -83.5}
+        - {x: -95, y: -124.5}
+        - {x: -91.99999, y: -128.5}
+        - {x: -85.99999, y: -128.5}
+        - {x: -70, y: -119.5}
+        - {x: -47, y: -130.5}
+        - {x: -38, y: -131.5}
+        - {x: -16, y: -132.5}
+        - {x: 8, y: -125.5}
+        - {x: 32, y: -128.5}
+        - {x: 41, y: -132.5}
+        - {x: 58, y: -135.5}
+        - {x: 84, y: -135.5}
+        - {x: 91, y: -134.5}
+        - {x: 100, y: -132.5}
+        - {x: 104, y: -131.5}
+        - {x: -50, y: -26.5}
+        - {x: -50, y: -12.5}
+        - {x: -47, y: 7.5}
+        - {x: -40, y: 28.5}
+        - {x: -32, y: 43.5}
+        - {x: -9, y: 70.5}
+        - {x: 2, y: 82.5}
+        - {x: 2, y: 88.5}
+        - {x: -8, y: 103.5}
+        - {x: -28, y: 122.5}
+        - {x: -51, y: 133.5}
+        - {x: -60, y: 134.5}
+        - {x: -72, y: 136.5}
+        - {x: -93, y: 136.5}
+        - {x: -115, y: 130.5}
+        - {x: -135, y: 118.5}
+        - {x: -147, y: 107.5}
+        - {x: -166, y: 84.5}
+        - {x: -175, y: 57.5}
+        - {x: -176, y: 46.5}
+        - {x: -176, y: 26.5}
+        - {x: -174, y: 16.5}
+        - {x: -172, y: 8.5}
+        - {x: -170, y: -0.5}
+        - {x: -160, y: -18.5}
+        - {x: -137, y: -40.5}
+        - {x: -131, y: -44.5}
+        - {x: -113, y: -52.5}
+        - {x: -103, y: -55.5}
+        - {x: -89, y: -57.5}
+        - {x: -85.99999, y: -57.5}
+        - {x: -68, y: -56.5}
+        - {x: -55, y: -53.5}
+        - {x: -48, y: -50.5}
+        - {x: -47, y: -44.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prize Match Mode - Sprite Sheet 03_0
+      rect:
+        serializedVersion: 2
+        x: 40.07612
+        y: 1736
+        width: 364.911
+        height: 278.9239
+      alignment: 9
+      pivot: {x: 0.4958028, y: 0.5162699}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -182.5316, y: -105.4619}
+        - {x: -182.5316, y: 139.5381}
+        - {x: -92.5316, y: -139.4619}
+      - - {x: 168.4684, y: 139.5381}
+        - {x: -92.5316, y: -139.4619}
+        - {x: -182.5316, y: 139.5381}
+      - - {x: 113.4684, y: -139.4619}
+        - {x: -92.5316, y: -139.4619}
+        - {x: 168.4684, y: 139.5381}
+      - - {x: 182.4684, y: -84.46194}
+        - {x: 113.4684, y: -139.4619}
+        - {x: 168.4684, y: 139.5381}
+      - - {x: 182.4684, y: 85.53806}
+        - {x: 182.4684, y: -84.46194}
+        - {x: 168.4684, y: 139.5381}
+      physicsShape:
+      - - {x: 77.4684, y: -75.46194}
+        - {x: 98.4684, y: -80.46194}
+        - {x: 116.4684, y: -79.46194}
+        - {x: 127.4684, y: -76.46194}
+        - {x: 146.4684, y: -66.46194}
+        - {x: 161.4684, y: -47.46194}
+        - {x: 170.4684, y: -28.46194}
+        - {x: 173.4684, y: -12.46194}
+        - {x: 173.4684, y: 8.538055}
+        - {x: 166.4684, y: 29.53806}
+        - {x: 161.4684, y: 35.53806}
+        - {x: 147.4684, y: 50.53805}
+        - {x: 129.4684, y: 62.53806}
+        - {x: 129.4684, y: 85.53806}
+        - {x: 125.4684, y: 101.5381}
+        - {x: 119.4684, y: 114.5381}
+        - {x: 108.4684, y: 127.5381}
+        - {x: 92.4684, y: 136.5381}
+        - {x: 79.4684, y: 138.538}
+        - {x: 57.4684, y: 138.538}
+        - {x: 46.4684, y: 134.5381}
+        - {x: 34.4684, y: 125.538}
+        - {x: 23.4684, y: 113.5381}
+        - {x: 18.4684, y: 104.5381}
+        - {x: 8.468398, y: 110.538}
+        - {x: -5.531601, y: 113.5381}
+        - {x: -31.5316, y: 112.538}
+        - {x: -39.5316, y: 109.538}
+        - {x: -59.5316, y: 128.5381}
+        - {x: -76.5316, y: 135.5381}
+        - {x: -86.5316, y: 138.538}
+        - {x: -88.5316, y: 138.538}
+        - {x: -105.5316, y: 136.5381}
+        - {x: -112.5316, y: 134.5381}
+        - {x: -117.5316, y: 132.5381}
+        - {x: -129.5316, y: 125.538}
+        - {x: -146.5316, y: 106.5381}
+        - {x: -151.5316, y: 93.53806}
+        - {x: -151.5316, y: 61.53806}
+        - {x: -145.5316, y: 44.53805}
+        - {x: -151.5316, y: 39.53806}
+        - {x: -161.5316, y: 30.53806}
+        - {x: -172.5316, y: 9.538055}
+        - {x: -173.5316, y: 2.538055}
+        - {x: -173.5316, y: -28.46194}
+        - {x: -169.5316, y: -43.46194}
+        - {x: -159.5316, y: -59.46194}
+        - {x: -145.5316, y: -72.46194}
+        - {x: -140.5316, y: -77.46194}
+        - {x: -123.5316, y: -84.46194}
+        - {x: -114.5316, y: -86.46194}
+        - {x: -88.5316, y: -85.46194}
+        - {x: -77.5316, y: -93.46194}
+        - {x: -69.5316, y: -106.4619}
+        - {x: -53.5316, y: -121.4619}
+        - {x: -29.5316, y: -133.4619}
+        - {x: -17.5316, y: -135.4619}
+        - {x: 10.4684, y: -135.4619}
+        - {x: 33.4684, y: -128.4619}
+        - {x: 48.4684, y: -118.4619}
+        - {x: 64.4684, y: -101.4619}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Normal private button: 21300012
+      Normal public button: 21300010
+      Prize Match Mode - Add Or Sell GGP: 21300002
+      Prize Match Mode - Sprite Sheet 03_0: 21300000
+      Suponic - Token Counter: 21300004
+      Top bar ggp: 21300006
+      Top bar normal: 21300008
+      ggp private button: 21300014
+      ggp public button: 21300016
+      ggp single coin: 21300018
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

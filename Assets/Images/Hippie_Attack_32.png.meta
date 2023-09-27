@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: 56a291feb05c4eb2a28097203b221f3b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Hippie_Attack_32
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline:
+    - - {x: -106.5, y: -57.78831}
+      - {x: -106.5, y: -29.78831}
+      - {x: -50.50001, y: -82.78831}
+    - - {x: -73.50001, y: 67.21169}
+      - {x: -50.50001, y: -82.78831}
+      - {x: -106.5, y: -29.78831}
+    - - {x: -50.50001, y: 82.21169}
+      - {x: -50.50001, y: -82.78831}
+      - {x: -73.50001, y: 67.21169}
+    - - {x: 48.49999, y: -82.78831}
+      - {x: -50.50001, y: -82.78831}
+      - {x: -50.50001, y: 82.21169}
+    - - {x: 39.49999, y: 82.21169}
+      - {x: 48.49999, y: -82.78831}
+      - {x: -50.50001, y: 82.21169}
+    - - {x: 78.49999, y: 45.21169}
+      - {x: 48.49999, y: -82.78831}
+      - {x: 39.49999, y: 82.21169}
+    - - {x: 106.5, y: -48.78831}
+      - {x: 48.49999, y: -82.78831}
+      - {x: 78.49999, y: 45.21169}
+    - - {x: 106.5, y: -26.78831}
+      - {x: 106.5, y: -48.78831}
+      - {x: 78.49999, y: 45.21169}
+    physicsShape:
+    - - {x: 48.5, y: -73.78831}
+      - {x: 72.49999, y: -65.78831}
+      - {x: 83.49999, y: -54.78831}
+      - {x: 91.49999, y: -49.78831}
+      - {x: 103.5, y: -42.78831}
+      - {x: 103.5, y: -27.78831}
+      - {x: 81.49999, y: -26.78831}
+      - {x: 86.49999, y: -21.78831}
+      - {x: 86.49999, y: -16.78831}
+      - {x: 80.5, y: -11.78831}
+      - {x: 62.49999, y: -16.78831}
+      - {x: 57.49999, y: -13.78831}
+      - {x: 58.5, y: 4.211693}
+      - {x: 63.49999, y: 39.21169}
+      - {x: 54.49999, y: 53.21169}
+      - {x: 37.49999, y: 67.21169}
+      - {x: 23.49999, y: 74.21169}
+      - {x: 3.499992, y: 80.21169}
+      - {x: -16.50001, y: 80.21169}
+      - {x: -36.50001, y: 78.21169}
+      - {x: -46.50001, y: 75.21169}
+      - {x: -54.50001, y: 65.21169}
+      - {x: -58.50001, y: 25.21169}
+      - {x: -64.50001, y: 18.21169}
+      - {x: -66.50001, y: 4.211693}
+      - {x: -87.50002, y: -5.788307}
+      - {x: -93.50001, y: -14.78831}
+      - {x: -83.50001, y: -21.78831}
+      - {x: -96.50001, y: -30.78831}
+      - {x: -104.5, y: -40.78831}
+      - {x: -104.5, y: -45.78831}
+      - {x: -99.50001, y: -47.78831}
+      - {x: -77.50001, y: -53.78831}
+      - {x: -74.50001, y: -62.78831}
+      - {x: -52.50001, y: -72.78831}
+      - {x: -40.50001, y: -79.78831}
+      - {x: -34.50001, y: -80.78831}
+      - {x: -24.50001, y: -80.78831}
+      - {x: -9.500008, y: -77.78831}
+      - {x: 11.49999, y: -66.78831}
+      - {x: 34.49999, y: -74.78831}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: characters/tako_hippie
+  assetBundleVariant: 

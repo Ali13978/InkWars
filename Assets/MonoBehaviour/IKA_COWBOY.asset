@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca29afc2503494b174fc63f33ebf71b7, type: 3}
+  m_Name: "IKA_COWBOY"
+  m_EditorClassIdentifier: 
+  characterId: 4
+  version: "1.1.5.86"
+  type: 7
+  status:
+    attack: 3
+    defence: 1
+    speed: 4
+  unlockType: 2
+  iapId: 0
+  realPersonCharacter: 0
+  nameStyle: 1
+  animationOffset: {x: 10, y: 0}
+  scale: 0.9
+  relatedStage: 955879331
+  revengeSuperAvatarLocation: {x: 54, y: -96, z: 346.5}
+  revengeSuperAvatarScale: {x: 1, y: 1}
+  AnimDurations: 
+  - 0.325
+  - 0.8000001
+  - 1
+  - 0.5
+  - 0
+  - 1.7
+  - 0
+  - 0.6
+  - 1
+  - 0
+  - 1
+  - 1.3
+  - 0.2
+  - 0.2
+  - 0
+  - 0
+  - 0.4285715
+  inStorePriority: 0
+  virtualPrice:
+    currentCryptoKey: 444444
+    hiddenValue: 444444
+    fakeValue: 0
+    inited: 1
+  virtualCurrency: 1
+  superMeterGainRateFactor: 1.3
+  middleSuper: 9
+  BestSuited_ReboundStopper: 1
+  BestSuited_RapidRainbow: 4
+  BestSuited_StunEnhancer: 4
+  BestSuited_DisposalMeterGainer: 2
+  BestSuited_SuperMeterSealer: 5
+  BestSuited_StunBreakDisabler: 5
+  WorstAgainst_ReboundStopper: 5
+  WorstAgainst_RapidRainbow: 5
+  WorstAgainst_StunEnhancer: 4
+  WorstAgainst_DisposalMeterGainer: 4
+  WorstAgainst_SuperMeterSealer: 5
+  WorstAgainst_StunBreakDisabler: 4

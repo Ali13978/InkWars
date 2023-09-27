@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "DRAW"
+  m_EditorClassIdentifier: 
+  characterName: 42
+  animationName: 7
+  speed: 1
+  frameEndType: 1
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: 7530933a55b84940b545a55fd56f8273, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 7e3e934275604157b98dcb56fd510c4a, type: 3}
+    duration: 0.1
+    timeFromStart: 0.1
+  - sprite: {fileID: 21300000, guid: 0f9b3a6948b641a089f6842cd63e7d52, type: 3}
+    duration: 0.1
+    timeFromStart: 0.2
+  - sprite: {fileID: 21300000, guid: d5696d5ccebf45419c5c9fe79c907690, type: 3}
+    duration: 0.1
+    timeFromStart: 0.3
+  - sprite: {fileID: 21300000, guid: 1809c6d621bd4051a8846063ca8899b8, type: 3}
+    duration: 0.1
+    timeFromStart: 0.4
+  - sprite: {fileID: 21300000, guid: e0a9d994a8364f1a90ecfbb9e7e248fa, type: 3}
+    duration: 0.1
+    timeFromStart: 0.5
+  - sprite: {fileID: 21300000, guid: afd28fb67b234aef9370d246dbc7c64d, type: 3}
+    duration: 0.1
+    timeFromStart: 0.6
+  fxFrameData: []
+  holdLastFX: 0

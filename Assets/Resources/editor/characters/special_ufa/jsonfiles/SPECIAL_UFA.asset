@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca29afc2503494b174fc63f33ebf71b7, type: 3}
+  m_Name: "SPECIAL_UFA"
+  m_EditorClassIdentifier: 
+  characterId: 27
+  version: "1.1.5.86"
+  type: 999
+  status:
+    attack: 1
+    defence: 1
+    speed: 1
+  unlockType: 0
+  iapId: 0
+  realPersonCharacter: 0
+  nameStyle: 2
+  animationOffset: {x: -6, y: 54}
+  scale: 1
+  relatedStage: 0
+  revengeSuperAvatarLocation: {x: 0, y: 0, z: 0}
+  revengeSuperAvatarScale: {x: 1, y: 1}
+  AnimDurations: 
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0.375
+  - 0
+  - 0
+  - 0
+  - 0.2
+  - 0.375
+  - 0
+  - 0
+  - 0
+  inStorePriority: 0
+  virtualPrice:
+    currentCryptoKey: 444444
+    hiddenValue: 444444
+    fakeValue: 0
+    inited: 1
+  virtualCurrency: 1
+  superMeterGainRateFactor: 1
+  middleSuper: 9
+  BestSuited_ReboundStopper: 0
+  BestSuited_RapidRainbow: 0
+  BestSuited_StunEnhancer: 0
+  BestSuited_DisposalMeterGainer: 0
+  BestSuited_SuperMeterSealer: 0
+  BestSuited_StunBreakDisabler: 0
+  WorstAgainst_ReboundStopper: 0
+  WorstAgainst_RapidRainbow: 0
+  WorstAgainst_StunEnhancer: 0
+  WorstAgainst_DisposalMeterGainer: 0
+  WorstAgainst_SuperMeterSealer: 0
+  WorstAgainst_StunBreakDisabler: 0

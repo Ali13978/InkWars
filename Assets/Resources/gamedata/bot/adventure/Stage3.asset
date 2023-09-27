@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc98509c7d1942144474dc7012480f9b, type: 3}
+  m_Name: "Stage3"
+  m_EditorClassIdentifier: 
+  name: 
+  IsMultiplayerBot: 0
+  MinimumWinsForPlay: 0
+  Country: 0
+  PlayerPoints: 0
+  BattlePoints: 0
+  Wins: 0
+  Losses: 0
+  Draws: 0
+  highScore: 0
+  FavoriteCharacter: 0
+  IsAdventureModeBot: 1
+  AdventureModeLevel: 3
+  IsXtremeModeBot: 0
+  XtremeModeCharacter: 0
+  SkillSettings:
+    ReactionSpeed: 3
+    Intelligence_Factor: 3
+    Pop_Ability: 7
+    Bridge_Combo_Ability: 2
+    Rebound_Ability: 2
+    Rebound_Bias: 2
+    Rebound_Counter_Ability: 2
+    RevengeSuperOffensiveOrientation: 0
+    RevengeSuperDefensiveOrientation: 0

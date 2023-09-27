@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11460919362c44c631ed21dc46b86beb, type: 3}
+  m_Name: "DynamicMessageUISettings"
+  m_EditorClassIdentifier: 
+  HitComboColorGreen: {r: 0.2313726, g: 0.9882354, b: 0.4392157, a: 0}
+  HitComboColorYellow: {r: 1, g: 0.9254903, b: 0, a: 0}
+  HitComboColorOrange: {r: 0.9725491, g: 0.427451, b: 0, a: 0}
+  HitComboColorRed: {r: 0.9607844, g: 0.1411765, b: 0.4470589, a: 0}
+  ComboTechniquePositive: {r: 0.2862745, g: 1, b: 0.1294118, a: 0}
+  ComboTechniqueNegative: {r: 0.9725491, g: 0.3176471, b: 0.2784314, a: 0}
+  ComboTechniqueSpecial: {r: 0.9921569, g: 0.9176471, b: 0.07058824, a: 0}
+  TimeToFadeOut: 1.5
+  HitCountAnimationInLength: 0.4
+  HitCountAnimationOutLength: 0.4
+  HitCountAnimationEase: 18
+  ReactionAnimationInLength: 0.6
+  ReactionAnimationOutLength: 0.4
+  ReactionAnimationEase: 18
+  TechniqueAnimationInLength: 0.8
+  TechniqueAnimationOutLength: 0.4
+  TechniqueAnimationEase: 18
+  AudioClips:
+  - {fileID: 8300000, guid: dd4b41cbe145463fb4c3b3d4909e90b8, type: 3}
+  - {fileID: 8300000, guid: ab6f23409a8541f59e4c51e090aa7e74, type: 3}
+  - {fileID: 8300000, guid: 6d0d009e383d4ae3b7a537e478ea3488, type: 3}
+  - {fileID: 8300000, guid: d6db740b7253432290e80b6bdfc0f69d, type: 3}
+  - {fileID: 8300000, guid: 303f8c8b8f514aaa95540ed04b2ee41e, type: 3}
+  - {fileID: 8300000, guid: 60ac9026475e48a3911aec85e6409cdd, type: 3}
+  - {fileID: 8300000, guid: 6867d2a22dc548f091a656269ffcb754, type: 3}
+  - {fileID: 8300000, guid: 8075ad6a6620453daff6f90cd3574b4d, type: 3}
+  - {fileID: 8300000, guid: a12e00efa05c406192194d71415d9a0d, type: 3}
+  - {fileID: 8300000, guid: 34645f1526274035a9a424a1d34b33de, type: 3}
+  - {fileID: 8300000, guid: c9c0dd7a740f4fbbb9aeba407339af62, type: 3}
+  - {fileID: 8300000, guid: d41591a28a7546df8974baaebb029e6b, type: 3}
+  - {fileID: 8300000, guid: 815923bb49c44c14924e21bf9a99fc2d, type: 3}
+  - {fileID: 8300000, guid: a550973ec8b341e3acec8e38e91e7b5f, type: 3}
+  - {fileID: 8300000, guid: 04c8d367a3874fcdbe9a44ef92ab2c5b, type: 3}
+  - {fileID: 8300000, guid: d45b92bcc5ce40e28106fcb80db0355d, type: 3}
+  - {fileID: 8300000, guid: 485ddaff3d804f1892aecfc4d99f494d, type: 3}
+  - {fileID: 8300000, guid: b7a50cff40834c2eb93cb852bfb93220, type: 3}

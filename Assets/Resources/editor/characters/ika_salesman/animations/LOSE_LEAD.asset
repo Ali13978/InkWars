@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "LOSE_LEAD"
+  m_EditorClassIdentifier: 
+  characterName: 9
+  animationName: 9
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: 753a925b785e4f0d9e4572152ce27e16, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: ff32889df2c84f1da9b6ca16ee562968, type: 3}
+    duration: 0.1
+    timeFromStart: 0.1
+  - sprite: {fileID: 21300000, guid: c52c647640fe4725ae78b798f624182e, type: 3}
+    duration: 0.1
+    timeFromStart: 0.2
+  - sprite: {fileID: 21300000, guid: 7fbbbb3fafe6453583ac9b673f65892b, type: 3}
+    duration: 0.3
+    timeFromStart: 0.3
+  - sprite: {fileID: 21300000, guid: 2010d288afac420e88e57cd6663c76fc, type: 3}
+    duration: 0.2
+    timeFromStart: 0.6
+  - sprite: {fileID: 21300000, guid: 2010d288afac420e88e57cd6663c76fc, type: 3}
+    duration: 0.2
+    timeFromStart: 0.8
+  fxFrameData:
+  - sprite: {fileID: 21300000, guid: e7ae3114ee754819bfa59cb588fa61a5, type: 3}
+    duration: 0.1
+    timeFromStart: 0.1
+    baseFrameIndex: 1
+  - sprite: {fileID: 21300000, guid: 58ab060a44134e08a228b9d577c00861, type: 3}
+    duration: 0.1
+    timeFromStart: 0.2
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: c21a8e53b3ad4324a7f3ca42c5995646, type: 3}
+    duration: 0.2
+    timeFromStart: 0.3
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: c21a8e53b3ad4324a7f3ca42c5995646, type: 3}
+    duration: 0.1
+    timeFromStart: 0.5
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: c21a8e53b3ad4324a7f3ca42c5995646, type: 3}
+    duration: 0.2
+    timeFromStart: 0.6
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: c21a8e53b3ad4324a7f3ca42c5995646, type: 3}
+    duration: 0.2
+    timeFromStart: 0.8
+    baseFrameIndex: -1
+  holdLastFX: 0

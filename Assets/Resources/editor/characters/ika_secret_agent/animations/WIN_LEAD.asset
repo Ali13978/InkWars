@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "WIN_LEAD"
+  m_EditorClassIdentifier: 
+  characterName: 11
+  animationName: 14
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: e0226c59231643179c366dec97d5f7ee, type: 3}
+    duration: 0.25
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 93dbfd289c63429f8ba0570bfe1e60ed, type: 3}
+    duration: 0.25
+    timeFromStart: 0.25
+  - sprite: {fileID: 21300000, guid: 4efb4f642a6f403b9966d5d284a2b8d4, type: 3}
+    duration: 0.25
+    timeFromStart: 0.5
+  - sprite: {fileID: 21300000, guid: 93dbfd289c63429f8ba0570bfe1e60ed, type: 3}
+    duration: 0.25
+    timeFromStart: 0.75
+  - sprite: {fileID: 21300000, guid: 4efb4f642a6f403b9966d5d284a2b8d4, type: 3}
+    duration: 0.25
+    timeFromStart: 1
+  fxFrameData: []
+  holdLastFX: 0

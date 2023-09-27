@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432cfb5271f85065bf40363cf018a2b5, type: 3}
+  m_Name: "FontSubStyleCollection"
+  m_EditorClassIdentifier: 
+  items:
+  - style: 10
+    fontMaterial: {fileID: 2100000, guid: 973905d74249457d802cb527855de2f0, type: 2}
+  - style: 11
+    fontMaterial: {fileID: 2100000, guid: ef55db2ee39042fb99c029163c7e0b97, type: 2}
+  - style: 12
+    fontMaterial: {fileID: 2100000, guid: fb794cb239914036ac6e498416abacb9, type: 2}
+  - style: 13
+    fontMaterial: {fileID: 2100000, guid: 0b181c0ce6504df99ae23b3c6358ae10, type: 2}
+  - style: 14
+    fontMaterial: {fileID: 2100000, guid: f5a777476eee40dfbed269d48a8cadbd, type: 2}
+  - style: 15
+    fontMaterial: {fileID: 2100000, guid: df274642ecda4b1886dd00776a7b2ed7, type: 2}
+  - style: 16
+    fontMaterial: {fileID: 2100000, guid: b3c194feb7ea4189a89fd61c5f6d4cb0, type: 2}
+  - style: 17
+    fontMaterial: {fileID: 2100000, guid: ba634b266a6b4cf7b7ea883b81c524db, type: 2}
+  - style: 18
+    fontMaterial: {fileID: 2100000, guid: 0ec4a761146845c1b72a221d9336b4d0, type: 2}
+  - style: 19
+    fontMaterial: {fileID: 2100000, guid: 321c15b67eef4581b02bb958e90ab11c, type: 2}
+  - style: 25
+    fontMaterial: {fileID: 2100000, guid: e55d8bdbc3ab49f09dd705e7c2b30f7c, type: 2}
+  presets:
+  - style: 3
+    dilate: 0.2
+    outlineThickness: 0.2
+    outlineColor: {r: 0, g: 0, b: 0, a: 1}
+  - style: 2
+    dilate: 0.1
+    outlineThickness: 0
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  - style: 9
+    dilate: 0.4
+    outlineThickness: 0.3
+    outlineColor: {r: 0.2313726, g: 0.6117647, b: 0.9843137, a: 1}
+  - style: 20
+    dilate: 0.2
+    outlineThickness: 0.2
+    outlineColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  - style: 5
+    dilate: 0.2
+    outlineThickness: 0.2
+    outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  - style: 21
+    dilate: 0
+    outlineThickness: 0.2
+    outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  - style: 23
+    dilate: 0
+    outlineThickness: 0.2
+    outlineColor: {r: 0.9568627, g: 0, b: 0, a: 1}
+  - style: 22
+    dilate: 0
+    outlineThickness: 0.2
+    outlineColor: {r: 0.1215686, g: 0.772549, b: 0, a: 1}
+  - style: 11
+    dilate: 0
+    outlineThickness: 0.2
+    outlineColor: {r: 0.7176471, g: 0.09803922, b: 0.1764706, a: 1}
+  - style: 12
+    dilate: 0
+    outlineThickness: 0.2
+    outlineColor: {r: 0.1294118, g: 0.4627451, b: 0.6627451, a: 1}
+  - style: 13
+    dilate: 0
+    outlineThickness: 0.2
+    outlineColor: {r: 0.9686275, g: 0.01176471, b: 0.8313726, a: 1}
+  - style: 14
+    dilate: 0
+    outlineThickness: 0.2
+    outlineColor: {r: 0.9686275, g: 0.5137255, b: 0.1568628, a: 1}
+  - style: 15
+    dilate: 0
+    outlineThickness: 0.2
+    outlineColor: {r: 0, g: 0.8392157, b: 0.7686275, a: 1}
+  - style: 17
+    dilate: 0
+    outlineThickness: 0.2
+    outlineColor: {r: 0.4705882, g: 0.3372549, b: 0.1411765, a: 1}
+  - style: 18
+    dilate: 0
+    outlineThickness: 0.2
+    outlineColor: {r: 0.4117647, g: 0.1137255, b: 0.5333334, a: 1}
+  - style: 19
+    dilate: 0
+    outlineThickness: 0.2
+    outlineColor: {r: 0.1254902, g: 0.4235294, b: 0.345098, a: 1}
+  - style: 24
+    dilate: 0.2
+    outlineThickness: 0.4
+    outlineColor: {r: 0.1098039, g: 0.6784314, b: 0.1960784, a: 1}

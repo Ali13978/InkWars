@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "ATTACK_CHARGE"
+  m_EditorClassIdentifier: 
+  characterName: 2
+  animationName: 2
+  speed: 0.5
+  frameEndType: 1
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: a697e3b0736548c7bb480f0052b01115, type: 3}
+    duration: 0.09090909
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 4f378e0b931e430393976ae727eda087, type: 3}
+    duration: 0.09090909
+    timeFromStart: 0.09090909
+  - sprite: {fileID: 21300000, guid: a697e3b0736548c7bb480f0052b01115, type: 3}
+    duration: 0.09090909
+    timeFromStart: 0.1818182
+  - sprite: {fileID: 21300000, guid: 4f378e0b931e430393976ae727eda087, type: 3}
+    duration: 0.09090909
+    timeFromStart: 0.2727273
+  fxFrameData:
+  - sprite: {fileID: 21300000, guid: 271c3618faac46198ddd318e1173ee88, type: 3}
+    duration: 0.09090909
+    timeFromStart: 0
+    baseFrameIndex: 0
+  - sprite: {fileID: 21300000, guid: b6fe134c41264195b50be09dd4ea5700, type: 3}
+    duration: 0.09090909
+    timeFromStart: 0.09090909
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 1549d7590c534d0497f2938cd9541e3a, type: 3}
+    duration: 0.09090909
+    timeFromStart: 0.1818182
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: f001e5d9564a4a48beafd491955a3d9c, type: 3}
+    duration: 0.09090909
+    timeFromStart: 0.2727273
+    baseFrameIndex: -1
+  holdLastFX: 0

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "ATTACK_CHARGE_LEAD"
+  m_EditorClassIdentifier: 
+  characterName: 9
+  animationName: 1
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: 1db42e1983404c8c8994a800ad375885, type: 3}
+    duration: 0.1428571
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 2c7e15478ac64d9c9ac9f7344244b708, type: 3}
+    duration: 0.2857143
+    timeFromStart: 0.1428571
+  - sprite: {fileID: 21300000, guid: 2c7e15478ac64d9c9ac9f7344244b708, type: 3}
+    duration: 0.2857143
+    timeFromStart: 0.4285714
+  fxFrameData: []
+  holdLastFX: 0

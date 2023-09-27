@@ -1,0 +1,51 @@
+using UnityEngine;
+public enum CharacterNameID
+{
+    // Fields
+    IKA_ARTIST = 0
+    ,IKA_BOXER = 1
+    ,IKA_BUTCHER = 2
+    ,IKA_COMMANDO = 3
+    ,IKA_COWBOY = 4
+    ,IKA_HOBO = 5
+    ,IKA_LORII = 6
+    ,IKA_PRINCESS = 7
+    ,IKA_PUNK = 8
+    ,IKA_SALESMAN = 9
+    ,IKA_SCIENTIST = 10
+    ,IKA_SECRET_AGENT = 11
+    ,IKA_SENATOR = 12
+    ,IKA_WAITRESS = 13
+    ,TAKO_BIKER = 14
+    ,TAKO_CHEF = 15
+    ,TAKO_CLOWN = 16
+    ,TAKO_COP = 17
+    ,TAKO_GODFATHER = 18
+    ,TAKO_GYPSY = 19
+    ,TAKO_HERO = 20
+    ,TAKO_HIPPIE = 21
+    ,TAKO_KING = 22
+    ,TAKO_NERD = 23
+    ,TAKO_NINJA = 24
+    ,TAKO_ROCKSTAR = 25
+    ,TAKO_WRESTLER = 26
+    ,SPECIAL_UFA = 27
+    ,SPECIAL_SHIN_UFA = 28
+    ,TAKO_JAMIE = 29
+    ,TAKO_WONG = 30
+    ,IKA_GLLTY = 31
+    ,IKA_SMUG = 32
+    ,TAKO_MARN = 33
+    ,SPECIAL_MERMAID_BRANDEE = 34
+    ,TAKO_HUNTO = 35
+    ,TAKO_NIXIA = 36
+    ,IKA_LEAH = 37
+    ,TAKO_SJ = 38
+    ,IKA_RYAN = 39
+    ,TAKO_TRUMP = 40
+    ,TAKO_BENNY = 41
+    ,IRON_SHARK = 42
+    ,UNKNOWN = 999999
+    
+
+}

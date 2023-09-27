@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 033e7e67768e408bbe300ef4fe18264a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Unlocked_Ika_Butcher
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 22.45614
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Unlocked_Ika_Butcher
+      rect:
+        serializedVersion: 2
+        x: 58.0335
+        y: 6.051317
+        width: 132.8904
+        height: 159.8726
+      alignment: 9
+      pivot: {x: 0.5264978, y: 0.5464742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.4787, y: -76.07004}
+        - {x: -66.4787, y: 79.92996}
+        - {x: -58.47868, y: -80.07004}
+      - - {x: 37.52132, y: 79.92996}
+        - {x: -58.47868, y: -80.07004}
+        - {x: -66.4787, y: 79.92996}
+      - - {x: 66.52132, y: -80.07004}
+        - {x: -58.47868, y: -80.07004}
+        - {x: 37.52132, y: 79.92996}
+      - - {x: 66.52132, y: 53.92995}
+        - {x: 66.52132, y: -80.07004}
+        - {x: 37.52132, y: 79.92996}
+      physicsShape:
+      - - {x: 65.52131, y: -71.07005}
+        - {x: 65.52131, y: -70.07005}
+        - {x: 63.52131, y: -57.07005}
+        - {x: 60.52131, y: -51.07004}
+        - {x: 53.52131, y: -47.07005}
+        - {x: 52.52131, y: -36.07005}
+        - {x: 56.52131, y: -24.07004}
+        - {x: 64.5213, y: -7.070045}
+        - {x: 65.52131, y: -0.07004547}
+        - {x: 65.52131, y: 26.92995}
+        - {x: 57.52131, y: 45.92995}
+        - {x: 41.52131, y: 67.92995}
+        - {x: 30.52131, y: 73.92995}
+        - {x: -8.47869, y: 74.92995}
+        - {x: -13.47869, y: 77.92995}
+        - {x: -26.47869, y: 77.92995}
+        - {x: -40.47869, y: 73.92995}
+        - {x: -46.47869, y: 72.92995}
+        - {x: -45.47869, y: 55.92995}
+        - {x: -54.47869, y: 47.92995}
+        - {x: -59.47869, y: 38.92995}
+        - {x: -60.47869, y: 24.92995}
+        - {x: -64.47869, y: 23.92995}
+        - {x: -65.47869, y: 21.92995}
+        - {x: -65.47869, y: 12.92995}
+        - {x: -62.47869, y: 4.929955}
+        - {x: -59.47869, y: -12.07005}
+        - {x: -48.47869, y: -29.07005}
+        - {x: -39.47869, y: -37.07005}
+        - {x: -53.47869, y: -51.07004}
+        - {x: -54.47869, y: -67.07005}
+        - {x: -46.47869, y: -79.07005}
+        - {x: 3.521309, y: -79.07005}
+        - {x: 18.52131, y: -78.07005}
+        - {x: 38.52131, y: -79.07005}
+        - {x: 56.52131, y: -79.07005}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Unlocked_Ika_Butcher: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: characters/ika_butcher
+  assetBundleVariant: 

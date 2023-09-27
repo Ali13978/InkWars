@@ -1,0 +1,1094 @@
+using UnityEngine;
+public class Scene_TakoSelection : MonoBehaviour
+{
+    // Fields
+    private int rightCounter;
+    private int leftCounter;
+    private int middleCounter;
+    public UnityEngine.GameObject[] testimages;
+    public UnityEngine.UI.Image middleTako;
+    public UnityEngine.UI.Image leftTako;
+    public UnityEngine.UI.Image rightTako;
+    public UnityEngine.UI.Image rollTargetLeft;
+    public UnityEngine.UI.Image rollTargetRight;
+    public UnityEngine.GameObject nextButton;
+    public UnityEngine.GameObject imageName;
+    public UnityEngine.GameObject imageStats;
+    public UnityEngine.GameObject iconHolder;
+    public UnityEngine.Transform imageNameSource;
+    public UnityEngine.Transform imageStatsSource;
+    public UnityEngine.Transform iconHolderSource;
+    public UnityEngine.Transform imageNameTarget;
+    public UnityEngine.Transform imageStatsTarget;
+    public UnityEngine.Transform iconHolderTarget;
+    public UnityEngine.GameObject lockedImage;
+    public UnityEngine.GameObject buyButtons;
+    public UnityEngine.GameObject[] swipeButtons;
+    public UnityEngine.GameObject backButton;
+    private UnityEngine.Vector3 leftPostion;
+    private UnityEngine.Vector3 middlePostion;
+    private UnityEngine.Vector3 rightPostion;
+    
+    // Methods
+    private void Start()
+    {
+        this.swipeButtons[0].SetActive(value:  false);
+        this.swipeButtons[1].SetActive(value:  false);
+        this.backButton.SetActive(value:  false);
+        this.iconHolder.SetActive(value:  false);
+        this.imageStats.SetActive(value:  false);
+        this.imageName.SetActive(value:  false);
+        this.nextButton.transform.localScale = new UnityEngine.Vector3() {x = 0f, y = 0f, z = 0f};
+        this.lockedImage.transform.localScale = new UnityEngine.Vector3() {x = 0f, y = 0f, z = 0f};
+        UnityEngine.Vector3 val_4 = this.leftTako.transform.position;
+        this.leftPostion = val_4;
+        mem[1152921528775868492] = val_4.y;
+        mem[1152921528775868496] = val_4.z;
+        UnityEngine.Vector3 val_6 = this.middleTako.transform.position;
+        this.middlePostion = val_6;
+        mem[1152921528775868504] = val_6.y;
+        mem[1152921528775868508] = val_6.z;
+        UnityEngine.Vector3 val_8 = this.rightTako.transform.position;
+        this.rightPostion = val_8;
+        mem[1152921528775868516] = val_8.y;
+        mem[1152921528775868520] = val_8.z;
+        this.testimages[this.leftCounter].transform.position = new UnityEngine.Vector3() {x = this.leftPostion, y = V9.16B, z = V10.16B};
+        this.testimages[this.middleCounter].transform.position = new UnityEngine.Vector3() {x = this.middlePostion, y = V9.16B, z = V10.16B};
+        this.testimages[this.rightCounter].transform.position = new UnityEngine.Vector3() {x = this.rightPostion, y = V9.16B, z = V10.16B};
+        this.testimages[this.middleCounter].transform.localScale = new UnityEngine.Vector3() {x = 0f, y = 0f, z = 0f};
+        this.testimages[this.leftCounter].transform.localScale = new UnityEngine.Vector3() {x = 0f, y = 0f, z = 0f};
+        this.testimages[this.rightCounter].transform.localScale = new UnityEngine.Vector3() {x = 0f, y = 0f, z = 0f};
+    }
+    public void DarkenAtStart()
+    {
+        this.swipeButtons[0].SetActive(value:  true);
+        this.swipeButtons[1].SetActive(value:  true);
+        this.backButton.SetActive(value:  true);
+        UnityEngine.Color val_3 = UnityEngine.Color.op_Implicit(v:  new UnityEngine.Vector4() {x = 0f, y = 0f, z = 0f, w = 0f});
+        this.testimages[this.middleCounter].gameObject.GetComponent<UnityEngine.UI.Image>().color = new UnityEngine.Color() {r = val_3.r, g = val_3.g, b = val_3.b, a = val_3.a};
+    }
+    private void Update()
+    {
+        UnityEngine.GameObject val_31;
+        bool val_32;
+        var val_33;
+        var val_34;
+        var val_35;
+        System.Object[] val_36;
+        val_31 = this;
+        val_32 = swipe.touchBoolTako;
+        if(val_32 == false)
+        {
+                return;
+        }
+        
+        if((UnityEngine.Input.GetKeyDown(key:  20)) != false)
+        {
+                int val_3 = ((this.rightCounter + 1) == 13) ? 0 : (this.rightCounter + 1);
+            this.testimages[(long)this.leftCounter].SetActive(value:  false);
+            this.testimages[(long)val_3].SetActive(value:  true);
+            object[] val_4 = new object[4];
+            val_33 = "x";
+            val_4[0] = "x";
+            val_34 = 1152921504623566848;
+            val_4[1] = this.rightPostion;
+            val_4[2] = "time";
+            val_4[3] = 0;
+            iTween.MoveTo(target:  this.testimages[(long)val_3], args:  iTween.Hash(args:  val_4));
+            object[] val_6 = new object[4];
+            val_6[0] = "x";
+            val_6[1] = this.leftPostion;
+            val_6[2] = "time";
+            val_6[3] = 0.5f;
+            iTween.MoveTo(target:  this.testimages[this.middleCounter], args:  iTween.Hash(args:  val_6));
+            object[] val_8 = new object[4];
+            val_8[0] = "x";
+            val_8[1] = this.middlePostion;
+            val_8[2] = "time";
+            val_8[3] = 0.5f;
+            iTween.MoveTo(target:  this.testimages[this.rightCounter], args:  iTween.Hash(args:  val_8));
+            this.rightCounter = val_3;
+            this.leftCounter = this.middleCounter;
+            this.middleCounter = this.rightCounter;
+            object[] val_10 = new object[6];
+            val_10[0] = "x";
+            val_10[1] = 0.15f;
+            val_35 = "y";
+            val_10[2] = "y";
+            val_10[3] = 0.15f;
+            val_10[4] = "time";
+            val_10[5] = 0.5f;
+            iTween.ScaleTo(target:  this.testimages[(long)val_3], args:  iTween.Hash(args:  val_10));
+            object[] val_12 = new object[6];
+            val_12[0] = "x";
+            val_12[1] = 0.15f;
+            val_12[2] = "y";
+            val_12[3] = 0.15f;
+            val_12[4] = "time";
+            val_12[5] = 0.5f;
+            iTween.ScaleTo(target:  this.testimages[this.leftCounter], args:  iTween.Hash(args:  val_12));
+            object[] val_14 = new object[6];
+            val_36 = val_14;
+            val_36[0] = "x";
+            val_36[1] = 0.3f;
+            val_36[2] = "y";
+            val_36[3] = 0.3f;
+            val_36[4] = "time";
+            val_32 = val_14.Length;
+            val_36[5] = 0.5f;
+            iTween.ScaleTo(target:  this.testimages[this.middleCounter], args:  iTween.Hash(args:  val_14));
+        }
+        
+        if((UnityEngine.Input.GetKeyDown(key:  19)) == false)
+        {
+                return;
+        }
+        
+        int val_18 = (this.leftCounter == 0) ? 12 : (this.leftCounter - 1);
+        this.testimages[(long)this.rightCounter].SetActive(value:  false);
+        this.testimages[(long)val_18].SetActive(value:  true);
+        object[] val_19 = new object[4];
+        val_33 = "x";
+        val_19[0] = "x";
+        val_34 = 1152921504623566848;
+        val_19[1] = this.leftPostion;
+        val_19[2] = "time";
+        val_19[3] = 0;
+        iTween.MoveTo(target:  this.testimages[(long)val_18], args:  iTween.Hash(args:  val_19));
+        object[] val_21 = new object[4];
+        val_21[0] = "x";
+        val_21[1] = this.middlePostion;
+        val_21[2] = "time";
+        val_21[3] = 0.5f;
+        iTween.MoveTo(target:  this.testimages[this.leftCounter], args:  iTween.Hash(args:  val_21));
+        object[] val_23 = new object[4];
+        val_23[0] = "x";
+        val_23[1] = this.rightPostion;
+        val_23[2] = "time";
+        val_23[3] = 0.5f;
+        iTween.MoveTo(target:  this.testimages[this.middleCounter], args:  iTween.Hash(args:  val_23));
+        this.middleCounter = this.leftCounter;
+        this.rightCounter = (long)this.middleCounter;
+        this.leftCounter = val_18;
+        object[] val_25 = new object[6];
+        val_25[0] = "x";
+        val_25[1] = 0.15f;
+        val_35 = "y";
+        val_25[2] = "y";
+        val_25[3] = 0.15f;
+        val_25[4] = "time";
+        val_25[5] = 0.5f;
+        iTween.ScaleTo(target:  this.testimages[(long)this.middleCounter], args:  iTween.Hash(args:  val_25));
+        object[] val_27 = new object[6];
+        val_27[0] = "x";
+        val_27[1] = 0.15f;
+        val_27[2] = "y";
+        val_27[3] = 0.15f;
+        val_27[4] = "time";
+        val_27[5] = 0.5f;
+        iTween.ScaleTo(target:  this.testimages[this.leftCounter], args:  iTween.Hash(args:  val_27));
+        val_31 = this.testimages[this.middleCounter];
+        object[] val_29 = new object[6];
+        val_29[0] = "x";
+        val_29[1] = 0.3f;
+        val_29[2] = "y";
+        val_29[3] = 0.3f;
+        val_29[4] = "time";
+        val_36 = 0.5f;
+        val_29[5] = val_36;
+        iTween.ScaleTo(target:  val_31, args:  iTween.Hash(args:  val_29));
+    }
+    public void leftbutton()
+    {
+        float val_93;
+        float val_94;
+        UnityEngine.Color val_3 = this.testimages[this.middleCounter].gameObject.GetComponent<UnityEngine.UI.Image>().color;
+        if(val_3.r != 1f)
+        {
+            goto label_6;
+        }
+        
+        object[] val_4 = new object[4];
+        val_4[0] = "position";
+        UnityEngine.Vector3 val_5 = this.imageNameTarget.position;
+        val_4[1] = val_5;
+        val_4[2] = "time";
+        val_4[3] = 0.2f;
+        iTween.MoveTo(target:  this.imageName, args:  iTween.Hash(args:  val_4));
+        object[] val_7 = new object[4];
+        val_7[0] = "position";
+        UnityEngine.Vector3 val_8 = this.imageStatsTarget.position;
+        val_7[1] = val_8;
+        val_7[2] = "time";
+        val_7[3] = 0.2f;
+        iTween.MoveTo(target:  this.imageStats, args:  iTween.Hash(args:  val_7));
+        object[] val_10 = new object[4];
+        val_10[0] = "position";
+        UnityEngine.Vector3 val_11 = this.iconHolderTarget.position;
+        val_10[1] = val_11;
+        val_10[2] = "time";
+        val_10[3] = 0.2f;
+        iTween.MoveTo(target:  this.iconHolder, args:  iTween.Hash(args:  val_10));
+        object[] val_13 = new object[6];
+        val_13[0] = "x";
+        val_13[1] = 0f;
+        val_13[2] = "y";
+        val_13[3] = 0f;
+        val_13[4] = "time";
+        val_13[5] = 0.05f;
+        iTween.ScaleTo(target:  this.nextButton, args:  iTween.Hash(args:  val_13));
+        UnityEngine.Color val_17 = this.testimages[this.rightCounter].gameObject.GetComponent<UnityEngine.UI.Image>().color;
+        if(val_17.r != 0.8f)
+        {
+            goto label_75;
+        }
+        
+        object[] val_18 = new object[8];
+        val_18[0] = "position";
+        UnityEngine.Vector3 val_19 = this.imageNameSource.position;
+        val_18[1] = val_19;
+        val_18[2] = "easeType";
+        val_18[3] = 24;
+        val_18[4] = "delay";
+        val_18[5] = 0.3f;
+        val_18[6] = "time";
+        val_18[7] = 0.3f;
+        iTween.MoveTo(target:  this.imageName, args:  iTween.Hash(args:  val_18));
+        object[] val_21 = new object[8];
+        val_21[0] = "position";
+        UnityEngine.Vector3 val_22 = this.imageStatsSource.position;
+        val_21[1] = val_22;
+        val_21[2] = "easeType";
+        val_21[3] = 24;
+        val_21[4] = "delay";
+        val_21[5] = 0.3f;
+        val_21[6] = "time";
+        val_21[7] = 0.3f;
+        iTween.MoveTo(target:  this.imageStats, args:  iTween.Hash(args:  val_21));
+        object[] val_24 = new object[8];
+        val_24[0] = "position";
+        UnityEngine.Vector3 val_25 = this.iconHolderSource.position;
+        val_24[1] = val_25;
+        val_24[2] = "easeType";
+        val_24[3] = 24;
+        val_24[4] = "delay";
+        val_24[5] = 0.3f;
+        val_24[6] = "time";
+        val_24[7] = 0.3f;
+        iTween.MoveTo(target:  this.iconHolder, args:  iTween.Hash(args:  val_24));
+        object[] val_27 = new object[10];
+        val_27[0] = "x";
+        val_27[1] = 1f;
+        val_27[2] = "y";
+        val_27[3] = 1f;
+        val_27[4] = "easeType";
+        val_27[5] = 24;
+        val_27[6] = "delay";
+        val_27[7] = 0.4f;
+        val_27[8] = "time";
+        goto label_184;
+        label_6:
+        object[] val_28 = new object[6];
+        val_28[0] = "x";
+        val_28[1] = 0f;
+        val_28[2] = "y";
+        val_28[3] = 0f;
+        val_28[4] = "time";
+        val_28[5] = 0.2f;
+        iTween.ScaleTo(target:  this.lockedImage, args:  iTween.Hash(args:  val_28));
+        this.buyButtons.transform.GetChild(index:  this.middleCounter).gameObject.SetActive(value:  false);
+        UnityEngine.Color val_35 = this.testimages[this.rightCounter].gameObject.GetComponent<UnityEngine.UI.Image>().color;
+        if(val_35.r != 0.8f)
+        {
+            goto label_215;
+        }
+        
+        object[] val_36 = new object[8];
+        val_36[0] = "position";
+        UnityEngine.Vector3 val_37 = this.imageNameSource.position;
+        val_36[1] = val_37;
+        val_36[2] = "easeType";
+        val_36[3] = 24;
+        val_36[4] = "delay";
+        val_36[5] = 0.3f;
+        val_36[6] = "time";
+        val_36[7] = 0.3f;
+        iTween.MoveTo(target:  this.imageName, args:  iTween.Hash(args:  val_36));
+        object[] val_39 = new object[8];
+        val_39[0] = "position";
+        UnityEngine.Vector3 val_40 = this.imageStatsSource.position;
+        val_39[1] = val_40;
+        val_39[2] = "easeType";
+        val_39[3] = 24;
+        val_39[4] = "delay";
+        val_39[5] = 0.3f;
+        val_39[6] = "time";
+        val_39[7] = 0.3f;
+        iTween.MoveTo(target:  this.imageStats, args:  iTween.Hash(args:  val_39));
+        object[] val_42 = new object[8];
+        val_42[0] = "position";
+        UnityEngine.Vector3 val_43 = this.iconHolderSource.position;
+        val_42[1] = val_43;
+        val_42[2] = "easeType";
+        val_42[3] = 24;
+        val_42[4] = "delay";
+        val_42[5] = 0.3f;
+        val_42[6] = "time";
+        val_42[7] = 0.3f;
+        iTween.MoveTo(target:  this.iconHolder, args:  iTween.Hash(args:  val_42));
+        object[] val_45 = new object[10];
+        val_45[0] = "x";
+        val_45[1] = 1f;
+        val_45[2] = "y";
+        val_45[3] = 1f;
+        val_45[4] = "easeType";
+        val_45[5] = 24;
+        val_45[6] = "delay";
+        val_45[7] = 0.4f;
+        val_45[8] = "time";
+        label_184:
+        val_45[9] = 0.2f;
+        iTween.ScaleTo(target:  this.nextButton, args:  iTween.Hash(args:  val_45));
+        goto label_327;
+        label_75:
+        this.lockedImage.transform.SetAsLastSibling();
+        object[] val_48 = new object[10];
+        val_48[0] = "x";
+        val_48[1] = 1f;
+        val_48[2] = "y";
+        val_48[3] = 1f;
+        val_48[4] = "easeType";
+        val_48[5] = 24;
+        val_48[6] = "delay";
+        val_48[7] = 0.4f;
+        val_48[8] = "time";
+        goto label_358;
+        label_215:
+        this.lockedImage.transform.SetAsLastSibling();
+        object[] val_50 = new object[10];
+        val_50[0] = "x";
+        val_50[1] = 1f;
+        val_50[2] = "y";
+        val_50[3] = 1f;
+        val_50[4] = "easeType";
+        val_50[5] = 24;
+        val_50[6] = "delay";
+        val_50[7] = 0.4f;
+        val_50[8] = "time";
+        label_358:
+        val_50[9] = 0.2f;
+        iTween.ScaleTo(target:  this.lockedImage, args:  iTween.Hash(args:  val_50));
+        this.buyButtons.transform.GetChild(index:  this.rightCounter).gameObject.SetActive(value:  true);
+        label_327:
+        var val_56 = ((this.rightCounter + 1) == 13) ? 0 : (this.rightCounter + 1);
+        UnityEngine.Vector2 val_58 = new UnityEngine.Vector2(x:  this.leftPostion, y:  0.8f);
+        UnityEngine.Vector3 val_59 = UnityEngine.Vector2.op_Implicit(v:  new UnityEngine.Vector2() {x = val_58.x, y = val_58.y});
+        this.testimages[(long)val_56].transform.position = new UnityEngine.Vector3() {x = val_59.x, y = val_59.y, z = val_59.z};
+        UnityEngine.Vector2 val_61 = new UnityEngine.Vector2(x:  0.2f, y:  0.2f);
+        UnityEngine.Vector3 val_62 = UnityEngine.Vector2.op_Implicit(v:  new UnityEngine.Vector2() {x = val_61.x, y = val_61.y});
+        val_93 = val_62.x;
+        val_94 = val_62.z;
+        this.testimages[(long)val_56].transform.localScale = new UnityEngine.Vector3() {x = val_93, y = val_62.y, z = val_94};
+        this.testimages[this.leftCounter].SetActive(value:  false);
+        this.testimages[(long)val_56].SetActive(value:  true);
+        object[] val_63 = new object[6];
+        val_63[0] = "x";
+        val_63[1] = this.rightPostion;
+        val_63[2] = "y";
+        val_63[3] = val_63.Length;
+        val_63[4] = "time";
+        val_63[5] = 0.5f;
+        iTween.MoveTo(target:  this.testimages[(long)val_56], args:  iTween.Hash(args:  val_63));
+        object[] val_65 = new object[6];
+        val_65[0] = "x";
+        val_65[1] = this.leftPostion;
+        val_65[2] = "y";
+        val_65[3] = val_65.Length;
+        val_65[4] = "time";
+        val_65[5] = 0.5f;
+        iTween.MoveTo(target:  this.testimages[this.middleCounter], args:  iTween.Hash(args:  val_65));
+        object[] val_67 = new object[6];
+        val_67[0] = "x";
+        val_67[1] = this.middlePostion;
+        val_67[2] = "y";
+        val_67[3] = val_67.Length;
+        val_67[4] = "time";
+        val_67[5] = 0.5f;
+        iTween.MoveTo(target:  this.testimages[this.rightCounter], args:  iTween.Hash(args:  val_67));
+        this.leftCounter = this.middleCounter;
+        this.middleCounter = this.rightCounter;
+        mem2[0] = val_56;
+        UnityEngine.Color val_71 = this.testimages[this.middleCounter].gameObject.GetComponent<UnityEngine.UI.Image>().color;
+        if(val_71.r == 1f)
+        {
+                UnityEngine.Color val_74 = UnityEngine.Color.op_Implicit(v:  new UnityEngine.Vector4() {x = 0f, y = 0f, z = 0f, w = 0f});
+            val_93 = val_74.r;
+            val_94 = val_74.b;
+            this.testimages[this.leftCounter].gameObject.GetComponent<UnityEngine.UI.Image>().color = new UnityEngine.Color() {r = val_93, g = val_74.g, b = val_94, a = val_74.a};
+        }
+        
+        UnityEngine.Color val_77 = this.testimages[this.middleCounter].gameObject.GetComponent<UnityEngine.UI.Image>().color;
+        if(val_77.r == 0.8f)
+        {
+                UnityEngine.Color val_80 = UnityEngine.Color.op_Implicit(v:  new UnityEngine.Vector4() {x = 0f, y = 0f, z = 0f, w = 0f});
+            val_93 = val_80.r;
+            val_94 = val_80.b;
+            this.testimages[this.middleCounter].gameObject.GetComponent<UnityEngine.UI.Image>().color = new UnityEngine.Color() {r = val_93, g = val_80.g, b = val_94, a = val_80.a};
+        }
+        
+        object[] val_81 = new object[8];
+        val_81[0] = "x";
+        val_81[1] = 0.19f;
+        val_81[2] = "y";
+        val_81[3] = 0.19f;
+        val_81[4] = "easeType";
+        val_81[5] = 21;
+        val_81[6] = "time";
+        val_81[7] = 0.3f;
+        iTween.ScaleTo(target:  this.testimages[this.rightCounter], args:  iTween.Hash(args:  val_81));
+        object[] val_83 = new object[10];
+        val_83[0] = "x";
+        val_83[1] = 0.15f;
+        val_83[2] = "y";
+        val_83[3] = 0.15f;
+        val_83[4] = "easeType";
+        val_83[5] = 24;
+        val_83[6] = "delay";
+        val_83[7] = 0.3f;
+        val_83[8] = "time";
+        val_83[9] = 0.4f;
+        iTween.ScaleTo(target:  this.testimages[this.rightCounter], args:  iTween.Hash(args:  val_83));
+        object[] val_85 = new object[8];
+        val_85[0] = "x";
+        val_85[1] = 0.19f;
+        val_85[2] = "y";
+        val_85[3] = 0.19f;
+        val_85[4] = "easeType";
+        val_85[5] = 21;
+        val_85[6] = "time";
+        val_85[7] = 0.3f;
+        iTween.ScaleTo(target:  this.testimages[this.leftCounter], args:  iTween.Hash(args:  val_85));
+        object[] val_87 = new object[10];
+        val_87[0] = "x";
+        val_87[1] = 0.15f;
+        val_87[2] = "y";
+        val_87[3] = 0.15f;
+        val_87[4] = "easeType";
+        val_87[5] = 24;
+        val_87[6] = "delay";
+        val_87[7] = 0.3f;
+        val_87[8] = "time";
+        val_87[9] = 0.4f;
+        iTween.ScaleTo(target:  this.testimages[this.leftCounter], args:  iTween.Hash(args:  val_87));
+        object[] val_89 = new object[8];
+        val_89[0] = "x";
+        val_89[1] = 0.23f;
+        val_89[2] = "y";
+        val_89[3] = 0.23f;
+        val_89[4] = "easeType";
+        val_89[5] = 21;
+        val_89[6] = "time";
+        val_89[7] = 0.3f;
+        iTween.ScaleTo(target:  this.testimages[this.middleCounter], args:  iTween.Hash(args:  val_89));
+        object[] val_91 = new object[10];
+        val_91[0] = "x";
+        val_91[1] = 0.3f;
+        val_91[2] = "y";
+        val_91[3] = 0.3f;
+        val_91[4] = "easeType";
+        val_91[5] = 24;
+        val_91[6] = "delay";
+        val_91[7] = 0.3f;
+        val_91[8] = "time";
+        val_91[9] = 0.4f;
+        iTween.ScaleTo(target:  this.testimages[this.middleCounter], args:  iTween.Hash(args:  val_91));
+    }
+    public void rightbutton()
+    {
+        float val_93;
+        float val_94;
+        UnityEngine.Color val_3 = this.testimages[this.middleCounter].gameObject.GetComponent<UnityEngine.UI.Image>().color;
+        if(val_3.r != 1f)
+        {
+            goto label_6;
+        }
+        
+        object[] val_4 = new object[4];
+        val_4[0] = "position";
+        UnityEngine.Vector3 val_5 = this.imageNameTarget.position;
+        val_4[1] = val_5;
+        val_4[2] = "time";
+        val_4[3] = 0.2f;
+        iTween.MoveTo(target:  this.imageName, args:  iTween.Hash(args:  val_4));
+        object[] val_7 = new object[4];
+        val_7[0] = "position";
+        UnityEngine.Vector3 val_8 = this.imageStatsTarget.position;
+        val_7[1] = val_8;
+        val_7[2] = "time";
+        val_7[3] = 0.2f;
+        iTween.MoveTo(target:  this.imageStats, args:  iTween.Hash(args:  val_7));
+        object[] val_10 = new object[4];
+        val_10[0] = "position";
+        UnityEngine.Vector3 val_11 = this.iconHolderTarget.position;
+        val_10[1] = val_11;
+        val_10[2] = "time";
+        val_10[3] = 0.2f;
+        iTween.MoveTo(target:  this.iconHolder, args:  iTween.Hash(args:  val_10));
+        object[] val_13 = new object[6];
+        val_13[0] = "x";
+        val_13[1] = 0f;
+        val_13[2] = "y";
+        val_13[3] = 0f;
+        val_13[4] = "time";
+        val_13[5] = 0.05f;
+        iTween.ScaleTo(target:  this.nextButton, args:  iTween.Hash(args:  val_13));
+        UnityEngine.Color val_17 = this.testimages[this.leftCounter].gameObject.GetComponent<UnityEngine.UI.Image>().color;
+        if(val_17.r != 0.8f)
+        {
+            goto label_75;
+        }
+        
+        object[] val_18 = new object[8];
+        val_18[0] = "position";
+        UnityEngine.Vector3 val_19 = this.imageNameSource.position;
+        val_18[1] = val_19;
+        val_18[2] = "easeType";
+        val_18[3] = 24;
+        val_18[4] = "delay";
+        val_18[5] = 0.3f;
+        val_18[6] = "time";
+        val_18[7] = 0.3f;
+        iTween.MoveTo(target:  this.imageName, args:  iTween.Hash(args:  val_18));
+        object[] val_21 = new object[8];
+        val_21[0] = "position";
+        UnityEngine.Vector3 val_22 = this.imageStatsSource.position;
+        val_21[1] = val_22;
+        val_21[2] = "easeType";
+        val_21[3] = 24;
+        val_21[4] = "delay";
+        val_21[5] = 0.3f;
+        val_21[6] = "time";
+        val_21[7] = 0.3f;
+        iTween.MoveTo(target:  this.imageStats, args:  iTween.Hash(args:  val_21));
+        object[] val_24 = new object[8];
+        val_24[0] = "position";
+        UnityEngine.Vector3 val_25 = this.iconHolderSource.position;
+        val_24[1] = val_25;
+        val_24[2] = "easeType";
+        val_24[3] = 24;
+        val_24[4] = "delay";
+        val_24[5] = 0.3f;
+        val_24[6] = "time";
+        val_24[7] = 0.3f;
+        iTween.MoveTo(target:  this.iconHolder, args:  iTween.Hash(args:  val_24));
+        object[] val_27 = new object[10];
+        val_27[0] = "x";
+        val_27[1] = 1f;
+        val_27[2] = "y";
+        val_27[3] = 1f;
+        val_27[4] = "easeType";
+        val_27[5] = 24;
+        val_27[6] = "delay";
+        val_27[7] = 0.4f;
+        val_27[8] = "time";
+        goto label_184;
+        label_6:
+        object[] val_28 = new object[6];
+        val_28[0] = "x";
+        val_28[1] = 0f;
+        val_28[2] = "y";
+        val_28[3] = 0f;
+        val_28[4] = "time";
+        val_28[5] = 0.2f;
+        iTween.ScaleTo(target:  this.lockedImage, args:  iTween.Hash(args:  val_28));
+        this.buyButtons.transform.GetChild(index:  this.middleCounter).gameObject.SetActive(value:  false);
+        UnityEngine.Color val_35 = this.testimages[this.leftCounter].gameObject.GetComponent<UnityEngine.UI.Image>().color;
+        if(val_35.r != 0.8f)
+        {
+            goto label_215;
+        }
+        
+        object[] val_36 = new object[8];
+        val_36[0] = "position";
+        UnityEngine.Vector3 val_37 = this.imageNameSource.position;
+        val_36[1] = val_37;
+        val_36[2] = "easeType";
+        val_36[3] = 24;
+        val_36[4] = "delay";
+        val_36[5] = 0.3f;
+        val_36[6] = "time";
+        val_36[7] = 0.3f;
+        iTween.MoveTo(target:  this.imageName, args:  iTween.Hash(args:  val_36));
+        object[] val_39 = new object[8];
+        val_39[0] = "position";
+        UnityEngine.Vector3 val_40 = this.imageStatsSource.position;
+        val_39[1] = val_40;
+        val_39[2] = "easeType";
+        val_39[3] = 24;
+        val_39[4] = "delay";
+        val_39[5] = 0.3f;
+        val_39[6] = "time";
+        val_39[7] = 0.3f;
+        iTween.MoveTo(target:  this.imageStats, args:  iTween.Hash(args:  val_39));
+        object[] val_42 = new object[8];
+        val_42[0] = "position";
+        UnityEngine.Vector3 val_43 = this.iconHolderSource.position;
+        val_42[1] = val_43;
+        val_42[2] = "easeType";
+        val_42[3] = 24;
+        val_42[4] = "delay";
+        val_42[5] = 0.3f;
+        val_42[6] = "time";
+        val_42[7] = 0.3f;
+        iTween.MoveTo(target:  this.iconHolder, args:  iTween.Hash(args:  val_42));
+        object[] val_45 = new object[10];
+        val_45[0] = "x";
+        val_45[1] = 1f;
+        val_45[2] = "y";
+        val_45[3] = 1f;
+        val_45[4] = "easeType";
+        val_45[5] = 24;
+        val_45[6] = "delay";
+        val_45[7] = 0.4f;
+        val_45[8] = "time";
+        label_184:
+        val_45[9] = 0.2f;
+        iTween.ScaleTo(target:  this.nextButton, args:  iTween.Hash(args:  val_45));
+        goto label_327;
+        label_75:
+        this.lockedImage.transform.SetAsLastSibling();
+        object[] val_48 = new object[10];
+        val_48[0] = "x";
+        val_48[1] = 1f;
+        val_48[2] = "y";
+        val_48[3] = 1f;
+        val_48[4] = "easeType";
+        val_48[5] = 24;
+        val_48[6] = "delay";
+        val_48[7] = 0.4f;
+        val_48[8] = "time";
+        val_48[9] = 0.2f;
+        goto label_361;
+        label_215:
+        this.lockedImage.transform.SetAsLastSibling();
+        object[] val_50 = new object[10];
+        val_50[0] = "x";
+        val_50[1] = 1f;
+        val_50[2] = "y";
+        val_50[3] = 1f;
+        val_50[4] = "easeType";
+        val_50[5] = 24;
+        val_50[6] = "delay";
+        val_50[7] = 0.4f;
+        val_50[8] = "time";
+        val_50[9] = 0.2f;
+        label_361:
+        iTween.ScaleTo(target:  this.lockedImage, args:  iTween.Hash(args:  val_50));
+        this.buyButtons.transform.GetChild(index:  this.leftCounter).gameObject.SetActive(value:  true);
+        label_327:
+        var val_56 = (this.leftCounter == 0) ? 12 : (this.leftCounter - 1);
+        UnityEngine.Vector2 val_58 = new UnityEngine.Vector2(x:  this.rightPostion, y:  0.8f);
+        UnityEngine.Vector3 val_59 = UnityEngine.Vector2.op_Implicit(v:  new UnityEngine.Vector2() {x = val_58.x, y = val_58.y});
+        this.testimages[(long)val_56].transform.position = new UnityEngine.Vector3() {x = val_59.x, y = val_59.y, z = val_59.z};
+        UnityEngine.Vector2 val_61 = new UnityEngine.Vector2(x:  0.2f, y:  0.2f);
+        UnityEngine.Vector3 val_62 = UnityEngine.Vector2.op_Implicit(v:  new UnityEngine.Vector2() {x = val_61.x, y = val_61.y});
+        val_93 = val_62.x;
+        val_94 = val_62.z;
+        this.testimages[(long)val_56].transform.localScale = new UnityEngine.Vector3() {x = val_93, y = val_62.y, z = val_94};
+        this.testimages[this.rightCounter].SetActive(value:  false);
+        this.testimages[(long)val_56].SetActive(value:  true);
+        object[] val_63 = new object[6];
+        val_63[0] = "x";
+        val_63[1] = this.leftPostion;
+        val_63[2] = "y";
+        val_63[3] = val_63.Length;
+        val_63[4] = "time";
+        val_63[5] = 0.5f;
+        iTween.MoveTo(target:  this.testimages[(long)val_56], args:  iTween.Hash(args:  val_63));
+        object[] val_65 = new object[6];
+        val_65[0] = "x";
+        val_65[1] = this.middlePostion;
+        val_65[2] = "y";
+        val_65[3] = val_65.Length;
+        val_65[4] = "time";
+        val_65[5] = 0.5f;
+        iTween.MoveTo(target:  this.testimages[this.leftCounter], args:  iTween.Hash(args:  val_65));
+        object[] val_67 = new object[6];
+        val_67[0] = "x";
+        val_67[1] = this.rightPostion;
+        val_67[2] = "y";
+        val_67[3] = val_67.Length;
+        val_67[4] = "time";
+        val_67[5] = 0.5f;
+        iTween.MoveTo(target:  this.testimages[this.middleCounter], args:  iTween.Hash(args:  val_67));
+        this.rightCounter = this.middleCounter;
+        this.middleCounter = this.leftCounter;
+        mem2[0] = val_56;
+        UnityEngine.Color val_71 = this.testimages[this.middleCounter].gameObject.GetComponent<UnityEngine.UI.Image>().color;
+        if(val_71.r == 1f)
+        {
+                UnityEngine.Color val_74 = UnityEngine.Color.op_Implicit(v:  new UnityEngine.Vector4() {x = 0f, y = 0f, z = 0f, w = 0f});
+            val_93 = val_74.r;
+            val_94 = val_74.b;
+            this.testimages[this.rightCounter].gameObject.GetComponent<UnityEngine.UI.Image>().color = new UnityEngine.Color() {r = val_93, g = val_74.g, b = val_94, a = val_74.a};
+        }
+        
+        UnityEngine.Color val_77 = this.testimages[this.middleCounter].gameObject.GetComponent<UnityEngine.UI.Image>().color;
+        if(val_77.r == 0.8f)
+        {
+                UnityEngine.Color val_80 = UnityEngine.Color.op_Implicit(v:  new UnityEngine.Vector4() {x = 0f, y = 0f, z = 0f, w = 0f});
+            val_93 = val_80.r;
+            val_94 = val_80.b;
+            this.testimages[this.middleCounter].gameObject.GetComponent<UnityEngine.UI.Image>().color = new UnityEngine.Color() {r = val_93, g = val_80.g, b = val_94, a = val_80.a};
+        }
+        
+        object[] val_81 = new object[8];
+        val_81[0] = "x";
+        val_81[1] = 0.19f;
+        val_81[2] = "y";
+        val_81[3] = 0.19f;
+        val_81[4] = "easeType";
+        val_81[5] = 21;
+        val_81[6] = "time";
+        val_81[7] = 0.3f;
+        iTween.ScaleTo(target:  this.testimages[this.rightCounter], args:  iTween.Hash(args:  val_81));
+        object[] val_83 = new object[10];
+        val_83[0] = "x";
+        val_83[1] = 0.15f;
+        val_83[2] = "y";
+        val_83[3] = 0.15f;
+        val_83[4] = "easeType";
+        val_83[5] = 24;
+        val_83[6] = "delay";
+        val_83[7] = 0.3f;
+        val_83[8] = "time";
+        val_83[9] = 0.4f;
+        iTween.ScaleTo(target:  this.testimages[this.rightCounter], args:  iTween.Hash(args:  val_83));
+        object[] val_85 = new object[8];
+        val_85[0] = "x";
+        val_85[1] = 0.19f;
+        val_85[2] = "y";
+        val_85[3] = 0.19f;
+        val_85[4] = "easeType";
+        val_85[5] = 21;
+        val_85[6] = "time";
+        val_85[7] = 0.3f;
+        iTween.ScaleTo(target:  this.testimages[this.leftCounter], args:  iTween.Hash(args:  val_85));
+        object[] val_87 = new object[10];
+        val_87[0] = "x";
+        val_87[1] = 0.15f;
+        val_87[2] = "y";
+        val_87[3] = 0.15f;
+        val_87[4] = "easeType";
+        val_87[5] = 24;
+        val_87[6] = "delay";
+        val_87[7] = 0.3f;
+        val_87[8] = "time";
+        val_87[9] = 0.4f;
+        iTween.ScaleTo(target:  this.testimages[this.leftCounter], args:  iTween.Hash(args:  val_87));
+        object[] val_89 = new object[8];
+        val_89[0] = "x";
+        val_89[1] = 0.23f;
+        val_89[2] = "y";
+        val_89[3] = 0.23f;
+        val_89[4] = "easeType";
+        val_89[5] = 21;
+        val_89[6] = "time";
+        val_89[7] = 0.3f;
+        iTween.ScaleTo(target:  this.testimages[this.middleCounter], args:  iTween.Hash(args:  val_89));
+        object[] val_91 = new object[10];
+        val_91[0] = "x";
+        val_91[1] = 0.3f;
+        val_91[2] = "y";
+        val_91[3] = 0.3f;
+        val_91[4] = "easeType";
+        val_91[5] = 24;
+        val_91[6] = "delay";
+        val_91[7] = 0.3f;
+        val_91[8] = "time";
+        val_91[9] = 0.4f;
+        iTween.ScaleTo(target:  this.testimages[this.middleCounter], args:  iTween.Hash(args:  val_91));
+    }
+    public void UnlockCharacter()
+    {
+        UnityEngine.Color val_3 = UnityEngine.Color.op_Implicit(v:  new UnityEngine.Vector4() {x = 0f, y = 0f, z = 0f, w = 0f});
+        this.testimages[this.middleCounter].gameObject.GetComponent<UnityEngine.UI.Image>().color = new UnityEngine.Color() {r = val_3.r, g = val_3.g, b = val_3.b, a = val_3.a};
+        object[] val_4 = new object[6];
+        val_4[0] = "x";
+        val_4[1] = 0f;
+        val_4[2] = "y";
+        val_4[3] = 0f;
+        val_4[4] = "time";
+        val_4[5] = 0.2f;
+        iTween.ScaleTo(target:  this.lockedImage, args:  iTween.Hash(args:  val_4));
+        this.buyButtons.transform.GetChild(index:  this.middleCounter).gameObject.SetActive(value:  false);
+        object[] val_9 = new object[10];
+        val_9[0] = "x";
+        val_9[1] = 1f;
+        val_9[2] = "y";
+        val_9[3] = 1f;
+        val_9[4] = "easeType";
+        val_9[5] = 24;
+        val_9[6] = "delay";
+        val_9[7] = 0.4f;
+        val_9[8] = "time";
+        val_9[9] = 0.2f;
+        iTween.ScaleTo(target:  this.nextButton, args:  iTween.Hash(args:  val_9));
+    }
+    public void StartRoll(float rollTime)
+    {
+        float val_51;
+        UnityEngine.GameObject val_52;
+        var val_53;
+        var val_54;
+        var val_55;
+        System.Object[] val_56;
+        val_51 = rollTime;
+        val_52 = this;
+        int val_2 = ((this.rightCounter + 1) == 13) ? 0 : (this.rightCounter + 1);
+        this.testimages[(long)val_2].transform.position = new UnityEngine.Vector3() {x = this.leftPostion, y = V10.16B, z = V11.16B};
+        UnityEngine.Vector2 val_5 = new UnityEngine.Vector2(x:  0.14f, y:  0.14f);
+        UnityEngine.Vector3 val_6 = UnityEngine.Vector2.op_Implicit(v:  new UnityEngine.Vector2() {x = val_5.x, y = val_5.y});
+        this.testimages[(long)val_2].transform.localScale = new UnityEngine.Vector3() {x = val_6.x, y = val_6.y, z = val_6.z};
+        this.testimages[this.leftCounter].SetActive(value:  false);
+        this.testimages[(long)val_2].SetActive(value:  true);
+        this.testimages[this.rightCounter].transform.SetAsLastSibling();
+        UnityEngine.GameObject val_56 = this.testimages[(long)val_2];
+        object[] val_8 = new object[8];
+        val_8[0] = "x";
+        if(val_2 == 1)
+        {
+                val_54 = 1152921504623566848;
+            val_53 = "x";
+            val_8[1] = this.rightPostion;
+            val_55 = "y";
+            val_8[2] = "y";
+            val_8[3] = val_8.Length;
+            val_8[4] = "easeType";
+            val_8[5] = 21;
+            val_8[6] = "time";
+            val_8[7] = val_51;
+            iTween.MoveTo(target:  val_56, args:  iTween.Hash(args:  val_8));
+            object[] val_10 = new object[8];
+            val_10[0] = "x";
+            val_10[1] = this.leftPostion;
+            val_10[2] = "y";
+            val_10[3] = val_10.Length;
+            val_10[4] = "easeType";
+            val_10[5] = 21;
+            val_10[6] = "time";
+            val_10[7] = val_51;
+            iTween.MoveTo(target:  this.testimages[this.middleCounter], args:  iTween.Hash(args:  val_10));
+            object[] val_12 = new object[8];
+            val_12[0] = "x";
+            val_12[1] = this.middlePostion;
+            val_12[2] = "y";
+            val_12[3] = val_12.Length;
+            val_12[4] = "easeType";
+            val_12[5] = 21;
+            val_12[6] = "time";
+            val_12[7] = val_51;
+            iTween.MoveTo(target:  this.testimages[this.rightCounter], args:  iTween.Hash(args:  val_12));
+            this.rightCounter = 1;
+            this.leftCounter = this.middleCounter;
+            this.middleCounter = this.rightCounter;
+            object[] val_14 = new object[8];
+            val_14[0] = "x";
+            val_14[1] = 0.1f;
+            val_14[2] = "y";
+            val_14[3] = 0.1f;
+            val_14[4] = "easeType";
+            val_14[5] = 21;
+            val_14[6] = "time";
+            float val_15 = val_51 * 0.5f;
+            val_14[7] = val_15;
+            iTween.ScaleTo(target:  this.testimages[(long)val_2], args:  iTween.Hash(args:  val_14));
+            object[] val_17 = new object[10];
+            val_17[0] = "x";
+            val_17[1] = 0.18f;
+            val_17[2] = "y";
+            val_17[3] = 0.18f;
+            val_17[4] = "easeType";
+            val_17[5] = 21;
+            val_17[6] = "delay";
+            val_17[7] = val_15;
+            val_17[8] = "time";
+            val_17[9] = val_15;
+            iTween.ScaleTo(target:  this.testimages[this.rightCounter], args:  iTween.Hash(args:  val_17));
+            object[] val_19 = new object[8];
+            val_19[0] = "x";
+            val_19[1] = 0.18f;
+            val_19[2] = "y";
+            val_19[3] = 0.18f;
+            val_19[4] = "easeType";
+            val_19[5] = 21;
+            val_19[6] = "time";
+            val_19[7] = val_51;
+            iTween.ScaleTo(target:  this.testimages[this.leftCounter], args:  iTween.Hash(args:  val_19));
+            object[] val_21 = new object[8];
+            val_21[0] = "x";
+            val_21[1] = 0.22f;
+            val_21[2] = "y";
+            val_21[3] = 0.22f;
+            val_21[4] = "easeType";
+            val_21[5] = 21;
+            val_21[6] = "time";
+            val_21[7] = val_51;
+            iTween.ScaleTo(target:  this.testimages[this.middleCounter], args:  iTween.Hash(args:  val_21));
+            object[] val_23 = new object[10];
+            val_23[0] = "x";
+            val_23[1] = 0.15f;
+            val_23[2] = "y";
+            val_23[3] = 0.15f;
+            val_23[4] = "easeType";
+            val_23[5] = 21;
+            val_23[6] = "delay";
+            val_51 = val_51 + 0.2f;
+            val_23[7] = val_51;
+            val_23[8] = "time";
+            val_23[9] = 0.2f;
+            iTween.ScaleTo(target:  this.testimages[this.rightCounter], args:  iTween.Hash(args:  val_23));
+            object[] val_25 = new object[10];
+            val_25[0] = "x";
+            val_25[1] = 0.15f;
+            val_25[2] = "y";
+            val_25[3] = 0.15f;
+            val_25[4] = "easeType";
+            val_25[5] = 21;
+            val_25[6] = "delay";
+            val_25[7] = val_51;
+            val_25[8] = "time";
+            val_25[9] = 0.2f;
+            iTween.ScaleTo(target:  this.testimages[this.leftCounter], args:  iTween.Hash(args:  val_25));
+            object[] val_27 = new object[10];
+            val_27[0] = "x";
+            val_27[1] = 0.3f;
+            val_27[2] = "y";
+            val_27[3] = 0.3f;
+            val_27[4] = "easeType";
+            val_27[5] = 21;
+            val_27[6] = "delay";
+            val_27[7] = val_51;
+            val_27[8] = "time";
+            val_27[9] = 0.2f;
+            iTween.ScaleTo(target:  this.testimages[this.middleCounter], args:  iTween.Hash(args:  val_27));
+            object[] val_29 = new object[10];
+            val_56 = val_29;
+            val_56[0] = "x";
+            val_56[1] = 1f;
+            val_56[2] = "y";
+            val_56[3] = 1f;
+            val_56[4] = "easeType";
+            val_56[5] = 21;
+            val_56[6] = "delay";
+            val_56[7] = val_51;
+            val_56[8] = "time";
+            val_56[9] = 0.2f;
+            iTween.ScaleTo(target:  this.nextButton, args:  iTween.Hash(args:  val_29));
+            UnityEngine.Coroutine val_32 = this.StartCoroutine(routine:  this.ActivateForRoll());
+            return;
+        }
+        
+        UnityEngine.Vector3 val_34 = this.rollTargetRight.transform.position;
+        val_54 = 1152921504623566848;
+        val_8[1] = val_34.x;
+        val_8[2] = "y";
+        val_8[3] = val_8.Length;
+        val_55 = "easeType";
+        val_8[4] = "easeType";
+        val_8[5] = 21;
+        val_8[6] = "time";
+        val_8[7] = val_51;
+        iTween.MoveTo(target:  val_56, args:  iTween.Hash(args:  val_8));
+        object[] val_36 = new object[8];
+        val_36[0] = "x";
+        UnityEngine.Vector3 val_38 = this.rollTargetLeft.transform.position;
+        val_36[1] = val_38.x;
+        val_36[2] = "y";
+        val_36[3] = val_36.Length;
+        val_36[4] = "easeType";
+        val_36[5] = 21;
+        val_36[6] = "time";
+        val_36[7] = val_51;
+        iTween.MoveTo(target:  this.testimages[this.middleCounter], args:  iTween.Hash(args:  val_36));
+        object[] val_40 = new object[8];
+        val_40[0] = "x";
+        val_40[1] = this.middlePostion;
+        val_40[2] = "y";
+        val_40[3] = val_40.Length;
+        val_40[4] = "easeType";
+        val_40[5] = 21;
+        val_40[6] = "time";
+        val_40[7] = val_51;
+        iTween.MoveTo(target:  this.testimages[this.rightCounter], args:  iTween.Hash(args:  val_40));
+        this.rightCounter = val_2;
+        this.leftCounter = this.middleCounter;
+        this.middleCounter = this.rightCounter;
+        object[] val_42 = new object[8];
+        val_42[0] = "x";
+        val_42[1] = 0.08f;
+        val_42[2] = "y";
+        val_42[3] = 0.08f;
+        val_42[4] = "easeType";
+        val_42[5] = 21;
+        val_42[6] = "time";
+        float val_43 = val_51 * 0.5f;
+        val_42[7] = val_43;
+        iTween.ScaleTo(target:  this.testimages[(long)val_2], args:  iTween.Hash(args:  val_42));
+        object[] val_45 = new object[10];
+        val_45[0] = "x";
+        val_45[1] = 0.14f;
+        val_45[2] = "y";
+        val_45[3] = 0.14f;
+        val_45[4] = "easeType";
+        val_45[5] = 21;
+        val_45[6] = "delay";
+        val_45[7] = val_43;
+        val_45[8] = "time";
+        val_45[9] = val_43;
+        iTween.ScaleTo(target:  this.testimages[this.rightCounter], args:  iTween.Hash(args:  val_45));
+        object[] val_47 = new object[8];
+        val_47[0] = "x";
+        val_47[1] = 0.14f;
+        val_47[2] = "y";
+        val_47[3] = 0.14f;
+        val_47[4] = "easeType";
+        val_47[5] = 21;
+        val_47[6] = "time";
+        val_47[7] = val_51;
+        iTween.ScaleTo(target:  this.testimages[this.leftCounter], args:  iTween.Hash(args:  val_47));
+        val_52 = this.testimages[this.middleCounter];
+        object[] val_49 = new object[8];
+        val_49[0] = "x";
+        val_49[1] = 0.22f;
+        val_49[2] = "y";
+        val_49[3] = 0.22f;
+        val_49[4] = "easeType";
+        val_49[5] = 21;
+        val_49[6] = "time";
+        val_56 = val_51;
+        val_49[7] = val_56;
+        iTween.ScaleTo(target:  val_52, args:  iTween.Hash(args:  val_49));
+    }
+    private System.Collections.IEnumerator ActivateForRoll()
+    {
+        .<>4__this = this;
+        return (System.Collections.IEnumerator)new Scene_TakoSelection.<ActivateForRoll>d__33(<>1__state:  0);
+    }
+    public void ActiveNameTag()
+    {
+        this.iconHolder.SetActive(value:  true);
+        this.imageStats.SetActive(value:  true);
+        this.imageName.SetActive(value:  true);
+    }
+    public void BuyButtonClick(int index)
+    {
+        GGPPurchasingManager.instance.BuyProductID(skuIndex:  index);
+    }
+    public Scene_TakoSelection()
+    {
+        this.rightCounter = 13;
+        this.leftCounter = 12;
+    }
+
+}

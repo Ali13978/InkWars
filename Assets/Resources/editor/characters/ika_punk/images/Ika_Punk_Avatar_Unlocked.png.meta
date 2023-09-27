@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: 40a951aad560419eb6f0db38f52ddd45
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Unlocked_Ika_Punk
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 22.45614
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Unlocked_Ika_Punk
+      rect:
+        serializedVersion: 2
+        x: 42.04291
+        y: 4.07612
+        width: 149.881
+        height: 166.8477
+      alignment: 9
+      pivot: {x: 0.5735024, y: 0.5354668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74.98338, y: -83.58244}
+        - {x: -74.98338, y: 42.41756}
+        - {x: 36.01659, y: -83.58244}
+      - - {x: -36.9834, y: 83.41756}
+        - {x: 36.01659, y: -83.58244}
+        - {x: -74.98338, y: 42.41756}
+      - - {x: 36.01659, y: 83.41756}
+        - {x: 36.01659, y: -83.58244}
+        - {x: -36.9834, y: 83.41756}
+      - - {x: 46.01661, y: -82.58243}
+        - {x: 36.01659, y: -83.58244}
+        - {x: 36.01659, y: 83.41756}
+      - - {x: 75.0166, y: 42.41756}
+        - {x: 46.01661, y: -82.58243}
+        - {x: 36.01659, y: 83.41756}
+      - - {x: 75.0166, y: -64.58244}
+        - {x: 46.01661, y: -82.58243}
+        - {x: 75.0166, y: 42.41756}
+      physicsShape:
+      - - {x: 22.0166, y: -82.58244}
+        - {x: 27.0166, y: -78.58244}
+        - {x: 44.0166, y: -77.58244}
+        - {x: 49.0166, y: -74.58244}
+        - {x: 58.0166, y: -61.58244}
+        - {x: 74.0166, y: -56.58244}
+        - {x: 74.0166, y: -50.58244}
+        - {x: 54.0166, y: -35.58244}
+        - {x: 64.0166, y: -25.58244}
+        - {x: 73.0166, y: -4.582443}
+        - {x: 73.0166, y: 24.41756}
+        - {x: 70.0166, y: 34.41756}
+        - {x: 60.0166, y: 51.41756}
+        - {x: 47.0166, y: 62.41756}
+        - {x: 32.0166, y: 71.41756}
+        - {x: 4.016602, y: 79.41756}
+        - {x: -14.9834, y: 69.41756}
+        - {x: -23.9834, y: 82.41756}
+        - {x: -28.9834, y: 82.41756}
+        - {x: -30.9834, y: 81.41756}
+        - {x: -28.9834, y: 62.41756}
+        - {x: -47.9834, y: 43.41756}
+        - {x: -51.98339, y: 30.41756}
+        - {x: -54.9834, y: 16.41756}
+        - {x: -54.9834, y: -3.582443}
+        - {x: -43.9834, y: -26.58244}
+        - {x: -34.98339, y: -35.58244}
+        - {x: -54.9834, y: -39.58244}
+        - {x: -70.9834, y: -41.58244}
+        - {x: -72.9834, y: -48.58244}
+        - {x: -72.9834, y: -58.58244}
+        - {x: -66.9834, y: -66.58244}
+        - {x: -51.98339, y: -66.58244}
+        - {x: -43.9834, y: -64.58244}
+        - {x: -28.9834, y: -63.58244}
+        - {x: -31.9834, y: -70.58244}
+        - {x: -29.9834, y: -76.58244}
+        - {x: -8.983398, y: -79.58244}
+        - {x: -1.983398, y: -82.58244}
+        - {x: 2.016602, y: -82.58244}
+        - {x: 5.016602, y: -77.58244}
+        - {x: 18.0166, y: -77.58244}
+        - {x: 21.0166, y: -82.58244}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Unlocked_Ika_Punk: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: characters/ika_punk
+  assetBundleVariant: 

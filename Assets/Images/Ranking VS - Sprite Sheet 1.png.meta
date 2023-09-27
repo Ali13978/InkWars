@@ -1,0 +1,745 @@
+fileFormatVersion: 2
+guid: 75c85066f6ca4a0094a7e3b368b3f90a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Network Lobby Button Group Background
+  - first:
+      213: 21300002
+    second: Private Lobby Host And Join
+  - first:
+      213: 21300004
+    second: Network Lobby Learn
+  - first:
+      213: 21300006
+    second: PP Indicator BG
+  - first:
+      213: 21300008
+    second: Post Match PP award Background
+  - first:
+      213: 21300010
+    second: Post Match BP award Background
+  - first:
+      213: 21300012
+    second: Network Lobby Public Button
+  - first:
+      213: 21300014
+    second: Network Lobby Private Button
+  - first:
+      213: 21300016
+    second: BP Indicator BG
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 146, y: 133, z: 138, w: 166}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PP Indicator BG
+      rect:
+        serializedVersion: 2
+        x: 33.07612
+        y: 775
+        width: 671.8876
+        height: 139.9871
+      alignment: 9
+      pivot: {x: 0.5304814, y: 0.4893308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -336.0199, y: -69.99355}
+        - {x: -336.0199, y: 70.00645}
+        - {x: 335.9801, y: -69.99355}
+      - - {x: 331.9801, y: 70.00645}
+        - {x: 335.9801, y: -69.99355}
+        - {x: -336.0199, y: 70.00645}
+      - - {x: 335.9801, y: 69.00645}
+        - {x: 335.9801, y: -69.99355}
+        - {x: 331.9801, y: 70.00645}
+      physicsShape:
+      - - {x: -76.01993, y: -54.99354}
+        - {x: -77.01993, y: -38.99355}
+        - {x: -76.01993, y: -22.99354}
+        - {x: -76.01993, y: 11.00645}
+        - {x: -77.01993, y: 18.00645}
+        - {x: -77.01993, y: 63.00645}
+        - {x: -81.01993, y: 68.00645}
+        - {x: -84.01992, y: 69.00645}
+        - {x: -333.0199, y: 69.00645}
+        - {x: -335.0199, y: 67.00645}
+        - {x: -335.0199, y: -67.99355}
+        - {x: -333.0199, y: -69.99355}
+        - {x: -130.0199, y: -69.99355}
+        - {x: -129.0199, y: -68.99355}
+        - {x: -82.01993, y: -68.99355}
+        - {x: -77.01993, y: -65.99355}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post Match PP award Background
+      rect:
+        serializedVersion: 2
+        x: 33.01291
+        y: 344.0129
+        width: 711.9741
+        height: 410.9742
+      alignment: 9
+      pivot: {x: 0.5007023, y: 0.4428188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -356, y: -205.5}
+        - {x: -356, y: 205.5}
+        - {x: 356, y: -205.5}
+      - - {x: 340, y: 205.5}
+        - {x: 356, y: -205.5}
+        - {x: -356, y: 205.5}
+      - - {x: 356, y: 203.5}
+        - {x: 356, y: -205.5}
+        - {x: 340, y: 205.5}
+      physicsShape:
+      - - {x: 139, y: 66.5}
+        - {x: 146, y: 67.5}
+        - {x: 163, y: 72.5}
+        - {x: 182, y: 77.5}
+        - {x: 199, y: 83.49999}
+        - {x: 208, y: 87.5}
+        - {x: 218, y: 87.5}
+        - {x: 234, y: 92.5}
+        - {x: 242, y: 92.5}
+        - {x: 253, y: 97.49999}
+        - {x: 268, y: 98.5}
+        - {x: 286, y: 102.5}
+        - {x: 296, y: 105.5}
+        - {x: 346, y: 105.5}
+        - {x: 354, y: 107.5}
+        - {x: 355, y: 112.5}
+        - {x: 355, y: 200.5}
+        - {x: 353, y: 202.5}
+        - {x: -98.99997, y: 202.5}
+        - {x: -99.99997, y: 203.5}
+        - {x: -106, y: 204.5}
+        - {x: -353, y: 204.5}
+        - {x: -355.9999, y: 200.5}
+        - {x: -355.9999, y: 68.49999}
+        - {x: -353, y: 65.5}
+        - {x: 128, y: 65.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Network Lobby Public Button
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 934
+        width: 538
+        height: 391.9239
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000971}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -269, y: -195.9619}
+        - {x: -269, y: 179.0381}
+        - {x: 256, y: -195.9619}
+      - - {x: -255, y: 196.0381}
+        - {x: 256, y: -195.9619}
+        - {x: -269, y: 179.0381}
+      - - {x: 235, y: 196.0381}
+        - {x: 256, y: -195.9619}
+        - {x: -255, y: 196.0381}
+      - - {x: 269, y: 195.0381}
+        - {x: 256, y: -195.9619}
+        - {x: 235, y: 196.0381}
+      - - {x: 269, y: -180.9619}
+        - {x: 256, y: -195.9619}
+        - {x: 269, y: 195.0381}
+      physicsShape:
+      - - {x: 269, y: -158.9619}
+        - {x: 269, y: 159.038}
+        - {x: 262, y: 173.0381}
+        - {x: 243, y: 189.0381}
+        - {x: 230, y: 194.0381}
+        - {x: 224, y: 196.038}
+        - {x: -229, y: 196.038}
+        - {x: -240, y: 192.0381}
+        - {x: -263, y: 172.038}
+        - {x: -269, y: 158.0381}
+        - {x: -269, y: -163.9619}
+        - {x: -256, y: -186.9619}
+        - {x: -236, y: -195.9619}
+        - {x: 237, y: -195.9619}
+        - {x: 259, y: -181.9619}
+        - {x: 265, y: -169.9619}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post Match BP award Background
+      rect:
+        serializedVersion: 2
+        x: 784.0761
+        y: 336.0335
+        width: 710.884
+        height: 418.9536
+      alignment: 9
+      pivot: {x: 0.4971611, y: 0.451044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -355.5181, y: -209.5103}
+        - {x: -355.5181, y: 209.4897}
+        - {x: 352.4819, y: -209.5103}
+      - - {x: 346.4819, y: 209.4897}
+        - {x: 352.4819, y: -209.5103}
+        - {x: -355.5181, y: 209.4897}
+      - - {x: 355.4819, y: 207.4897}
+        - {x: 352.4819, y: -209.5103}
+        - {x: 346.4819, y: 209.4897}
+      - - {x: 355.4819, y: -206.5103}
+        - {x: 352.4819, y: -209.5103}
+        - {x: 355.4819, y: 207.4897}
+      physicsShape:
+      - - {x: 58.48187, y: 76.4897}
+        - {x: 59.48187, y: 77.48969}
+        - {x: 232.4819, y: 77.48969}
+        - {x: 245.4819, y: 76.4897}
+        - {x: 260.4819, y: 82.4897}
+        - {x: 263.4819, y: 86.48969}
+        - {x: 269.4819, y: 86.48969}
+        - {x: 276.4819, y: 88.4897}
+        - {x: 291.4819, y: 95.4897}
+        - {x: 306.4819, y: 96.48969}
+        - {x: 321.4819, y: 100.4897}
+        - {x: 334.4819, y: 101.4897}
+        - {x: 352.4818, y: 106.4897}
+        - {x: 353.4818, y: 108.4897}
+        - {x: 354.4818, y: 114.4897}
+        - {x: 354.4818, y: 204.4897}
+        - {x: 352.4818, y: 206.4897}
+        - {x: -116.5181, y: 206.4897}
+        - {x: -118.5181, y: 207.4897}
+        - {x: -130.5181, y: 208.4897}
+        - {x: -352.5181, y: 208.4897}
+        - {x: -355.5181, y: 205.4897}
+        - {x: -355.5181, y: 79.4897}
+        - {x: -352.5181, y: 76.4897}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BP Indicator BG
+      rect:
+        serializedVersion: 2
+        x: 784.0761
+        y: 775.0129
+        width: 689.9109
+        height: 131.9442
+      alignment: 9
+      pivot: {x: 0.5122746, y: 0.496324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -345.0316, y: -65.98503}
+        - {x: -345.0316, y: 64.01497}
+        - {x: 344.9684, y: -65.98503}
+      - - {x: -344.0316, y: 66.01497}
+        - {x: 344.9684, y: -65.98503}
+        - {x: -345.0316, y: 64.01497}
+      - - {x: 344.9684, y: 66.01497}
+        - {x: 344.9684, y: -65.98503}
+        - {x: -344.0316, y: 66.01497}
+      physicsShape:
+      - - {x: -22.03162, y: -57.98503}
+        - {x: -22.03162, y: 61.01497}
+        - {x: -25.03161, y: 65.01497}
+        - {x: -342.0316, y: 65.01497}
+        - {x: -344.0316, y: 63.01497}
+        - {x: -344.0316, y: -63.98503}
+        - {x: -342.0316, y: -65.98503}
+        - {x: -27.03162, y: -65.98503}
+        - {x: -24.03162, y: -63.98503}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Network Lobby Learn
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1439
+        width: 275
+        height: 279
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137.5, y: -77.5}
+        - {x: -137.5, y: 77.5}
+        - {x: -83.5, y: -139.5}
+      - - {x: -74.5, y: 139.5}
+        - {x: -83.5, y: -139.5}
+        - {x: -137.5, y: 77.5}
+      - - {x: 70.5, y: -139.5}
+        - {x: -83.5, y: -139.5}
+        - {x: -74.5, y: 139.5}
+      - - {x: 85.5, y: 139.5}
+        - {x: 70.5, y: -139.5}
+        - {x: -74.5, y: 139.5}
+      - - {x: 137.5, y: -106.5}
+        - {x: 70.5, y: -139.5}
+        - {x: 85.5, y: 139.5}
+      - - {x: 137.5, y: 124.5}
+        - {x: 137.5, y: -106.5}
+        - {x: 85.5, y: 139.5}
+      physicsShape:
+      - - {x: 104.5, y: -91.5}
+        - {x: 110.5, y: -83.5}
+        - {x: 114.5, y: -78.5}
+        - {x: 128.5, y: -50.5}
+        - {x: 132.5, y: -30.5}
+        - {x: 133.5, y: -23.5}
+        - {x: 133.5, y: 10.5}
+        - {x: 131.5, y: 21.5}
+        - {x: 127.5, y: 36.5}
+        - {x: 122.5, y: 51.5}
+        - {x: 113.5, y: 70.5}
+        - {x: 102.5, y: 86.5}
+        - {x: 94.5, y: 95.5}
+        - {x: 82.5, y: 106.5}
+        - {x: 68.5, y: 117.5}
+        - {x: 42.5, y: 129.5}
+        - {x: 31.5, y: 131.5}
+        - {x: 17.5, y: 134.5}
+        - {x: -15.5, y: 134.5}
+        - {x: -22.5, y: 133.5}
+        - {x: -36.5, y: 130.5}
+        - {x: -57.5, y: 122.5}
+        - {x: -71.5, y: 114.5}
+        - {x: -78.5, y: 109.5}
+        - {x: -101.5, y: 87.5}
+        - {x: -107.5, y: 79.49999}
+        - {x: -119.5, y: 60.5}
+        - {x: -123.5, y: 50.5}
+        - {x: -129.5, y: 30.5}
+        - {x: -132.5, y: 10.5}
+        - {x: -132.5, y: -23.5}
+        - {x: -129.5, y: -43.5}
+        - {x: -123.5, y: -57.5}
+        - {x: -114.5, y: -76.5}
+        - {x: -112.5, y: -79.49999}
+        - {x: -105.5, y: -89.5}
+        - {x: -100.5, y: -95.5}
+        - {x: -80.5, y: -115.5}
+        - {x: -48.5, y: -133.5}
+        - {x: -28.5, y: -139.5}
+        - {x: 27.5, y: -139.5}
+        - {x: 40.5, y: -136.5}
+        - {x: 66.5, y: -125.5}
+        - {x: 85.49999, y: -111.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Private Lobby Host And Join
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1731
+        width: 601
+        height: 282.9871
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -300.5, y: -130.4935}
+        - {x: -300.5, y: 139.5065}
+        - {x: -299.5, y: -134.4935}
+      - - {x: -281.5, y: 141.5065}
+        - {x: -299.5, y: -134.4935}
+        - {x: -300.5, y: 139.5065}
+      - - {x: -264.5, y: -141.4935}
+        - {x: -299.5, y: -134.4935}
+        - {x: -281.5, y: 141.5065}
+      - - {x: 299.5, y: 141.5065}
+        - {x: -264.5, y: -141.4935}
+        - {x: -281.5, y: 141.5065}
+      - - {x: 281.5, y: -141.4935}
+        - {x: -264.5, y: -141.4935}
+        - {x: 299.5, y: 141.5065}
+      - - {x: 300.5, y: -133.4935}
+        - {x: 281.5, y: -141.4935}
+        - {x: 299.5, y: 141.5065}
+      - - {x: 300.5, y: 126.5065}
+        - {x: 300.5, y: -133.4935}
+        - {x: 299.5, y: 141.5065}
+      physicsShape:
+      - - {x: 298.5, y: 102.5065}
+        - {x: 283.5, y: 128.5065}
+        - {x: 261.5, y: 139.5065}
+        - {x: 120.5, y: 139.5065}
+        - {x: 14.5, y: 138.5065}
+        - {x: -171.5, y: 137.5065}
+        - {x: -262.5, y: 136.5065}
+        - {x: -287.5, y: 117.5064}
+        - {x: -296.5, y: 95.50645}
+        - {x: -296.5, y: -40.49355}
+        - {x: -295.5, y: -101.4935}
+        - {x: -277.5, y: -125.4935}
+        - {x: -257.5, y: -133.4935}
+        - {x: -248.5, y: -135.4935}
+        - {x: 122.5, y: -135.4935}
+        - {x: 122.5, y: -136.4935}
+        - {x: 259.5, y: -136.4935}
+        - {x: 279.5, y: -128.4935}
+        - {x: 298.5, y: -101.4935}
+        - {x: -247.5, y: -120.4935}
+        - {x: -248.5, y: -119.4935}
+        - {x: -260.5, y: -115.4935}
+        - {x: -271.5, y: -105.4935}
+        - {x: -279.5, y: -87.49355}
+        - {x: -280.5, y: -86.49355}
+        - {x: -279.5, y: -40.49355}
+        - {x: -278.5, y: -13.49354}
+        - {x: -267.5, y: -1.493546}
+        - {x: -263.5, y: -2.493545}
+        - {x: -241.5, y: -2.493545}
+        - {x: -238.5, y: 0.5064545}
+        - {x: -239.5, y: 1.506454}
+        - {x: -240.5, y: 0.5064545}
+        - {x: -237.5, y: -2.493545}
+        - {x: -226.5, y: -4.493546}
+        - {x: -203.5, y: -3.493546}
+        - {x: -198.5, y: 0.5064545}
+        - {x: -199.5, y: 1.506454}
+        - {x: -200.5, y: 0.5064545}
+        - {x: -197.5, y: -2.493545}
+        - {x: -177.5, y: -2.493545}
+        - {x: -174.5, y: 0.5064545}
+        - {x: -175.5, y: 1.506454}
+        - {x: -176.5, y: 0.5064545}
+        - {x: -173.5, y: -2.493545}
+        - {x: -162.5, y: -5.493546}
+        - {x: -148.5, y: -4.493546}
+        - {x: -135.5, y: -3.493546}
+        - {x: -106.5, y: -3.493546}
+        - {x: -98.49999, y: -4.493546}
+        - {x: -92.49999, y: -2.493545}
+        - {x: -85.49999, y: -3.493546}
+        - {x: -76.5, y: -4.493546}
+        - {x: -63.5, y: -2.493545}
+        - {x: -42.5, y: -3.493546}
+        - {x: -34.5, y: -5.493546}
+        - {x: -20.5, y: -4.493546}
+        - {x: -7.5, y: -3.493546}
+        - {x: 21.5, y: -3.493546}
+        - {x: 29.5, y: -5.493546}
+        - {x: 43.5, y: -4.493546}
+        - {x: 56.5, y: -2.493545}
+        - {x: 78.5, y: -2.493545}
+        - {x: 81.5, y: 0.5064545}
+        - {x: 80.5, y: 1.506454}
+        - {x: 79.49999, y: 0.5064545}
+        - {x: 82.5, y: -2.493545}
+        - {x: 93.5, y: -4.493546}
+        - {x: 107.5, y: -3.493546}
+        - {x: 149.5, y: -3.493546}
+        - {x: 157.5, y: -5.493546}
+        - {x: 171.5, y: -4.493546}
+        - {x: 184.5, y: -2.493545}
+        - {x: 206.5, y: -2.493545}
+        - {x: 209.5, y: 0.5064545}
+        - {x: 208.5, y: 1.506454}
+        - {x: 207.5, y: 0.5064545}
+        - {x: 210.5, y: -2.493545}
+        - {x: 221.5, y: -4.493546}
+        - {x: 235.5, y: -3.493546}
+        - {x: 259.5, y: -2.493545}
+        - {x: 280.5, y: -4.493546}
+        - {x: 280.5, y: -16.49355}
+        - {x: 281.5, y: -34.49355}
+        - {x: 282.5, y: -81.49355}
+        - {x: 280.5, y: -95.49355}
+        - {x: 276.5, y: -102.4935}
+        - {x: 264.5, y: -115.4935}
+        - {x: 247.5, y: -120.4935}
+        - {x: 247.5, y: -121.4935}
+        - {x: 45.5, y: -121.4935}
+        - {x: 44.5, y: -120.4935}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Network Lobby Private Button
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 934
+        width: 537
+        height: 390
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -268.5, y: -195}
+        - {x: -268.5, y: 195}
+        - {x: 268.5, y: -195}
+      - - {x: 268.5, y: 195}
+        - {x: 268.5, y: -195}
+        - {x: -268.5, y: 195}
+      physicsShape:
+      - - {x: 260.5, y: 173}
+        - {x: 255.5, y: 182}
+        - {x: 233.5, y: 195}
+        - {x: -240.5, y: 195}
+        - {x: -265.5, y: 172}
+        - {x: -268.5, y: 162}
+        - {x: -268.5, y: -163}
+        - {x: -255.5, y: -184}
+        - {x: -237.5, y: -195}
+        - {x: 234.5, y: -195}
+        - {x: 250.5, y: -190}
+        - {x: 268.5, y: -165}
+        - {x: 268.5, y: 161}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Network Lobby Button Group Background
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1359
+        width: 1213
+        height: 652
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 146, y: 133, z: 138, w: 166}
+      outline:
+      - - {x: -606.5, y: -326}
+        - {x: -606.5, y: 324}
+        - {x: 606.5, y: -326}
+      - - {x: -588.5, y: 326}
+        - {x: 606.5, y: -326}
+        - {x: -606.5, y: 324}
+      - - {x: 606.5, y: 326}
+        - {x: 606.5, y: -326}
+        - {x: -588.5, y: 326}
+      physicsShape:
+      - - {x: 604.5, y: -268}
+        - {x: 606.5, y: -260}
+        - {x: 606.5, y: 259}
+        - {x: 597.5, y: 282}
+        - {x: 589.5, y: 292}
+        - {x: 574.5, y: 308}
+        - {x: 559.5, y: 318}
+        - {x: 540.5, y: 326}
+        - {x: -541.5, y: 326}
+        - {x: -559.5, y: 319}
+        - {x: -573.4999, y: 311}
+        - {x: -598.4999, y: 283}
+        - {x: -606.5, y: 261}
+        - {x: -606.5, y: -258}
+        - {x: -603.5, y: -268}
+        - {x: -596.4999, y: -283}
+        - {x: -592.5, y: -289}
+        - {x: -581.5, y: -302}
+        - {x: -574.5, y: -308}
+        - {x: -564.5, y: -315}
+        - {x: -554.5, y: -321}
+        - {x: -535.5, y: -326}
+        - {x: 540.5, y: -326}
+        - {x: 572.5, y: -314}
+        - {x: 591.5, y: -294}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BP Indicator BG: 21300016
+      Network Lobby Button Group Background: 21300000
+      Network Lobby Learn: 21300004
+      Network Lobby Private Button: 21300014
+      Network Lobby Public Button: 21300012
+      PP Indicator BG: 21300006
+      Post Match BP award Background: 21300010
+      Post Match PP award Background: 21300008
+      Private Lobby Host And Join: 21300002
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

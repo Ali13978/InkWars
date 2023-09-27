@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca29afc2503494b174fc63f33ebf71b7, type: 3}
+  m_Name: "TAKO_COP"
+  m_EditorClassIdentifier: 
+  characterId: 17
+  version: "1.1.5.86"
+  type: 2
+  status:
+    attack: 3
+    defence: 3
+    speed: 2
+  unlockType: 5
+  iapId: 0
+  realPersonCharacter: 0
+  nameStyle: 0
+  animationOffset: {x: 15, y: 15}
+  scale: 1
+  relatedStage: 371310641
+  revengeSuperAvatarLocation: {x: 79, y: 76, z: 355}
+  revengeSuperAvatarScale: {x: 1, y: 1}
+  AnimDurations: 
+  - 0.25
+  - 0.4
+  - 0
+  - 0.7
+  - 0
+  - 1.8
+  - 0
+  - 0.4
+  - 1.4
+  - 0
+  - 0.8571428
+  - 1.3
+  - 0.2
+  - 0.7142857
+  - 0
+  - 0.9999999
+  - 0.4271429
+  inStorePriority: 0
+  virtualPrice:
+    currentCryptoKey: 444444
+    hiddenValue: 444444
+    fakeValue: 0
+    inited: 1
+  virtualCurrency: 1
+  superMeterGainRateFactor: 1.2
+  middleSuper: 9
+  BestSuited_ReboundStopper: 3
+  BestSuited_RapidRainbow: 3
+  BestSuited_StunEnhancer: 3
+  BestSuited_DisposalMeterGainer: 3
+  BestSuited_SuperMeterSealer: 3
+  BestSuited_StunBreakDisabler: 3
+  WorstAgainst_ReboundStopper: 3
+  WorstAgainst_RapidRainbow: 3
+  WorstAgainst_StunEnhancer: 4
+  WorstAgainst_DisposalMeterGainer: 3
+  WorstAgainst_SuperMeterSealer: 3
+  WorstAgainst_StunBreakDisabler: 3

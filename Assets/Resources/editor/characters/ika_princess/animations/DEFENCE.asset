@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "DEFENCE"
+  m_EditorClassIdentifier: 
+  characterName: 7
+  animationName: 3
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: bcdc8f3bce754b75a7358a028dbaf732, type: 3}
+    duration: 0.1428571
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: a58f388664e24fa29033d9ab52f1efe8, type: 3}
+    duration: 0.1428571
+    timeFromStart: 0.1428571
+  - sprite: {fileID: 21300000, guid: 2b7048326dfb4f60a7ee8aeedab1153d, type: 3}
+    duration: 0.1428571
+    timeFromStart: 0.2857143
+  - sprite: {fileID: 21300000, guid: 33d0103249774a6887692bff7b9b64d9, type: 3}
+    duration: 0.1428572
+    timeFromStart: 0.4285714
+  - sprite: {fileID: 21300000, guid: 91c1e6566b524c95a17899d845f350a1, type: 3}
+    duration: 0.4285714
+    timeFromStart: 0.5714286
+  - sprite: {fileID: 21300000, guid: 98e22a3652be4a88a313b9ffdb9718ba, type: 3}
+    duration: 0.4285714
+    timeFromStart: 1
+  fxFrameData:
+  - sprite: {fileID: 21300000, guid: 9a3dadaccf0e4a208cee5afae75169ec, type: 3}
+    duration: 0.1428571
+    timeFromStart: 0.5714286
+    baseFrameIndex: 4
+  - sprite: {fileID: 21300000, guid: e8c12fb1f7ea4f258cbd69ef7a85dc42, type: 3}
+    duration: 0.1428571
+    timeFromStart: 0.7142857
+    baseFrameIndex: -1
+  holdLastFX: 0

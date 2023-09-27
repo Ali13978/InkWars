@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "LOSE"
+  m_EditorClassIdentifier: 
+  characterName: 18
+  animationName: 10
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: 0b248ff40c4a40fb83633879eba7d296, type: 3}
+    duration: 0.2
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: cd7fcb3413774ee9b96a6c6b3cdf5cbe, type: 3}
+    duration: 0.2
+    timeFromStart: 0.2
+  - sprite: {fileID: 21300000, guid: d24e34f88948481b8e78feb5ceae6ecd, type: 3}
+    duration: 0.2
+    timeFromStart: 0.4
+  - sprite: {fileID: 21300000, guid: 996c2c50daeb44e9a4209ae5f218d917, type: 3}
+    duration: 0.2
+    timeFromStart: 0.6
+  fxFrameData:
+  - sprite: {fileID: 21300000, guid: f73d5113f0944e50a9a39a60154c3337, type: 3}
+    duration: 0.2
+    timeFromStart: 0.4
+    baseFrameIndex: 2
+  - sprite: {fileID: 21300000, guid: df076051df4d4403b137ac4cc9313727, type: 3}
+    duration: 0.2
+    timeFromStart: 0.6
+    baseFrameIndex: -1
+  holdLastFX: 0

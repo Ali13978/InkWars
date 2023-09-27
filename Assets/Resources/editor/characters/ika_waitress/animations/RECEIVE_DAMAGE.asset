@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "RECEIVE_DAMAGE"
+  m_EditorClassIdentifier: 
+  characterName: 13
+  animationName: 13
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: f0ef87f8f5184ecfa649f8b604a9b00e, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 39efd4f2b63645c8bc62d717291261f8, type: 3}
+    duration: 0.1
+    timeFromStart: 0.1
+  - sprite: {fileID: 21300000, guid: f950411c28d54851bf383b794acca2ba, type: 3}
+    duration: 0.1
+    timeFromStart: 0.2
+  - sprite: {fileID: 21300000, guid: 39efd4f2b63645c8bc62d717291261f8, type: 3}
+    duration: 0.09999999
+    timeFromStart: 0.3
+  - sprite: {fileID: 21300000, guid: f950411c28d54851bf383b794acca2ba, type: 3}
+    duration: 0.09999999
+    timeFromStart: 0.4
+  fxFrameData:
+  - sprite: {fileID: 21300000, guid: 83bcef164fa540959afdd4dbbdaece26, type: 3}
+    duration: 0.1
+    timeFromStart: 0.1
+    baseFrameIndex: 1
+  - sprite: {fileID: 21300000, guid: 36f91857a1664ea8bd2d2eec1dfe279d, type: 3}
+    duration: 0.1
+    timeFromStart: 0.2
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 83bcef164fa540959afdd4dbbdaece26, type: 3}
+    duration: 0.09999999
+    timeFromStart: 0.3
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 36f91857a1664ea8bd2d2eec1dfe279d, type: 3}
+    duration: 0.09999999
+    timeFromStart: 0.4
+    baseFrameIndex: -1
+  holdLastFX: 1

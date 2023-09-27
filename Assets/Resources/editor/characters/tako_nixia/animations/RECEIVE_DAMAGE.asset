@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "RECEIVE_DAMAGE"
+  m_EditorClassIdentifier: 
+  characterName: 36
+  animationName: 13
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: ce1163f4d3cc418c8bde17bd1281c736, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 1f5b140161a2460b9e31e21f37535360, type: 3}
+    duration: 0.075
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: ff7d09bf2b57478d94047ae7dcc76d1b, type: 3}
+    duration: 0.075
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 402fd2d1b5064b5fbcf4c8149ccb6811, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 292c67166ec541c9bf50537c8b38e759, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 402fd2d1b5064b5fbcf4c8149ccb6811, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 292c67166ec541c9bf50537c8b38e759, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 402fd2d1b5064b5fbcf4c8149ccb6811, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 292c67166ec541c9bf50537c8b38e759, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 402fd2d1b5064b5fbcf4c8149ccb6811, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 292c67166ec541c9bf50537c8b38e759, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 402fd2d1b5064b5fbcf4c8149ccb6811, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+  fxFrameData:
+  - sprite: {fileID: 21300000, guid: 49a0f5cd2ce74f57be5abd1b83a2f5e2, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+    baseFrameIndex: 3
+  - sprite: {fileID: 21300000, guid: fb7545e56562400f8cef4b4bf8b0010e, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 49a0f5cd2ce74f57be5abd1b83a2f5e2, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: fb7545e56562400f8cef4b4bf8b0010e, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 49a0f5cd2ce74f57be5abd1b83a2f5e2, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: fb7545e56562400f8cef4b4bf8b0010e, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 49a0f5cd2ce74f57be5abd1b83a2f5e2, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: fb7545e56562400f8cef4b4bf8b0010e, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 49a0f5cd2ce74f57be5abd1b83a2f5e2, type: 3}
+    duration: 0.15
+    timeFromStart: 0
+    baseFrameIndex: -1
+  holdLastFX: 0

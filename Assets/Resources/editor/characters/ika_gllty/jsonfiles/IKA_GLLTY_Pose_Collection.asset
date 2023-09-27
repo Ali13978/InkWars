@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b6c8dbe4dca5f3f8b1f6025582431e, type: 3}
+  m_Name: "IKA_GLLTY_Pose_Collection"
+  m_EditorClassIdentifier: 
+  winPose: {fileID: 21300000, guid: 84903529e3c4446c8b1693bddda67b7e, type: 3}
+  losePose: {fileID: 21300000, guid: 3b1e0f41e5d34f409717c321aaecf1f0, type: 3}
+  drawPose: {fileID: 21300000, guid: ba4e14985825425c948f14ed4787a7d4, type: 3}

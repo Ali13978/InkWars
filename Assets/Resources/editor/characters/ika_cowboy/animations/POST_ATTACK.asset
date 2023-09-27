@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8568c934f962ba450636120143b58, type: 3}
+  m_Name: "POST_ATTACK"
+  m_EditorClassIdentifier: 
+  characterName: 4
+  animationName: 11
+  speed: 1
+  frameEndType: 0
+  bodyFrameData:
+  - sprite: {fileID: 21300000, guid: 9eb62d383aec49c5ac1e268e234fdb61, type: 3}
+    duration: 0.1
+    timeFromStart: 0
+  - sprite: {fileID: 21300000, guid: 6417e9e5f1934c28b51c510c4988f35d, type: 3}
+    duration: 0.1
+    timeFromStart: 0.1
+  - sprite: {fileID: 21300000, guid: f4dc0e7e2a7d4e9983a4bd51b88c4036, type: 3}
+    duration: 0.1
+    timeFromStart: 0.2
+  - sprite: {fileID: 21300000, guid: 63b6661ec4a240c5bb5c9f2d5d044a31, type: 3}
+    duration: 0.09999999
+    timeFromStart: 0.3
+  - sprite: {fileID: 21300000, guid: f4dc0e7e2a7d4e9983a4bd51b88c4036, type: 3}
+    duration: 0.09999999
+    timeFromStart: 0.4
+  - sprite: {fileID: 21300000, guid: 63b6661ec4a240c5bb5c9f2d5d044a31, type: 3}
+    duration: 0.1
+    timeFromStart: 0.5
+  - sprite: {fileID: 21300000, guid: f4dc0e7e2a7d4e9983a4bd51b88c4036, type: 3}
+    duration: 0.09999996
+    timeFromStart: 0.6
+  - sprite: {fileID: 21300000, guid: 63b6661ec4a240c5bb5c9f2d5d044a31, type: 3}
+    duration: 0.1
+    timeFromStart: 0.7
+  - sprite: {fileID: 21300000, guid: f4dc0e7e2a7d4e9983a4bd51b88c4036, type: 3}
+    duration: 0.09999996
+    timeFromStart: 0.8
+  - sprite: {fileID: 21300000, guid: 63b6661ec4a240c5bb5c9f2d5d044a31, type: 3}
+    duration: 0.1
+    timeFromStart: 0.9
+  - sprite: {fileID: 21300000, guid: f4dc0e7e2a7d4e9983a4bd51b88c4036, type: 3}
+    duration: 0.1
+    timeFromStart: 1
+  - sprite: {fileID: 21300000, guid: 63b6661ec4a240c5bb5c9f2d5d044a31, type: 3}
+    duration: 0.1
+    timeFromStart: 1.1
+  - sprite: {fileID: 21300000, guid: d6e7063db9d840eb86473305ed884946, type: 3}
+    duration: 0.1
+    timeFromStart: 1.2
+  fxFrameData:
+  - sprite: {fileID: 21300000, guid: 9f9e06790b57489ab32181119356b15c, type: 3}
+    duration: 0.1
+    timeFromStart: 0.2
+    baseFrameIndex: 2
+  - sprite: {fileID: 21300000, guid: 8fb718a666854638974cb057a2988ba7, type: 3}
+    duration: 0.09999999
+    timeFromStart: 0.3
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 9f9e06790b57489ab32181119356b15c, type: 3}
+    duration: 0.09999999
+    timeFromStart: 0.4
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 8fb718a666854638974cb057a2988ba7, type: 3}
+    duration: 0.1
+    timeFromStart: 0.5
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 9f9e06790b57489ab32181119356b15c, type: 3}
+    duration: 0.09999996
+    timeFromStart: 0.6
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 8fb718a666854638974cb057a2988ba7, type: 3}
+    duration: 0.1
+    timeFromStart: 0.7
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 9f9e06790b57489ab32181119356b15c, type: 3}
+    duration: 0.09999996
+    timeFromStart: 0.8
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 8fb718a666854638974cb057a2988ba7, type: 3}
+    duration: 0.1
+    timeFromStart: 0.9
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 9f9e06790b57489ab32181119356b15c, type: 3}
+    duration: 0.1
+    timeFromStart: 1
+    baseFrameIndex: -1
+  - sprite: {fileID: 21300000, guid: 8fb718a666854638974cb057a2988ba7, type: 3}
+    duration: 0.1
+    timeFromStart: 1.1
+    baseFrameIndex: -1
+  holdLastFX: 0

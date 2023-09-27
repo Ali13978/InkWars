@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca29afc2503494b174fc63f33ebf71b7, type: 3}
+  m_Name: "TAKO_BENNY"
+  m_EditorClassIdentifier: 
+  characterId: 41
+  version: "2.2.3.0"
+  type: 4
+  status:
+    attack: 3
+    defence: 3
+    speed: 3
+  unlockType: 4
+  iapId: 157
+  realPersonCharacter: 1
+  nameStyle: 2
+  animationOffset: {x: -5, y: 20}
+  scale: 0.95
+  relatedStage: 0
+  revengeSuperAvatarLocation: {x: 73, y: -172, z: 0}
+  revengeSuperAvatarScale: {x: 1, y: 1}
+  AnimDurations: 
+  - 0.5
+  - 0.15
+  - 0.6
+  - 2.05
+  - 0
+  - 0
+  - 0
+  - 1.5
+  - 0.6
+  - 0
+  - 0.9
+  - 1.325
+  - 0
+  - 0.3
+  - 0
+  - 0
+  - 0.6
+  inStorePriority: 0
+  virtualPrice:
+    currentCryptoKey: 444444
+    hiddenValue: 444444
+    fakeValue: 0
+    inited: 1
+  virtualCurrency: 1
+  superMeterGainRateFactor: 0.85
+  middleSuper: 9
+  BestSuited_ReboundStopper: 3
+  BestSuited_RapidRainbow: 3
+  BestSuited_StunEnhancer: 3
+  BestSuited_DisposalMeterGainer: 3
+  BestSuited_SuperMeterSealer: 3
+  BestSuited_StunBreakDisabler: 3
+  WorstAgainst_ReboundStopper: 3
+  WorstAgainst_RapidRainbow: 3
+  WorstAgainst_StunEnhancer: 3
+  WorstAgainst_DisposalMeterGainer: 3
+  WorstAgainst_SuperMeterSealer: 3
+  WorstAgainst_StunBreakDisabler: 3

@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: 56fc18dc89624533a9cae173c803f143
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Inkemup_Ninja_Lose
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Inkemup_Ninja_Lose
+      rect:
+        serializedVersion: 2
+        x: 192.0267
+        y: 58.07612
+        width: 163.8971
+        height: 142.9179
+      alignment: 9
+      pivot: {x: 0.3903256, y: 0.8475066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81.97532, y: -8.835083}
+        - {x: -81.97532, y: 71.16492}
+        - {x: -49.97532, y: -71.83508}
+      - - {x: 56.02468, y: 71.16492}
+        - {x: -49.97532, y: -71.83508}
+        - {x: -81.97532, y: 71.16492}
+      - - {x: 53.02468, y: -71.83508}
+        - {x: -49.97532, y: -71.83508}
+        - {x: 56.02468, y: 71.16492}
+      - - {x: 67.02468, y: -64.83508}
+        - {x: 53.02468, y: -71.83508}
+        - {x: 56.02468, y: 71.16492}
+      - - {x: 82.02468, y: 57.16492}
+        - {x: 67.02468, y: -64.83508}
+        - {x: 56.02468, y: 71.16492}
+      - - {x: 82.02468, y: 18.16492}
+        - {x: 67.02468, y: -64.83508}
+        - {x: 82.02468, y: 57.16492}
+      physicsShape:
+      - - {x: 49.02468, y: -28.83508}
+        - {x: 56.02468, y: -5.835083}
+        - {x: 66.02469, y: 13.16492}
+        - {x: 81.02469, y: 43.16492}
+        - {x: 81.02469, y: 50.16492}
+        - {x: 77.02468, y: 55.16492}
+        - {x: 70.02468, y: 55.16492}
+        - {x: 62.02468, y: 45.16492}
+        - {x: 49.02468, y: 68.16492}
+        - {x: 46.02468, y: 69.16492}
+        - {x: 39.02468, y: 69.16492}
+        - {x: 38.02468, y: 66.16492}
+        - {x: 35.02468, y: 52.16492}
+        - {x: 22.02468, y: 50.16492}
+        - {x: 20.02468, y: 64.16492}
+        - {x: 13.02468, y: 69.16492}
+        - {x: 8.024683, y: 69.16492}
+        - {x: -14.97532, y: 45.16492}
+        - {x: -20.97532, y: 53.16492}
+        - {x: -38.97532, y: 64.16492}
+        - {x: -47.97532, y: 62.16492}
+        - {x: -41.97532, y: 47.16492}
+        - {x: -55.97532, y: 41.16492}
+        - {x: -58.97532, y: 58.16492}
+        - {x: -65.97532, y: 59.16492}
+        - {x: -80.97532, y: 34.16492}
+        - {x: -80.97532, y: 25.16492}
+        - {x: -77.97532, y: 18.16492}
+        - {x: -60.97532, y: 10.16492}
+        - {x: -61.97532, y: 2.164917}
+        - {x: -46.97532, y: -19.83508}
+        - {x: -55.97532, y: -45.83508}
+        - {x: -54.97532, y: -59.83508}
+        - {x: -47.97532, y: -66.83509}
+        - {x: -42.97532, y: -68.83508}
+        - {x: 52.02468, y: -68.83508}
+        - {x: 54.02468, y: -67.83508}
+        - {x: 62.02468, y: -56.83509}
+        - {x: 62.02468, y: -45.83508}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Inkemup_Ninja_Lose: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: characters/tako_ninja
+  assetBundleVariant: 

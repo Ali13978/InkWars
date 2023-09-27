@@ -1,0 +1,330 @@
+fileFormatVersion: 2
+guid: 6d26e3660c1b4701a5f627687ef2c052
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Avatar_Store_Info_Lorii
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Avatar_Store_Info_Lorii
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 360
+        height: 360
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -180, y: -34}
+        - {x: -180, y: 35}
+        - {x: -177, y: -51}
+      - - {x: -175, y: 57}
+        - {x: -177, y: -51}
+        - {x: -180, y: 35}
+      - - {x: -170, y: -71}
+        - {x: -177, y: -51}
+        - {x: -175, y: 57}
+      - - {x: -166, y: 77}
+        - {x: -170, y: -71}
+        - {x: -175, y: 57}
+      - - {x: -155, y: -98}
+        - {x: -170, y: -71}
+        - {x: -166, y: 77}
+      - - {x: -158, y: 93}
+        - {x: -155, y: -98}
+        - {x: -166, y: 77}
+      - - {x: -143, y: 116}
+        - {x: -155, y: -98}
+        - {x: -158, y: 93}
+      - - {x: -145, y: -112}
+        - {x: -155, y: -98}
+        - {x: -143, y: 116}
+      - - {x: -136, y: -123}
+        - {x: -145, y: -112}
+        - {x: -143, y: 116}
+      - - {x: -112, y: 146}
+        - {x: -136, y: -123}
+        - {x: -143, y: 116}
+      - - {x: -116, y: -143}
+        - {x: -136, y: -123}
+        - {x: -112, y: 146}
+      - - {x: -93, y: -159}
+        - {x: -116, y: -143}
+        - {x: -112, y: 146}
+      - - {x: -86, y: 163}
+        - {x: -93, y: -159}
+        - {x: -112, y: 146}
+      - - {x: -63, y: -173}
+        - {x: -93, y: -159}
+        - {x: -86, y: 163}
+      - - {x: -51, y: 177}
+        - {x: -63, y: -173}
+        - {x: -86, y: 163}
+      - - {x: -43, y: -179}
+        - {x: -63, y: -173}
+        - {x: -51, y: 177}
+      - - {x: -37, y: 180}
+        - {x: -43, y: -179}
+        - {x: -51, y: 177}
+      - - {x: -34, y: -180}
+        - {x: -43, y: -179}
+        - {x: -37, y: 180}
+      - - {x: 39, y: 180}
+        - {x: -34, y: -180}
+        - {x: -37, y: 180}
+      - - {x: 34, y: -180}
+        - {x: -34, y: -180}
+        - {x: 39, y: 180}
+      - - {x: 51, y: -177}
+        - {x: 34, y: -180}
+        - {x: 39, y: 180}
+      - - {x: 63, y: 173}
+        - {x: 51, y: -177}
+        - {x: 39, y: 180}
+      - - {x: 71, y: -170}
+        - {x: 51, y: -177}
+        - {x: 63, y: 173}
+      - - {x: 93, y: 158}
+        - {x: 71, y: -170}
+        - {x: 63, y: 173}
+      - - {x: 104, y: -152}
+        - {x: 71, y: -170}
+        - {x: 93, y: 158}
+      - - {x: 116, y: 143}
+        - {x: 104, y: -152}
+        - {x: 93, y: 158}
+      - - {x: 123, y: -136}
+        - {x: 104, y: -152}
+        - {x: 116, y: 143}
+      - - {x: 136, y: 123}
+        - {x: 123, y: -136}
+        - {x: 116, y: 143}
+      - - {x: 143, y: -116}
+        - {x: 123, y: -136}
+        - {x: 136, y: 123}
+      - - {x: 151, y: 104}
+        - {x: 143, y: -116}
+        - {x: 136, y: 123}
+      - - {x: 159, y: -93}
+        - {x: 143, y: -116}
+        - {x: 151, y: 104}
+      - - {x: 162, y: 86}
+        - {x: 159, y: -93}
+        - {x: 151, y: 104}
+      - - {x: 173, y: -63}
+        - {x: 159, y: -93}
+        - {x: 162, y: 86}
+      - - {x: 175, y: 57}
+        - {x: 173, y: -63}
+        - {x: 162, y: 86}
+      - - {x: 180, y: -39}
+        - {x: 173, y: -63}
+        - {x: 175, y: 57}
+      - - {x: 180, y: 37}
+        - {x: 180, y: -39}
+        - {x: 175, y: 57}
+      physicsShape:
+      - - {x: 88, y: -160}
+        - {x: 104, y: -150}
+        - {x: 115, y: -141}
+        - {x: 133, y: -124}
+        - {x: 145, y: -112}
+        - {x: 157, y: -95}
+        - {x: 170, y: -69}
+        - {x: 178, y: -39}
+        - {x: 180, y: -28}
+        - {x: 180, y: 29}
+        - {x: 176, y: 47}
+        - {x: 171, y: 63}
+        - {x: 169, y: 68}
+        - {x: 160, y: 88}
+        - {x: 151, y: 104}
+        - {x: 125, y: 134}
+        - {x: 104, y: 151}
+        - {x: 76, y: 167}
+        - {x: 54, y: 175}
+        - {x: 30, y: 180}
+        - {x: -28, y: 180}
+        - {x: -39, y: 178}
+        - {x: -47, y: 177}
+        - {x: -64, y: 171}
+        - {x: -88, y: 160}
+        - {x: -104, y: 151}
+        - {x: -133, y: 125}
+        - {x: -145, y: 112}
+        - {x: -156, y: 95}
+        - {x: -166, y: 75}
+        - {x: -171, y: 63}
+        - {x: -175, y: 54}
+        - {x: -180, y: 30}
+        - {x: -180, y: -29}
+        - {x: -179, y: -40}
+        - {x: -171, y: -63}
+        - {x: -167, y: -76}
+        - {x: -156, y: -95}
+        - {x: -144, y: -112}
+        - {x: -124, y: -133}
+        - {x: -116, y: -141}
+        - {x: -104, y: -150}
+        - {x: -95, y: -156}
+        - {x: -75, y: -166}
+        - {x: -54, y: -174}
+        - {x: -39, y: -178}
+        - {x: -28, y: -180}
+        - {x: 28, y: -180}
+        - {x: 48, y: -177}
+        - {x: 64, y: -171}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Avatar_Store_Info_Lorii: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: characters/ika_lorii
+  assetBundleVariant: 

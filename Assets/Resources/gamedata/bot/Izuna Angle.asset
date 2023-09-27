@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc98509c7d1942144474dc7012480f9b, type: 3}
+  m_Name: "Izuna Angle"
+  m_EditorClassIdentifier: 
+  name: "Izuna Angle"
+  IsMultiplayerBot: 1
+  MinimumWinsForPlay: 0
+  Country: 7
+  PlayerPoints: 157
+  BattlePoints: 196
+  Wins: 5
+  Losses: 0
+  Draws: 0
+  highScore: 12118
+  FavoriteCharacter: 0
+  IsAdventureModeBot: 0
+  AdventureModeLevel: 1
+  IsXtremeModeBot: 0
+  XtremeModeCharacter: 0
+  SkillSettings:
+    ReactionSpeed: 3
+    Intelligence_Factor: 2
+    Pop_Ability: 8
+    Bridge_Combo_Ability: 5
+    Rebound_Ability: 8
+    Rebound_Bias: 2
+    Rebound_Counter_Ability: 5
+    RevengeSuperOffensiveOrientation: 0
+    RevengeSuperDefensiveOrientation: 4

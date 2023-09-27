@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2228265497838f7ea030593ab79e2836, type: 3}
+  m_Name: "CommonSoundSfx"
+  m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: 31e52dba630649808dfc7623c938ee27, type: 3}
+  purchaseSound: {fileID: 8300000, guid: 1d0a1da354944037bfc9928c921c1b7c, type: 3}
+  bubblePopSound: {fileID: 8300000, guid: ecd2a5900e754cdfb6bbb7a754dcd5df, type: 3}
+  switchBubbelSound: {fileID: 8300000, guid: 285336828c454753abec803ef8300b80, type: 3}
+  correctSound: {fileID: 8300000, guid: c9f75f6c3f5244168e93246f94226c45, type: 3}
